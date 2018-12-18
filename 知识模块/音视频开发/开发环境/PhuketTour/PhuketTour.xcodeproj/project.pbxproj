@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDF8BE9216C867500935163 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BE8216C867500935163 /* AppDelegate.m */; };
+		0FDF8BF1216C867700935163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF8BF0216C867700935163 /* Assets.xcassets */; };
+		0FDF8BF4216C867700935163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF8BF2216C867700935163 /* LaunchScreen.storyboard */; };
+		0FDF8BF7216C867700935163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BF6216C867700935163 /* main.m */; };
+		0FDF8C01216C867700935163 /* PhuketTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8C00216C867700935163 /* PhuketTourTests.m */; };
+		0FDF8C0C216C867700935163 /* PhuketTourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8C0B216C867700935163 /* PhuketTourUITests.m */; };
+		0FDF8C69216C8BEB00935163 /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8C67216C8BEB00935163 /* Mp3Encoder.cpp */; };
+		0FDF8C6D216C8DCA00935163 /* FirstViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8C6B216C8DCA00935163 /* FirstViewController.mm */; };
+		0FDF8C6E216C8DCA00935163 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF8C6C216C8DCA00935163 /* FirstViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FDF8BFD216C867700935163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FDF8BDC216C867500935163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FDF8BE3216C867500935163;
+			remoteInfo = PhuketTour;
+		};
+		0FDF8C08216C867700935163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FDF8BDC216C867500935163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FDF8BE3216C867500935163;
+			remoteInfo = PhuketTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDF8BE4216C867500935163 /* PhuketTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhuketTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDF8BE7216C867500935163 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FDF8BE8216C867500935163 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FDF8BF0216C867700935163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FDF8BF3216C867700935163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FDF8BF5216C867700935163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDF8BF6216C867700935163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FDF8BFC216C867700935163 /* PhuketTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDF8C00216C867700935163 /* PhuketTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourTests.m; sourceTree = "<group>"; };
+		0FDF8C02216C867700935163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDF8C07216C867700935163 /* PhuketTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDF8C0B216C867700935163 /* PhuketTourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourUITests.m; sourceTree = "<group>"; };
+		0FDF8C0D216C867700935163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDF8C67216C8BEB00935163 /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
+		0FDF8C68216C8BEB00935163 /* Mp3Encoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mp3Encoder.hpp; sourceTree = "<group>"; };
+		0FDF8C6A216C8DCA00935163 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0FDF8C6B216C8DCA00935163 /* FirstViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FirstViewController.mm; sourceTree = "<group>"; };
+		0FDF8C6C216C8DCA00935163 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FDF8BE1216C867500935163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8BF9216C867700935163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8C04216C867700935163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDF8BDB216C867500935163 = {
+			isa = PBXGroup;
+			children = (
+				0FDF8BE6216C867500935163 /* PhuketTour */,
+				0FDF8BFF216C867700935163 /* PhuketTourTests */,
+				0FDF8C0A216C867700935163 /* PhuketTourUITests */,
+				0FDF8BE5216C867500935163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FDF8BE5216C867500935163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF8BE4216C867500935163 /* PhuketTour.app */,
+				0FDF8BFC216C867700935163 /* PhuketTourTests.xctest */,
+				0FDF8C07216C867700935163 /* PhuketTourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FDF8BE6216C867500935163 /* PhuketTour */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF8BE7216C867500935163 /* AppDelegate.h */,
+				0FDF8BE8216C867500935163 /* AppDelegate.m */,
+				0FDF8C6A216C8DCA00935163 /* FirstViewController.h */,
+				0FDF8C6B216C8DCA00935163 /* FirstViewController.mm */,
+				0FDF8C6C216C8DCA00935163 /* FirstViewController.xib */,
+				0FDF8C67216C8BEB00935163 /* Mp3Encoder.cpp */,
+				0FDF8C68216C8BEB00935163 /* Mp3Encoder.hpp */,
+				0FDF8BF0216C867700935163 /* Assets.xcassets */,
+				0FDF8BF2216C867700935163 /* LaunchScreen.storyboard */,
+				0FDF8BF5216C867700935163 /* Info.plist */,
+				0FDF8BF6216C867700935163 /* main.m */,
+			);
+			path = PhuketTour;
+			sourceTree = "<group>";
+		};
+		0FDF8BFF216C867700935163 /* PhuketTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF8C00216C867700935163 /* PhuketTourTests.m */,
+				0FDF8C02216C867700935163 /* Info.plist */,
+			);
+			path = PhuketTourTests;
+			sourceTree = "<group>";
+		};
+		0FDF8C0A216C867700935163 /* PhuketTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF8C0B216C867700935163 /* PhuketTourUITests.m */,
+				0FDF8C0D216C867700935163 /* Info.plist */,
+			);
+			path = PhuketTourUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FDF8BE3216C867500935163 /* PhuketTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDF8C10216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTour" */;
+			buildPhases = (
+				0FDF8BE0216C867500935163 /* Sources */,
+				0FDF8BE1216C867500935163 /* Frameworks */,
+				0FDF8BE2216C867500935163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhuketTour;
+			productName = PhuketTour;
+			productReference = 0FDF8BE4216C867500935163 /* PhuketTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FDF8BFB216C867700935163 /* PhuketTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDF8C13216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTourTests" */;
+			buildPhases = (
+				0FDF8BF8216C867700935163 /* Sources */,
+				0FDF8BF9216C867700935163 /* Frameworks */,
+				0FDF8BFA216C867700935163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FDF8BFE216C867700935163 /* PBXTargetDependency */,
+			);
+			name = PhuketTourTests;
+			productName = PhuketTourTests;
+			productReference = 0FDF8BFC216C867700935163 /* PhuketTourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FDF8C06216C867700935163 /* PhuketTourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDF8C16216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */;
+			buildPhases = (
+				0FDF8C03216C867700935163 /* Sources */,
+				0FDF8C04216C867700935163 /* Frameworks */,
+				0FDF8C05216C867700935163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FDF8C09216C867700935163 /* PBXTargetDependency */,
+			);
+			name = PhuketTourUITests;
+			productName = PhuketTourUITests;
+			productReference = 0FDF8C07216C867700935163 /* PhuketTourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FDF8BDC216C867500935163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BQ;
+				TargetAttributes = {
+					0FDF8BE3216C867500935163 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0FDF8BFB216C867700935163 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0FDF8BE3216C867500935163;
+					};
+					0FDF8C06216C867700935163 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0FDF8BE3216C867500935163;
+					};
+				};
+			};
+			buildConfigurationList = 0FDF8BDF216C867500935163 /* Build configuration list for PBXProject "PhuketTour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FDF8BDB216C867500935163;
+			productRefGroup = 0FDF8BE5216C867500935163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FDF8BE3216C867500935163 /* PhuketTour */,
+				0FDF8BFB216C867700935163 /* PhuketTourTests */,
+				0FDF8C06216C867700935163 /* PhuketTourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FDF8BE2216C867500935163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF8BF4216C867700935163 /* LaunchScreen.storyboard in Resources */,
+				0FDF8BF1216C867700935163 /* Assets.xcassets in Resources */,
+				0FDF8C6E216C8DCA00935163 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8BFA216C867700935163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8C05216C867700935163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FDF8BE0216C867500935163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF8C69216C8BEB00935163 /* Mp3Encoder.cpp in Sources */,
+				0FDF8C6D216C8DCA00935163 /* FirstViewController.mm in Sources */,
+				0FDF8BF7216C867700935163 /* main.m in Sources */,
+				0FDF8BE9216C867500935163 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8BF8216C867700935163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF8C01216C867700935163 /* PhuketTourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDF8C03216C867700935163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF8C0C216C867700935163 /* PhuketTourUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FDF8BFE216C867700935163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FDF8BE3216C867500935163 /* PhuketTour */;
+			targetProxy = 0FDF8BFD216C867700935163 /* PBXContainerItemProxy */;
+		};
+		0FDF8C09216C867700935163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FDF8BE3216C867500935163 /* PhuketTour */;
+			targetProxy = 0FDF8C08216C867700935163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FDF8BF2216C867700935163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FDF8BF3216C867700935163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FDF8C0E216C867700935163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FDF8C0F216C867700935163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FDF8C11216C867700935163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM65RDV5WM;
+				INFOPLIST_FILE = PhuketTour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FDF8C12216C867700935163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM65RDV5WM;
+				INFOPLIST_FILE = PhuketTour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FDF8C14216C867700935163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhuketTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+			};
+			name = Debug;
+		};
+		0FDF8C15216C867700935163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhuketTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+			};
+			name = Release;
+		};
+		0FDF8C17216C867700935163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhuketTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhuketTour;
+			};
+			name = Debug;
+		};
+		0FDF8C18216C867700935163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhuketTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baiccapital.com.PhuketTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhuketTour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDF8BDF216C867500935163 /* Build configuration list for PBXProject "PhuketTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF8C0E216C867700935163 /* Debug */,
+				0FDF8C0F216C867700935163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FDF8C10216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF8C11216C867700935163 /* Debug */,
+				0FDF8C12216C867700935163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FDF8C13216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF8C14216C867700935163 /* Debug */,
+				0FDF8C15216C867700935163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FDF8C16216C867700935163 /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF8C17216C867700935163 /* Debug */,
+				0FDF8C18216C867700935163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FDF8BDC216C867500935163 /* Project object */;
+}

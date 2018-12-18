@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1590971EA491EF00C9B9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590961EA491EF00C9B9CD /* main.m */; };
+		0F15909A1EA491EF00C9B9CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590991EA491EF00C9B9CD /* AppDelegate.m */; };
+		0F15909D1EA491EF00C9B9CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F15909C1EA491EF00C9B9CD /* ViewController.m */; };
+		0F1590A01EA491EF00C9B9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F15909E1EA491EF00C9B9CD /* Main.storyboard */; };
+		0F1590A21EA491EF00C9B9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1590A11EA491EF00C9B9CD /* Assets.xcassets */; };
+		0F1590A51EA491EF00C9B9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1590A31EA491EF00C9B9CD /* LaunchScreen.storyboard */; };
+		0F1590B01EA491EF00C9B9CD /* YTKMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590AF1EA491EF00C9B9CD /* YTKMVVMTests.m */; };
+		0F1590BB1EA491EF00C9B9CD /* YTKMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590BA1EA491EF00C9B9CD /* YTKMVVMUITests.m */; };
+		0F1590D31EA492C800C9B9CD /* APEHomePraticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590D21EA492C800C9B9CD /* APEHomePraticeViewController.m */; };
+		0F1590D61EA4931400C9B9CD /* APEHomePraticeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590D51EA4931400C9B9CD /* APEHomePraticeDataController.m */; };
+		0F1590D91EA4935700C9B9CD /* APEHomePracticeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590D81EA4935700C9B9CD /* APEHomePracticeBannerView.m */; };
+		0F1590DC1EA4938B00C9B9CD /* APEHomePracticeActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590DB1EA4938B00C9B9CD /* APEHomePracticeActivityView.m */; };
+		0F1590DF1EA493B900C9B9CD /* APEHomePracticeSubjectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590DE1EA493B900C9B9CD /* APEHomePracticeSubjectsView.m */; };
+		0F1590E21EA4959500C9B9CD /* APESubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590E11EA4959500C9B9CD /* APESubject.m */; };
+		0F1590E51EA4983500C9B9CD /* APESubjectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590E41EA4983500C9B9CD /* APESubjectDataController.m */; };
+		0F1590EA1EA4993E00C9B9CD /* APEBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590E91EA4993E00C9B9CD /* APEBaseDataController.m */; };
+		0F1590F01EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590EF1EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.m */; };
+		0F1590F31EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1590F21EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F1590AC1EA491EF00C9B9CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F15908A1EA491EF00C9B9CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1590911EA491EF00C9B9CD;
+			remoteInfo = YTKMVVM;
+		};
+		0F1590B71EA491EF00C9B9CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F15908A1EA491EF00C9B9CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1590911EA491EF00C9B9CD;
+			remoteInfo = YTKMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1590921EA491EF00C9B9CD /* YTKMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTKMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1590961EA491EF00C9B9CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F1590981EA491EF00C9B9CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F1590991EA491EF00C9B9CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F15909B1EA491EF00C9B9CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F15909C1EA491EF00C9B9CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F15909F1EA491EF00C9B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1590A11EA491EF00C9B9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1590A41EA491EF00C9B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1590A61EA491EF00C9B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1590AB1EA491EF00C9B9CD /* YTKMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTKMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1590AF1EA491EF00C9B9CD /* YTKMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKMVVMTests.m; sourceTree = "<group>"; };
+		0F1590B11EA491EF00C9B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1590B61EA491EF00C9B9CD /* YTKMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTKMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1590BA1EA491EF00C9B9CD /* YTKMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKMVVMUITests.m; sourceTree = "<group>"; };
+		0F1590BC1EA491EF00C9B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1590D11EA492C800C9B9CD /* APEHomePraticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePraticeViewController.h; sourceTree = "<group>"; };
+		0F1590D21EA492C800C9B9CD /* APEHomePraticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePraticeViewController.m; sourceTree = "<group>"; };
+		0F1590D41EA4931400C9B9CD /* APEHomePraticeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePraticeDataController.h; sourceTree = "<group>"; };
+		0F1590D51EA4931400C9B9CD /* APEHomePraticeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePraticeDataController.m; sourceTree = "<group>"; };
+		0F1590D71EA4935700C9B9CD /* APEHomePracticeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeBannerView.h; sourceTree = "<group>"; };
+		0F1590D81EA4935700C9B9CD /* APEHomePracticeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeBannerView.m; sourceTree = "<group>"; };
+		0F1590DA1EA4938B00C9B9CD /* APEHomePracticeActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeActivityView.h; sourceTree = "<group>"; };
+		0F1590DB1EA4938B00C9B9CD /* APEHomePracticeActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeActivityView.m; sourceTree = "<group>"; };
+		0F1590DD1EA493B900C9B9CD /* APEHomePracticeSubjectsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsView.h; sourceTree = "<group>"; };
+		0F1590DE1EA493B900C9B9CD /* APEHomePracticeSubjectsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsView.m; sourceTree = "<group>"; };
+		0F1590E01EA4959500C9B9CD /* APESubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APESubject.h; sourceTree = "<group>"; };
+		0F1590E11EA4959500C9B9CD /* APESubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APESubject.m; sourceTree = "<group>"; };
+		0F1590E31EA4983500C9B9CD /* APESubjectDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APESubjectDataController.h; sourceTree = "<group>"; };
+		0F1590E41EA4983500C9B9CD /* APESubjectDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APESubjectDataController.m; sourceTree = "<group>"; };
+		0F1590E81EA4993E00C9B9CD /* APEBaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEBaseDataController.h; sourceTree = "<group>"; };
+		0F1590E91EA4993E00C9B9CD /* APEBaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEBaseDataController.m; sourceTree = "<group>"; };
+		0F1590EE1EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsViewModel.h; sourceTree = "<group>"; };
+		0F1590EF1EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsViewModel.m; sourceTree = "<group>"; };
+		0F1590F11EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsCollectionCellViewModel.h; sourceTree = "<group>"; };
+		0F1590F21EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsCollectionCellViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F15908F1EA491EF00C9B9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590A81EA491EF00C9B9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590B31EA491EF00C9B9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1590891EA491EF00C9B9CD = {
+			isa = PBXGroup;
+			children = (
+				0F1590941EA491EF00C9B9CD /* YTKMVVM */,
+				0F1590AE1EA491EF00C9B9CD /* YTKMVVMTests */,
+				0F1590B91EA491EF00C9B9CD /* YTKMVVMUITests */,
+				0F1590931EA491EF00C9B9CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1590931EA491EF00C9B9CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590921EA491EF00C9B9CD /* YTKMVVM.app */,
+				0F1590AB1EA491EF00C9B9CD /* YTKMVVMTests.xctest */,
+				0F1590B61EA491EF00C9B9CD /* YTKMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1590941EA491EF00C9B9CD /* YTKMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590981EA491EF00C9B9CD /* AppDelegate.h */,
+				0F1590991EA491EF00C9B9CD /* AppDelegate.m */,
+				0F15909B1EA491EF00C9B9CD /* ViewController.h */,
+				0F15909C1EA491EF00C9B9CD /* ViewController.m */,
+				0F1590CA1EA4922C00C9B9CD /* YTKMVVM */,
+				0F15909E1EA491EF00C9B9CD /* Main.storyboard */,
+				0F1590A11EA491EF00C9B9CD /* Assets.xcassets */,
+				0F1590A31EA491EF00C9B9CD /* LaunchScreen.storyboard */,
+				0F1590A61EA491EF00C9B9CD /* Info.plist */,
+				0F1590951EA491EF00C9B9CD /* Supporting Files */,
+			);
+			path = YTKMVVM;
+			sourceTree = "<group>";
+		};
+		0F1590951EA491EF00C9B9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590961EA491EF00C9B9CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F1590AE1EA491EF00C9B9CD /* YTKMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590AF1EA491EF00C9B9CD /* YTKMVVMTests.m */,
+				0F1590B11EA491EF00C9B9CD /* Info.plist */,
+			);
+			path = YTKMVVMTests;
+			sourceTree = "<group>";
+		};
+		0F1590B91EA491EF00C9B9CD /* YTKMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590BA1EA491EF00C9B9CD /* YTKMVVMUITests.m */,
+				0F1590BC1EA491EF00C9B9CD /* Info.plist */,
+			);
+			path = YTKMVVMUITests;
+			sourceTree = "<group>";
+		};
+		0F1590CA1EA4922C00C9B9CD /* YTKMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590E61EA498A800C9B9CD /* BaseClass */,
+				0F1590CB1EA4928A00C9B9CD /* Home */,
+			);
+			path = YTKMVVM;
+			sourceTree = "<group>";
+		};
+		0F1590CB1EA4928A00C9B9CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590CF1EA4928A00C9B9CD /* ViewController */,
+				0F1590CC1EA4928A00C9B9CD /* DataController */,
+				0F1590CD1EA4928A00C9B9CD /* Model */,
+				0F1590CE1EA4928A00C9B9CD /* View */,
+				0F1590D01EA4928A00C9B9CD /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0F1590CC1EA4928A00C9B9CD /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590D41EA4931400C9B9CD /* APEHomePraticeDataController.h */,
+				0F1590D51EA4931400C9B9CD /* APEHomePraticeDataController.m */,
+				0F1590E31EA4983500C9B9CD /* APESubjectDataController.h */,
+				0F1590E41EA4983500C9B9CD /* APESubjectDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		0F1590CD1EA4928A00C9B9CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590E01EA4959500C9B9CD /* APESubject.h */,
+				0F1590E11EA4959500C9B9CD /* APESubject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F1590CE1EA4928A00C9B9CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590D71EA4935700C9B9CD /* APEHomePracticeBannerView.h */,
+				0F1590D81EA4935700C9B9CD /* APEHomePracticeBannerView.m */,
+				0F1590DA1EA4938B00C9B9CD /* APEHomePracticeActivityView.h */,
+				0F1590DB1EA4938B00C9B9CD /* APEHomePracticeActivityView.m */,
+				0F1590DD1EA493B900C9B9CD /* APEHomePracticeSubjectsView.h */,
+				0F1590DE1EA493B900C9B9CD /* APEHomePracticeSubjectsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F1590CF1EA4928A00C9B9CD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590D11EA492C800C9B9CD /* APEHomePraticeViewController.h */,
+				0F1590D21EA492C800C9B9CD /* APEHomePraticeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0F1590D01EA4928A00C9B9CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590EE1EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.h */,
+				0F1590EF1EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.m */,
+				0F1590F11EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.h */,
+				0F1590F21EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F1590E61EA498A800C9B9CD /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590E71EA498A800C9B9CD /* BaseDataController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0F1590E71EA498A800C9B9CD /* BaseDataController */ = {
+			isa = PBXGroup;
+			children = (
+				0F1590E81EA4993E00C9B9CD /* APEBaseDataController.h */,
+				0F1590E91EA4993E00C9B9CD /* APEBaseDataController.m */,
+			);
+			path = BaseDataController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1590911EA491EF00C9B9CD /* YTKMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1590BF1EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVM" */;
+			buildPhases = (
+				0F15908E1EA491EF00C9B9CD /* Sources */,
+				0F15908F1EA491EF00C9B9CD /* Frameworks */,
+				0F1590901EA491EF00C9B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTKMVVM;
+			productName = YTKMVVM;
+			productReference = 0F1590921EA491EF00C9B9CD /* YTKMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F1590AA1EA491EF00C9B9CD /* YTKMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1590C21EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVMTests" */;
+			buildPhases = (
+				0F1590A71EA491EF00C9B9CD /* Sources */,
+				0F1590A81EA491EF00C9B9CD /* Frameworks */,
+				0F1590A91EA491EF00C9B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1590AD1EA491EF00C9B9CD /* PBXTargetDependency */,
+			);
+			name = YTKMVVMTests;
+			productName = YTKMVVMTests;
+			productReference = 0F1590AB1EA491EF00C9B9CD /* YTKMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F1590B51EA491EF00C9B9CD /* YTKMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1590C51EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVMUITests" */;
+			buildPhases = (
+				0F1590B21EA491EF00C9B9CD /* Sources */,
+				0F1590B31EA491EF00C9B9CD /* Frameworks */,
+				0F1590B41EA491EF00C9B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1590B81EA491EF00C9B9CD /* PBXTargetDependency */,
+			);
+			name = YTKMVVMUITests;
+			productName = YTKMVVMUITests;
+			productReference = 0F1590B61EA491EF00C9B9CD /* YTKMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F15908A1EA491EF00C9B9CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HZ;
+				TargetAttributes = {
+					0F1590911EA491EF00C9B9CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0F1590AA1EA491EF00C9B9CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F1590911EA491EF00C9B9CD;
+					};
+					0F1590B51EA491EF00C9B9CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F1590911EA491EF00C9B9CD;
+					};
+				};
+			};
+			buildConfigurationList = 0F15908D1EA491EF00C9B9CD /* Build configuration list for PBXProject "YTKMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F1590891EA491EF00C9B9CD;
+			productRefGroup = 0F1590931EA491EF00C9B9CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1590911EA491EF00C9B9CD /* YTKMVVM */,
+				0F1590AA1EA491EF00C9B9CD /* YTKMVVMTests */,
+				0F1590B51EA491EF00C9B9CD /* YTKMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1590901EA491EF00C9B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1590A51EA491EF00C9B9CD /* LaunchScreen.storyboard in Resources */,
+				0F1590A21EA491EF00C9B9CD /* Assets.xcassets in Resources */,
+				0F1590A01EA491EF00C9B9CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590A91EA491EF00C9B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590B41EA491EF00C9B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F15908E1EA491EF00C9B9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1590DF1EA493B900C9B9CD /* APEHomePracticeSubjectsView.m in Sources */,
+				0F1590E51EA4983500C9B9CD /* APESubjectDataController.m in Sources */,
+				0F1590F31EA49D1700C9B9CD /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
+				0F1590E21EA4959500C9B9CD /* APESubject.m in Sources */,
+				0F15909D1EA491EF00C9B9CD /* ViewController.m in Sources */,
+				0F15909A1EA491EF00C9B9CD /* AppDelegate.m in Sources */,
+				0F1590971EA491EF00C9B9CD /* main.m in Sources */,
+				0F1590F01EA49C9D00C9B9CD /* APEHomePracticeSubjectsViewModel.m in Sources */,
+				0F1590D91EA4935700C9B9CD /* APEHomePracticeBannerView.m in Sources */,
+				0F1590DC1EA4938B00C9B9CD /* APEHomePracticeActivityView.m in Sources */,
+				0F1590D61EA4931400C9B9CD /* APEHomePraticeDataController.m in Sources */,
+				0F1590D31EA492C800C9B9CD /* APEHomePraticeViewController.m in Sources */,
+				0F1590EA1EA4993E00C9B9CD /* APEBaseDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590A71EA491EF00C9B9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1590B01EA491EF00C9B9CD /* YTKMVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1590B21EA491EF00C9B9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1590BB1EA491EF00C9B9CD /* YTKMVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F1590AD1EA491EF00C9B9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1590911EA491EF00C9B9CD /* YTKMVVM */;
+			targetProxy = 0F1590AC1EA491EF00C9B9CD /* PBXContainerItemProxy */;
+		};
+		0F1590B81EA491EF00C9B9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1590911EA491EF00C9B9CD /* YTKMVVM */;
+			targetProxy = 0F1590B71EA491EF00C9B9CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F15909E1EA491EF00C9B9CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F15909F1EA491EF00C9B9CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F1590A31EA491EF00C9B9CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1590A41EA491EF00C9B9CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1590BD1EA491EF00C9B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F1590BE1EA491EF00C9B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1590C01EA491EF00C9B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTKMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F1590C11EA491EF00C9B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTKMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F1590C31EA491EF00C9B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTKMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTKMVVM.app/YTKMVVM";
+			};
+			name = Debug;
+		};
+		0F1590C41EA491EF00C9B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTKMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTKMVVM.app/YTKMVVM";
+			};
+			name = Release;
+		};
+		0F1590C61EA491EF00C9B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTKMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTKMVVM;
+			};
+			name = Debug;
+		};
+		0F1590C71EA491EF00C9B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTKMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hz.com.YTKMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTKMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F15908D1EA491EF00C9B9CD /* Build configuration list for PBXProject "YTKMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1590BD1EA491EF00C9B9CD /* Debug */,
+				0F1590BE1EA491EF00C9B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1590BF1EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1590C01EA491EF00C9B9CD /* Debug */,
+				0F1590C11EA491EF00C9B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F1590C21EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1590C31EA491EF00C9B9CD /* Debug */,
+				0F1590C41EA491EF00C9B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F1590C51EA491EF00C9B9CD /* Build configuration list for PBXNativeTarget "YTKMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1590C61EA491EF00C9B9CD /* Debug */,
+				0F1590C71EA491EF00C9B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F15908A1EA491EF00C9B9CD /* Project object */;
+}

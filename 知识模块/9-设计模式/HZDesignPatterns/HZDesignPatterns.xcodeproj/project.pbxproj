@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187FF64B1DF6A41D0003E413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF64A1DF6A41D0003E413 /* main.m */; };
+		187FF6541DF6A4710003E413 /* HZCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF6531DF6A4710003E413 /* HZCommand.m */; };
+		187FF6571DF6A4980003E413 /* HZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF6561DF6A4980003E413 /* HZConcreteCommand.m */; };
+		187FF65A1DF6A4B70003E413 /* HZInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF6591DF6A4B70003E413 /* HZInvoker.m */; };
+		187FF65D1DF6A4CE0003E413 /* HZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF65C1DF6A4CE0003E413 /* HZReceiver.m */; };
+		187FF6601DF6A4DF0003E413 /* HZClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FF65F1DF6A4DF0003E413 /* HZClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		187FF6451DF6A41D0003E413 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		187FF6471DF6A41D0003E413 /* HZDesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HZDesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
+		187FF64A1DF6A41D0003E413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187FF6521DF6A4710003E413 /* HZCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCommand.h; sourceTree = "<group>"; };
+		187FF6531DF6A4710003E413 /* HZCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCommand.m; sourceTree = "<group>"; };
+		187FF6551DF6A4980003E413 /* HZConcreteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZConcreteCommand.h; sourceTree = "<group>"; };
+		187FF6561DF6A4980003E413 /* HZConcreteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZConcreteCommand.m; sourceTree = "<group>"; };
+		187FF6581DF6A4B70003E413 /* HZInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZInvoker.h; sourceTree = "<group>"; };
+		187FF6591DF6A4B70003E413 /* HZInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZInvoker.m; sourceTree = "<group>"; };
+		187FF65B1DF6A4CE0003E413 /* HZReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZReceiver.h; sourceTree = "<group>"; };
+		187FF65C1DF6A4CE0003E413 /* HZReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZReceiver.m; sourceTree = "<group>"; };
+		187FF65E1DF6A4DF0003E413 /* HZClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZClient.h; sourceTree = "<group>"; };
+		187FF65F1DF6A4DF0003E413 /* HZClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187FF6441DF6A41D0003E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187FF63E1DF6A41D0003E413 = {
+			isa = PBXGroup;
+			children = (
+				187FF6491DF6A41D0003E413 /* HZDesignPatterns */,
+				187FF6481DF6A41D0003E413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187FF6481DF6A41D0003E413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187FF6471DF6A41D0003E413 /* HZDesignPatterns */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187FF6491DF6A41D0003E413 /* HZDesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				187FF64A1DF6A41D0003E413 /* main.m */,
+				187FF6511DF6A4420003E413 /* 命令模式 */,
+			);
+			path = HZDesignPatterns;
+			sourceTree = "<group>";
+		};
+		187FF6511DF6A4420003E413 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				187FF6521DF6A4710003E413 /* HZCommand.h */,
+				187FF6531DF6A4710003E413 /* HZCommand.m */,
+				187FF6551DF6A4980003E413 /* HZConcreteCommand.h */,
+				187FF6561DF6A4980003E413 /* HZConcreteCommand.m */,
+				187FF6581DF6A4B70003E413 /* HZInvoker.h */,
+				187FF6591DF6A4B70003E413 /* HZInvoker.m */,
+				187FF65B1DF6A4CE0003E413 /* HZReceiver.h */,
+				187FF65C1DF6A4CE0003E413 /* HZReceiver.m */,
+				187FF65E1DF6A4DF0003E413 /* HZClient.h */,
+				187FF65F1DF6A4DF0003E413 /* HZClient.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187FF6461DF6A41D0003E413 /* HZDesignPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187FF64E1DF6A41D0003E413 /* Build configuration list for PBXNativeTarget "HZDesignPatterns" */;
+			buildPhases = (
+				187FF6431DF6A41D0003E413 /* Sources */,
+				187FF6441DF6A41D0003E413 /* Frameworks */,
+				187FF6451DF6A41D0003E413 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZDesignPatterns;
+			productName = HZDesignPatterns;
+			productReference = 187FF6471DF6A41D0003E413 /* HZDesignPatterns */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187FF63F1DF6A41D0003E413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DF;
+				TargetAttributes = {
+					187FF6461DF6A41D0003E413 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 187FF6421DF6A41D0003E413 /* Build configuration list for PBXProject "HZDesignPatterns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187FF63E1DF6A41D0003E413;
+			productRefGroup = 187FF6481DF6A41D0003E413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187FF6461DF6A41D0003E413 /* HZDesignPatterns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187FF6431DF6A41D0003E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187FF6601DF6A4DF0003E413 /* HZClient.m in Sources */,
+				187FF64B1DF6A41D0003E413 /* main.m in Sources */,
+				187FF6571DF6A4980003E413 /* HZConcreteCommand.m in Sources */,
+				187FF65D1DF6A4CE0003E413 /* HZReceiver.m in Sources */,
+				187FF65A1DF6A4B70003E413 /* HZInvoker.m in Sources */,
+				187FF6541DF6A4710003E413 /* HZCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		187FF64C1DF6A41D0003E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		187FF64D1DF6A41D0003E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		187FF64F1DF6A41D0003E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187FF6501DF6A41D0003E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187FF6421DF6A41D0003E413 /* Build configuration list for PBXProject "HZDesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187FF64C1DF6A41D0003E413 /* Debug */,
+				187FF64D1DF6A41D0003E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187FF64E1DF6A41D0003E413 /* Build configuration list for PBXNativeTarget "HZDesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187FF64F1DF6A41D0003E413 /* Debug */,
+				187FF6501DF6A41D0003E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187FF63F1DF6A41D0003E413 /* Project object */;
+}

@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2982CEAE20DB7ACD0050CA96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEAD20DB7ACD0050CA96 /* AppDelegate.m */; };
+		2982CEB120DB7ACD0050CA96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEB020DB7ACD0050CA96 /* ViewController.m */; };
+		2982CEB420DB7ACD0050CA96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982CEB220DB7ACD0050CA96 /* Main.storyboard */; };
+		2982CEB620DB7ACE0050CA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2982CEB520DB7ACE0050CA96 /* Assets.xcassets */; };
+		2982CEB920DB7ACE0050CA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982CEB720DB7ACE0050CA96 /* LaunchScreen.storyboard */; };
+		2982CEBC20DB7ACE0050CA96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEBB20DB7ACE0050CA96 /* main.m */; };
+		2982CEC620DB7ACE0050CA96 /* MVVM_VIPERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEC520DB7ACE0050CA96 /* MVVM_VIPERTests.m */; };
+		2982CED120DB7ACE0050CA96 /* MVVM_VIPERUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CED020DB7ACE0050CA96 /* MVVM_VIPERUITests.m */; };
+		2982CEE420DB7C9E0050CA96 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEE320DB7C9E0050CA96 /* Movie.m */; };
+		2982CEEA20DB7ECB0050CA96 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEE920DB7ECB0050CA96 /* MovieListViewController.m */; };
+		2982CEED20DB7EE70050CA96 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEEC20DB7EE70050CA96 /* MovieTableViewCell.m */; };
+		2982CEF320DB7F310050CA96 /* MovieListViewDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEF220DB7F310050CA96 /* MovieListViewDataController.m */; };
+		2982CEF620DB82B80050CA96 /* MovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982CEF520DB82B80050CA96 /* MovieViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2982CEC220DB7ACE0050CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2982CEA120DB7ACD0050CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2982CEA820DB7ACD0050CA96;
+			remoteInfo = "MVVM&VIPER";
+		};
+		2982CECD20DB7ACE0050CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2982CEA120DB7ACD0050CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2982CEA820DB7ACD0050CA96;
+			remoteInfo = "MVVM&VIPER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2982CEA920DB7ACD0050CA96 /* MVVM&VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM&VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982CEAC20DB7ACD0050CA96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2982CEAD20DB7ACD0050CA96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2982CEAF20DB7ACD0050CA96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2982CEB020DB7ACD0050CA96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2982CEB320DB7ACD0050CA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2982CEB520DB7ACE0050CA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2982CEB820DB7ACE0050CA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2982CEBA20DB7ACE0050CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982CEBB20DB7ACE0050CA96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2982CEC120DB7ACE0050CA96 /* MVVM&VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM&VIPERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982CEC520DB7ACE0050CA96 /* MVVM_VIPERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_VIPERTests.m; sourceTree = "<group>"; };
+		2982CEC720DB7ACE0050CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982CECC20DB7ACE0050CA96 /* MVVM&VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM&VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982CED020DB7ACE0050CA96 /* MVVM_VIPERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_VIPERUITests.m; sourceTree = "<group>"; };
+		2982CED220DB7ACE0050CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982CEE220DB7C9E0050CA96 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		2982CEE320DB7C9E0050CA96 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		2982CEE820DB7ECB0050CA96 /* MovieListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieListViewController.h; sourceTree = "<group>"; };
+		2982CEE920DB7ECB0050CA96 /* MovieListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
+		2982CEEB20DB7EE70050CA96 /* MovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
+		2982CEEC20DB7EE70050CA96 /* MovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
+		2982CEF120DB7F310050CA96 /* MovieListViewDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieListViewDataController.h; sourceTree = "<group>"; };
+		2982CEF220DB7F310050CA96 /* MovieListViewDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListViewDataController.m; sourceTree = "<group>"; };
+		2982CEF420DB82B80050CA96 /* MovieViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewModel.h; sourceTree = "<group>"; };
+		2982CEF520DB82B80050CA96 /* MovieViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2982CEA620DB7ACD0050CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CEBE20DB7ACE0050CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CEC920DB7ACE0050CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2982CEA020DB7ACD0050CA96 = {
+			isa = PBXGroup;
+			children = (
+				2982CEAB20DB7ACD0050CA96 /* MVVM&VIPER */,
+				2982CEC420DB7ACE0050CA96 /* MVVM&VIPERTests */,
+				2982CECF20DB7ACE0050CA96 /* MVVM&VIPERUITests */,
+				2982CEAA20DB7ACD0050CA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2982CEAA20DB7ACD0050CA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2982CEA920DB7ACD0050CA96 /* MVVM&VIPER.app */,
+				2982CEC120DB7ACE0050CA96 /* MVVM&VIPERTests.xctest */,
+				2982CECC20DB7ACE0050CA96 /* MVVM&VIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2982CEAB20DB7ACD0050CA96 /* MVVM&VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				2982CEAC20DB7ACD0050CA96 /* AppDelegate.h */,
+				2982CEAD20DB7ACD0050CA96 /* AppDelegate.m */,
+				2982CEAF20DB7ACD0050CA96 /* ViewController.h */,
+				2982CEB020DB7ACD0050CA96 /* ViewController.m */,
+				2982CEDE20DB7BA80050CA96 /* MVVM */,
+				2982CEB220DB7ACD0050CA96 /* Main.storyboard */,
+				2982CEB520DB7ACE0050CA96 /* Assets.xcassets */,
+				2982CEB720DB7ACE0050CA96 /* LaunchScreen.storyboard */,
+				2982CEBA20DB7ACE0050CA96 /* Info.plist */,
+				2982CEBB20DB7ACE0050CA96 /* main.m */,
+			);
+			path = "MVVM&VIPER";
+			sourceTree = "<group>";
+		};
+		2982CEC420DB7ACE0050CA96 /* MVVM&VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				2982CEC520DB7ACE0050CA96 /* MVVM_VIPERTests.m */,
+				2982CEC720DB7ACE0050CA96 /* Info.plist */,
+			);
+			path = "MVVM&VIPERTests";
+			sourceTree = "<group>";
+		};
+		2982CECF20DB7ACE0050CA96 /* MVVM&VIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2982CED020DB7ACE0050CA96 /* MVVM_VIPERUITests.m */,
+				2982CED220DB7ACE0050CA96 /* Info.plist */,
+			);
+			path = "MVVM&VIPERUITests";
+			sourceTree = "<group>";
+		};
+		2982CEDE20DB7BA80050CA96 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				2982CEE220DB7C9E0050CA96 /* Movie.h */,
+				2982CEE320DB7C9E0050CA96 /* Movie.m */,
+				2982CEF420DB82B80050CA96 /* MovieViewModel.h */,
+				2982CEF520DB82B80050CA96 /* MovieViewModel.m */,
+				2982CEEB20DB7EE70050CA96 /* MovieTableViewCell.h */,
+				2982CEEC20DB7EE70050CA96 /* MovieTableViewCell.m */,
+				2982CEF120DB7F310050CA96 /* MovieListViewDataController.h */,
+				2982CEF220DB7F310050CA96 /* MovieListViewDataController.m */,
+				2982CEE820DB7ECB0050CA96 /* MovieListViewController.h */,
+				2982CEE920DB7ECB0050CA96 /* MovieListViewController.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2982CEA820DB7ACD0050CA96 /* MVVM&VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982CED520DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPER" */;
+			buildPhases = (
+				2982CEA520DB7ACD0050CA96 /* Sources */,
+				2982CEA620DB7ACD0050CA96 /* Frameworks */,
+				2982CEA720DB7ACD0050CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM&VIPER";
+			productName = "MVVM&VIPER";
+			productReference = 2982CEA920DB7ACD0050CA96 /* MVVM&VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2982CEC020DB7ACE0050CA96 /* MVVM&VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982CED820DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPERTests" */;
+			buildPhases = (
+				2982CEBD20DB7ACE0050CA96 /* Sources */,
+				2982CEBE20DB7ACE0050CA96 /* Frameworks */,
+				2982CEBF20DB7ACE0050CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2982CEC320DB7ACE0050CA96 /* PBXTargetDependency */,
+			);
+			name = "MVVM&VIPERTests";
+			productName = "MVVM&VIPERTests";
+			productReference = 2982CEC120DB7ACE0050CA96 /* MVVM&VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2982CECB20DB7ACE0050CA96 /* MVVM&VIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982CEDB20DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPERUITests" */;
+			buildPhases = (
+				2982CEC820DB7ACE0050CA96 /* Sources */,
+				2982CEC920DB7ACE0050CA96 /* Frameworks */,
+				2982CECA20DB7ACE0050CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2982CECE20DB7ACE0050CA96 /* PBXTargetDependency */,
+			);
+			name = "MVVM&VIPERUITests";
+			productName = "MVVM&VIPERUITests";
+			productReference = 2982CECC20DB7ACE0050CA96 /* MVVM&VIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2982CEA120DB7ACD0050CA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BQ;
+				TargetAttributes = {
+					2982CEA820DB7ACD0050CA96 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2982CEC020DB7ACE0050CA96 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2982CEA820DB7ACD0050CA96;
+					};
+					2982CECB20DB7ACE0050CA96 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2982CEA820DB7ACD0050CA96;
+					};
+				};
+			};
+			buildConfigurationList = 2982CEA420DB7ACD0050CA96 /* Build configuration list for PBXProject "MVVM&VIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2982CEA020DB7ACD0050CA96;
+			productRefGroup = 2982CEAA20DB7ACD0050CA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2982CEA820DB7ACD0050CA96 /* MVVM&VIPER */,
+				2982CEC020DB7ACE0050CA96 /* MVVM&VIPERTests */,
+				2982CECB20DB7ACE0050CA96 /* MVVM&VIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2982CEA720DB7ACD0050CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982CEB920DB7ACE0050CA96 /* LaunchScreen.storyboard in Resources */,
+				2982CEB620DB7ACE0050CA96 /* Assets.xcassets in Resources */,
+				2982CEB420DB7ACD0050CA96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CEBF20DB7ACE0050CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CECA20DB7ACE0050CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2982CEA520DB7ACD0050CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982CEB120DB7ACD0050CA96 /* ViewController.m in Sources */,
+				2982CEBC20DB7ACE0050CA96 /* main.m in Sources */,
+				2982CEE420DB7C9E0050CA96 /* Movie.m in Sources */,
+				2982CEF620DB82B80050CA96 /* MovieViewModel.m in Sources */,
+				2982CEEA20DB7ECB0050CA96 /* MovieListViewController.m in Sources */,
+				2982CEF320DB7F310050CA96 /* MovieListViewDataController.m in Sources */,
+				2982CEED20DB7EE70050CA96 /* MovieTableViewCell.m in Sources */,
+				2982CEAE20DB7ACD0050CA96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CEBD20DB7ACE0050CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982CEC620DB7ACE0050CA96 /* MVVM_VIPERTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982CEC820DB7ACE0050CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982CED120DB7ACE0050CA96 /* MVVM_VIPERUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2982CEC320DB7ACE0050CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2982CEA820DB7ACD0050CA96 /* MVVM&VIPER */;
+			targetProxy = 2982CEC220DB7ACE0050CA96 /* PBXContainerItemProxy */;
+		};
+		2982CECE20DB7ACE0050CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2982CEA820DB7ACD0050CA96 /* MVVM&VIPER */;
+			targetProxy = 2982CECD20DB7ACE0050CA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2982CEB220DB7ACD0050CA96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2982CEB320DB7ACD0050CA96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2982CEB720DB7ACE0050CA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2982CEB820DB7ACE0050CA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2982CED320DB7ACE0050CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2982CED420DB7ACE0050CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2982CED620DB7ACE0050CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2982CED720DB7ACE0050CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2982CED920DB7ACE0050CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM&VIPER.app/MVVM&VIPER";
+			};
+			name = Debug;
+		};
+		2982CEDA20DB7ACE0050CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM&VIPER.app/MVVM&VIPER";
+			};
+			name = Release;
+		};
+		2982CEDC20DB7ACE0050CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM&VIPER";
+			};
+			name = Debug;
+		};
+		2982CEDD20DB7ACE0050CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = "MVVM&VIPERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BQ.MVVM-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM&VIPER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2982CEA420DB7ACD0050CA96 /* Build configuration list for PBXProject "MVVM&VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982CED320DB7ACE0050CA96 /* Debug */,
+				2982CED420DB7ACE0050CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982CED520DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982CED620DB7ACE0050CA96 /* Debug */,
+				2982CED720DB7ACE0050CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982CED820DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982CED920DB7ACE0050CA96 /* Debug */,
+				2982CEDA20DB7ACE0050CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982CEDB20DB7ACE0050CA96 /* Build configuration list for PBXNativeTarget "MVVM&VIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982CEDC20DB7ACE0050CA96 /* Debug */,
+				2982CEDD20DB7ACE0050CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2982CEA120DB7ACD0050CA96 /* Project object */;
+}

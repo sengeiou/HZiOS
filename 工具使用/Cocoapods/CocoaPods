@@ -1,0 +1,14 @@
+## /usr/local/bin/pod: bad interpreter: /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin: no such file or directory
+(1)sudo gem update -n /usr/local/bin --system
+## ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)bad response Not Found 404 (https://gems.ruby-china.org/specs.4.8.gz)  
+
+(1) gem sources --remove https://rubygems.org/
+(2)gem sources --remove https://ruby.taobao.org/ 
+(3)gem sources -a https://gems.ruby-china.com/
+(4)gem sources -l
+
+### Operation not permitted @ rb_sysopen - /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/gem
+
+## sudo gem install -n /usr/local/bin cocoapods
+
+

@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0F99CD2123130000AB6F00 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99CA2123130000AB6F00 /* Sort.m */; };
+		0F0F99CE2123130000AB6F00 /* HZSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99CC2123130000AB6F00 /* HZSort.c */; };
+		0F0F99D12123137000AB6F00 /* SortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99D02123137000AB6F00 /* SortTest.m */; };
+		0F0F99DA2123156500AB6F00 /* HZExchangeTwoNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99D92123156500AB6F00 /* HZExchangeTwoNumber.m */; };
+		0F0F99DD212315A000AB6F00 /* HZString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99DC212315A000AB6F00 /* HZString.m */; };
+		0F0F99E121231D1C00AB6F00 /* HZReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99E021231D1C00AB6F00 /* HZReverseString.m */; };
+		0F64FD8D1EEF674F00D6183D /* HZSimpleSelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F64FD8C1EEF674F00D6183D /* HZSimpleSelectionSort.m */; };
+		0F64FD9D1EF0C12700D6183D /* HZStraightInsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F64FD9C1EF0C12700D6183D /* HZStraightInsertionSort.m */; };
+		0F9834C71EEE19C600FE3524 /* HZBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9834C61EEE19C600FE3524 /* HZBubbleSort.m */; };
+		181FB6721DFF8A59002198FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FB6711DFF8A59002198FA /* main.m */; };
+		181FB67D1DFFCAA8002198FA /* HZListTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 181FB67B1DFFCAA8002198FA /* HZListTable.c */; };
+		181FB6801E00D93C002198FA /* HZLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 181FB67E1E00D93C002198FA /* HZLinkList.c */; };
+		298AD7F320C4E25C00782C55 /* HZDLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 298AD7F220C4E25C00782C55 /* HZDLinkList.c */; };
+		29ED1AD7212400A3006FD6E9 /* HZReverseLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED1AD6212400A3006FD6E9 /* HZReverseLinkList.m */; };
+		29ED1ADB2124053A006FD6E9 /* HZMergeOrderArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED1ADA2124053A006FD6E9 /* HZMergeOrderArray.m */; };
+		29ED1ADF21241088006FD6E9 /* HZFindChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED1ADE21241088006FD6E9 /* HZFindChar.m */; };
+		29ED1AE721242713006FD6E9 /* HZFindMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED1AE621242713006FD6E9 /* HZFindMedia.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		181FB66C1DFF8A59002198FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F0F99C92123130000AB6F00 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		0F0F99CA2123130000AB6F00 /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		0F0F99CB2123130000AB6F00 /* HZSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSort.h; sourceTree = "<group>"; };
+		0F0F99CC2123130000AB6F00 /* HZSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HZSort.c; sourceTree = "<group>"; };
+		0F0F99CF2123137000AB6F00 /* SortTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTest.h; sourceTree = "<group>"; };
+		0F0F99D02123137000AB6F00 /* SortTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTest.m; sourceTree = "<group>"; };
+		0F0F99D82123156500AB6F00 /* HZExchangeTwoNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZExchangeTwoNumber.h; sourceTree = "<group>"; };
+		0F0F99D92123156500AB6F00 /* HZExchangeTwoNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZExchangeTwoNumber.m; sourceTree = "<group>"; };
+		0F0F99DB212315A000AB6F00 /* HZString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZString.h; sourceTree = "<group>"; };
+		0F0F99DC212315A000AB6F00 /* HZString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZString.m; sourceTree = "<group>"; };
+		0F0F99DF21231D1C00AB6F00 /* HZReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZReverseString.h; sourceTree = "<group>"; };
+		0F0F99E021231D1C00AB6F00 /* HZReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZReverseString.m; sourceTree = "<group>"; };
+		0F64FD8B1EEF674F00D6183D /* HZSimpleSelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSimpleSelectionSort.h; sourceTree = "<group>"; };
+		0F64FD8C1EEF674F00D6183D /* HZSimpleSelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZSimpleSelectionSort.m; sourceTree = "<group>"; };
+		0F64FD9B1EF0C12700D6183D /* HZStraightInsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZStraightInsertionSort.h; sourceTree = "<group>"; };
+		0F64FD9C1EF0C12700D6183D /* HZStraightInsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZStraightInsertionSort.m; sourceTree = "<group>"; };
+		0F9834C51EEE19C600FE3524 /* HZBubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBubbleSort.h; sourceTree = "<group>"; };
+		0F9834C61EEE19C600FE3524 /* HZBubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBubbleSort.m; sourceTree = "<group>"; };
+		181FB66E1DFF8A59002198FA /* HZDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HZDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		181FB6711DFF8A59002198FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181FB67B1DFFCAA8002198FA /* HZListTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HZListTable.c; sourceTree = "<group>"; };
+		181FB67C1DFFCAA8002198FA /* HZListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZListTable.h; sourceTree = "<group>"; };
+		181FB67E1E00D93C002198FA /* HZLinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HZLinkList.c; sourceTree = "<group>"; };
+		181FB67F1E00D93C002198FA /* HZLinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLinkList.h; sourceTree = "<group>"; };
+		298AD7F120C4E25C00782C55 /* HZDLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZDLinkList.h; sourceTree = "<group>"; };
+		298AD7F220C4E25C00782C55 /* HZDLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HZDLinkList.c; sourceTree = "<group>"; };
+		29ED1AD5212400A3006FD6E9 /* HZReverseLinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZReverseLinkList.h; sourceTree = "<group>"; };
+		29ED1AD6212400A3006FD6E9 /* HZReverseLinkList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZReverseLinkList.m; sourceTree = "<group>"; };
+		29ED1AD92124053A006FD6E9 /* HZMergeOrderArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZMergeOrderArray.h; sourceTree = "<group>"; };
+		29ED1ADA2124053A006FD6E9 /* HZMergeOrderArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZMergeOrderArray.m; sourceTree = "<group>"; };
+		29ED1ADD21241088006FD6E9 /* HZFindChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZFindChar.h; sourceTree = "<group>"; };
+		29ED1ADE21241088006FD6E9 /* HZFindChar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZFindChar.m; sourceTree = "<group>"; };
+		29ED1AE521242713006FD6E9 /* HZFindMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZFindMedia.h; sourceTree = "<group>"; };
+		29ED1AE621242713006FD6E9 /* HZFindMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZFindMedia.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181FB66B1DFF8A59002198FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0F99D2212314B500AB6F00 /* 算法题目 */ = {
+			isa = PBXGroup;
+			children = (
+				29ED1AE421242702006FD6E9 /* 无序数组求中位数 */,
+				29ED1ADC21241038006FD6E9 /* 找到字符串中第一个出现一次的字符 */,
+				29ED1AD82124050C006FD6E9 /* 合并两个有序数组 */,
+				29ED1AD4212400A3006FD6E9 /* 单链表反转 */,
+				0F0F99DE21231CEF00AB6F00 /* 字符串反转 */,
+				0F0F99D72123154E00AB6F00 /* 求两个字符串的最大公共子串 */,
+				0F0F99D62123151100AB6F00 /* 交换两个数不使用中间变量 */,
+			);
+			path = "算法题目";
+			sourceTree = "<group>";
+		};
+		0F0F99D62123151100AB6F00 /* 交换两个数不使用中间变量 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99D82123156500AB6F00 /* HZExchangeTwoNumber.h */,
+				0F0F99D92123156500AB6F00 /* HZExchangeTwoNumber.m */,
+			);
+			path = "交换两个数不使用中间变量";
+			sourceTree = "<group>";
+		};
+		0F0F99D72123154E00AB6F00 /* 求两个字符串的最大公共子串 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99DB212315A000AB6F00 /* HZString.h */,
+				0F0F99DC212315A000AB6F00 /* HZString.m */,
+			);
+			path = "求两个字符串的最大公共子串";
+			sourceTree = "<group>";
+		};
+		0F0F99DE21231CEF00AB6F00 /* 字符串反转 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99DF21231D1C00AB6F00 /* HZReverseString.h */,
+				0F0F99E021231D1C00AB6F00 /* HZReverseString.m */,
+			);
+			path = "字符串反转";
+			sourceTree = "<group>";
+		};
+		0F9834C41EEE198C00FE3524 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99CF2123137000AB6F00 /* SortTest.h */,
+				0F0F99D02123137000AB6F00 /* SortTest.m */,
+				0F0F99C92123130000AB6F00 /* Sort.h */,
+				0F0F99CA2123130000AB6F00 /* Sort.m */,
+				0F0F99CB2123130000AB6F00 /* HZSort.h */,
+				0F0F99CC2123130000AB6F00 /* HZSort.c */,
+				0F9834C51EEE19C600FE3524 /* HZBubbleSort.h */,
+				0F9834C61EEE19C600FE3524 /* HZBubbleSort.m */,
+				0F64FD8B1EEF674F00D6183D /* HZSimpleSelectionSort.h */,
+				0F64FD8C1EEF674F00D6183D /* HZSimpleSelectionSort.m */,
+				0F64FD9B1EF0C12700D6183D /* HZStraightInsertionSort.h */,
+				0F64FD9C1EF0C12700D6183D /* HZStraightInsertionSort.m */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		181FB6651DFF8A59002198FA = {
+			isa = PBXGroup;
+			children = (
+				181FB6701DFF8A59002198FA /* HZDataStructure */,
+				181FB66F1DFF8A59002198FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181FB66F1DFF8A59002198FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181FB66E1DFF8A59002198FA /* HZDataStructure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181FB6701DFF8A59002198FA /* HZDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				181FB6711DFF8A59002198FA /* main.m */,
+				181FB67C1DFFCAA8002198FA /* HZListTable.h */,
+				181FB67B1DFFCAA8002198FA /* HZListTable.c */,
+				181FB67F1E00D93C002198FA /* HZLinkList.h */,
+				181FB67E1E00D93C002198FA /* HZLinkList.c */,
+				298AD7F120C4E25C00782C55 /* HZDLinkList.h */,
+				298AD7F220C4E25C00782C55 /* HZDLinkList.c */,
+				0F9834C41EEE198C00FE3524 /* 排序 */,
+				0F0F99D2212314B500AB6F00 /* 算法题目 */,
+			);
+			path = HZDataStructure;
+			sourceTree = "<group>";
+		};
+		29ED1AD4212400A3006FD6E9 /* 单链表反转 */ = {
+			isa = PBXGroup;
+			children = (
+				29ED1AD5212400A3006FD6E9 /* HZReverseLinkList.h */,
+				29ED1AD6212400A3006FD6E9 /* HZReverseLinkList.m */,
+			);
+			path = "单链表反转";
+			sourceTree = "<group>";
+		};
+		29ED1AD82124050C006FD6E9 /* 合并两个有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				29ED1AD92124053A006FD6E9 /* HZMergeOrderArray.h */,
+				29ED1ADA2124053A006FD6E9 /* HZMergeOrderArray.m */,
+			);
+			path = "合并两个有序数组";
+			sourceTree = "<group>";
+		};
+		29ED1ADC21241038006FD6E9 /* 找到字符串中第一个出现一次的字符 */ = {
+			isa = PBXGroup;
+			children = (
+				29ED1ADD21241088006FD6E9 /* HZFindChar.h */,
+				29ED1ADE21241088006FD6E9 /* HZFindChar.m */,
+			);
+			path = "找到字符串中第一个出现一次的字符";
+			sourceTree = "<group>";
+		};
+		29ED1AE421242702006FD6E9 /* 无序数组求中位数 */ = {
+			isa = PBXGroup;
+			children = (
+				29ED1AE521242713006FD6E9 /* HZFindMedia.h */,
+				29ED1AE621242713006FD6E9 /* HZFindMedia.m */,
+			);
+			path = "无序数组求中位数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181FB66D1DFF8A59002198FA /* HZDataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181FB6751DFF8A59002198FA /* Build configuration list for PBXNativeTarget "HZDataStructure" */;
+			buildPhases = (
+				181FB66A1DFF8A59002198FA /* Sources */,
+				181FB66B1DFF8A59002198FA /* Frameworks */,
+				181FB66C1DFF8A59002198FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZDataStructure;
+			productName = HZDataStructure;
+			productReference = 181FB66E1DFF8A59002198FA /* HZDataStructure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181FB6661DFF8A59002198FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HZ;
+				TargetAttributes = {
+					181FB66D1DFF8A59002198FA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 181FB6691DFF8A59002198FA /* Build configuration list for PBXProject "HZDataStructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181FB6651DFF8A59002198FA;
+			productRefGroup = 181FB66F1DFF8A59002198FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181FB66D1DFF8A59002198FA /* HZDataStructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181FB66A1DFF8A59002198FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0F99CD2123130000AB6F00 /* Sort.m in Sources */,
+				181FB6801E00D93C002198FA /* HZLinkList.c in Sources */,
+				0F0F99E121231D1C00AB6F00 /* HZReverseString.m in Sources */,
+				0F0F99DD212315A000AB6F00 /* HZString.m in Sources */,
+				181FB6721DFF8A59002198FA /* main.m in Sources */,
+				0F0F99CE2123130000AB6F00 /* HZSort.c in Sources */,
+				29ED1AD7212400A3006FD6E9 /* HZReverseLinkList.m in Sources */,
+				0F0F99DA2123156500AB6F00 /* HZExchangeTwoNumber.m in Sources */,
+				29ED1ADF21241088006FD6E9 /* HZFindChar.m in Sources */,
+				0F0F99D12123137000AB6F00 /* SortTest.m in Sources */,
+				298AD7F320C4E25C00782C55 /* HZDLinkList.c in Sources */,
+				0F64FD8D1EEF674F00D6183D /* HZSimpleSelectionSort.m in Sources */,
+				181FB67D1DFFCAA8002198FA /* HZListTable.c in Sources */,
+				29ED1AE721242713006FD6E9 /* HZFindMedia.m in Sources */,
+				0F9834C71EEE19C600FE3524 /* HZBubbleSort.m in Sources */,
+				0F64FD9D1EF0C12700D6183D /* HZStraightInsertionSort.m in Sources */,
+				29ED1ADB2124053A006FD6E9 /* HZMergeOrderArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		181FB6731DFF8A59002198FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		181FB6741DFF8A59002198FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		181FB6761DFF8A59002198FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181FB6771DFF8A59002198FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181FB6691DFF8A59002198FA /* Build configuration list for PBXProject "HZDataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FB6731DFF8A59002198FA /* Debug */,
+				181FB6741DFF8A59002198FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181FB6751DFF8A59002198FA /* Build configuration list for PBXNativeTarget "HZDataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FB6761DFF8A59002198FA /* Debug */,
+				181FB6771DFF8A59002198FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181FB6661DFF8A59002198FA /* Project object */;
+}
