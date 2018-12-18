@@ -1,9 +1,4 @@
-title: iOS篇之CocoaPods
-date: 2015-01-05  
-categories: iOS 
-tags: [iOS工具]
----
-  
+
 ### CocoaPods 上手体验： 
   
 >当开发环境已经具备CocoaPods功能，再次引入三方库，只需要在工程目录文件Podfile中添加 pod  ’Three party libraries Name’,’~>versionCode’ 然后 pod update ；项目就集成了你需要的三方库；再也不要去github上download到本地，手动拖入工程，配置各种framework，不是ARC的还要........
