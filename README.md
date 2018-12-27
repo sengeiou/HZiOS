@@ -4,8 +4,9 @@
  
 ### Objective-C 
  
- + [属性篇](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Objective-C类与对象简介/类与对象简介.md)
- + [方法篇]()
+ + [了解Objective-C ](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/了解objective-C.md)
+ + [属性篇](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/属性篇.md)
+ + [方法篇](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/方法篇.md)
  
  ### C
  
