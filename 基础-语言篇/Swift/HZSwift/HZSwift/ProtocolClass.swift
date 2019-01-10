@@ -19,6 +19,31 @@ import Foundation
     func eatAction(foodName:String) -> Void
 }
 
+// -------  protocol --------------
+
+protocol FirstProtocol {
+    func first() -> Void
+}
+
+class FirstDelegate: NSObject {
+    var delegate:FirstProtocol?
+    func start() -> Void {
+        delegate = FirstClass()
+        delegate?.first()// print first func
+    }
+}
+
+// -------  protocol --------------
+
+
+class FirstClass: NSObject ,FirstProtocol{
+    func first() {
+        print("first func")
+    }
+}
+
+
+
 //闭包类型的声明
 typealias  CompleteHandler = (String)->Void
 

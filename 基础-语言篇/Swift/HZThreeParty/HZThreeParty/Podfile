@@ -1,0 +1,6 @@
+target 'HZThreeParty' do
+platform :ios, ‘11.0’
+pod 'Alamofire', '~> 4.7'
+
+use_frameworks!
+end

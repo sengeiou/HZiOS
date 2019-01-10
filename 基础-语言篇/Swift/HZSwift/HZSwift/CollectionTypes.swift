@@ -100,6 +100,10 @@ class CollectionTypes: NSObject {
         newDic["thrid"] = "3"
         newDic.updateValue("4", forKey: "forth")//存在key就更新value，不存在就新增
         
+        let userInfo = ["name":"hua"]
+        let name1 = userInfo["name"] ?? "" // 保证获取的值为空时，有默认值
+        print(name1)
+        
         //字典的遍历
         for(key,value)in newDic{
           print("\(key) of value is \(value)")

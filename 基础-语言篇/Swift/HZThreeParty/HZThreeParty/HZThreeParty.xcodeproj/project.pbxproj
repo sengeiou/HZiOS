@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F03A09F217967D1001DC698 /* HZAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A09E217967D1001DC698 /* HZAlamofireViewController.swift */; };
+		0F03A0A121796881001DC698 /* HZAlamofireReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0A021796881001DC698 /* HZAlamofireReachabilityViewController.swift */; };
+		0F03A0A321796CD5001DC698 /* MyNetWorkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0A221796CD5001DC698 /* MyNetWorkReachabilityManager.swift */; };
+		29E8B9B4210E975500D630D9 /* HZListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B3210E975500D630D9 /* HZListViewController.swift */; };
+		29E8B9B7210E9B9E00D630D9 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B6210E9B9E00D630D9 /* AlamofireViewController.swift */; };
+		29E8B9B9210EA15100D630D9 /* HZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B8210EA15100D630D9 /* HZBaseViewController.swift */; };
+		29ECED1220EB64D60005CA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECED1120EB64D60005CA8E /* AppDelegate.swift */; };
+		29ECED1420EB64D60005CA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECED1320EB64D60005CA8E /* ViewController.swift */; };
+		29ECED1920EB64D80005CA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ECED1820EB64D80005CA8E /* Assets.xcassets */; };
+		29ECED1C20EB64D80005CA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29ECED1A20EB64D80005CA8E /* LaunchScreen.storyboard */; };
+		29ECED2720EB64D80005CA8E /* HZThreePartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECED2620EB64D80005CA8E /* HZThreePartyTests.swift */; };
+		29ECED3220EB64D90005CA8E /* HZThreePartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECED3120EB64D90005CA8E /* HZThreePartyUITests.swift */; };
+		8503842FAB7C629A09F4D367 /* Pods_HZThreeParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0849CAAB9CC7829C1630 /* Pods_HZThreeParty.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29ECED2320EB64D80005CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29ECED0620EB64D60005CA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29ECED0D20EB64D60005CA8E;
+			remoteInfo = HZThreeParty;
+		};
+		29ECED2E20EB64D90005CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29ECED0620EB64D60005CA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29ECED0D20EB64D60005CA8E;
+			remoteInfo = HZThreeParty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F03A09E217967D1001DC698 /* HZAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlamofireViewController.swift; sourceTree = "<group>"; };
+		0F03A0A021796881001DC698 /* HZAlamofireReachabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlamofireReachabilityViewController.swift; sourceTree = "<group>"; };
+		0F03A0A221796CD5001DC698 /* MyNetWorkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetWorkReachabilityManager.swift; sourceTree = "<group>"; };
+		29E8B9B3210E975500D630D9 /* HZListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZListViewController.swift; sourceTree = "<group>"; };
+		29E8B9B6210E9B9E00D630D9 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		29E8B9B8210EA15100D630D9 /* HZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseViewController.swift; sourceTree = "<group>"; };
+		29ECED0E20EB64D60005CA8E /* HZThreeParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZThreeParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ECED1120EB64D60005CA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29ECED1320EB64D60005CA8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29ECED1820EB64D80005CA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29ECED1B20EB64D80005CA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29ECED1D20EB64D80005CA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29ECED2220EB64D80005CA8E /* HZThreePartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZThreePartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ECED2620EB64D80005CA8E /* HZThreePartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZThreePartyTests.swift; sourceTree = "<group>"; };
+		29ECED2820EB64D80005CA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29ECED2D20EB64D90005CA8E /* HZThreePartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZThreePartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ECED3120EB64D90005CA8E /* HZThreePartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZThreePartyUITests.swift; sourceTree = "<group>"; };
+		29ECED3320EB64D90005CA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785BF427A4312984B9858787 /* Pods-HZThreeParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZThreeParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6F0849CAAB9CC7829C1630 /* Pods_HZThreeParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZThreeParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		922A822718B688D6CC9E5CC6 /* Pods-HZThreeParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZThreeParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29ECED0B20EB64D60005CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8503842FAB7C629A09F4D367 /* Pods_HZThreeParty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED1F20EB64D80005CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED2A20EB64D90005CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A97E8B1952BD9C0F683628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F0849CAAB9CC7829C1630 /* Pods_HZThreeParty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29E8B9B5210E9B6500D630D9 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0F03A09E217967D1001DC698 /* HZAlamofireViewController.swift */,
+				29E8B9B6210E9B9E00D630D9 /* AlamofireViewController.swift */,
+				0F03A0A021796881001DC698 /* HZAlamofireReachabilityViewController.swift */,
+				0F03A0A221796CD5001DC698 /* MyNetWorkReachabilityManager.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		29ECED0520EB64D60005CA8E = {
+			isa = PBXGroup;
+			children = (
+				29ECED1020EB64D60005CA8E /* HZThreeParty */,
+				29ECED2520EB64D80005CA8E /* HZThreePartyTests */,
+				29ECED3020EB64D90005CA8E /* HZThreePartyUITests */,
+				29ECED0F20EB64D60005CA8E /* Products */,
+				626E8A82336359482F860850 /* Pods */,
+				07A97E8B1952BD9C0F683628 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29ECED0F20EB64D60005CA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29ECED0E20EB64D60005CA8E /* HZThreeParty.app */,
+				29ECED2220EB64D80005CA8E /* HZThreePartyTests.xctest */,
+				29ECED2D20EB64D90005CA8E /* HZThreePartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29ECED1020EB64D60005CA8E /* HZThreeParty */ = {
+			isa = PBXGroup;
+			children = (
+				29ECED1120EB64D60005CA8E /* AppDelegate.swift */,
+				29ECED1320EB64D60005CA8E /* ViewController.swift */,
+				29E8B9B3210E975500D630D9 /* HZListViewController.swift */,
+				29E8B9B8210EA15100D630D9 /* HZBaseViewController.swift */,
+				29ECED1820EB64D80005CA8E /* Assets.xcassets */,
+				29ECED1A20EB64D80005CA8E /* LaunchScreen.storyboard */,
+				29ECED1D20EB64D80005CA8E /* Info.plist */,
+				29E8B9B5210E9B6500D630D9 /* Alamofire */,
+			);
+			path = HZThreeParty;
+			sourceTree = "<group>";
+		};
+		29ECED2520EB64D80005CA8E /* HZThreePartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				29ECED2620EB64D80005CA8E /* HZThreePartyTests.swift */,
+				29ECED2820EB64D80005CA8E /* Info.plist */,
+			);
+			path = HZThreePartyTests;
+			sourceTree = "<group>";
+		};
+		29ECED3020EB64D90005CA8E /* HZThreePartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29ECED3120EB64D90005CA8E /* HZThreePartyUITests.swift */,
+				29ECED3320EB64D90005CA8E /* Info.plist */,
+			);
+			path = HZThreePartyUITests;
+			sourceTree = "<group>";
+		};
+		626E8A82336359482F860850 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				785BF427A4312984B9858787 /* Pods-HZThreeParty.debug.xcconfig */,
+				922A822718B688D6CC9E5CC6 /* Pods-HZThreeParty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29ECED0D20EB64D60005CA8E /* HZThreeParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29ECED3620EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreeParty" */;
+			buildPhases = (
+				BB30BF380C3073BDDEDDC4AD /* [CP] Check Pods Manifest.lock */,
+				29ECED0A20EB64D60005CA8E /* Sources */,
+				29ECED0B20EB64D60005CA8E /* Frameworks */,
+				29ECED0C20EB64D60005CA8E /* Resources */,
+				5F07A39930CC71EAADB8EAD3 /* [CP] Embed Pods Frameworks */,
+				0FAD9E14F2F04F9421682B1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZThreeParty;
+			productName = HZThreeParty;
+			productReference = 29ECED0E20EB64D60005CA8E /* HZThreeParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29ECED2120EB64D80005CA8E /* HZThreePartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29ECED3920EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreePartyTests" */;
+			buildPhases = (
+				29ECED1E20EB64D80005CA8E /* Sources */,
+				29ECED1F20EB64D80005CA8E /* Frameworks */,
+				29ECED2020EB64D80005CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29ECED2420EB64D80005CA8E /* PBXTargetDependency */,
+			);
+			name = HZThreePartyTests;
+			productName = HZThreePartyTests;
+			productReference = 29ECED2220EB64D80005CA8E /* HZThreePartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29ECED2C20EB64D90005CA8E /* HZThreePartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29ECED3C20EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreePartyUITests" */;
+			buildPhases = (
+				29ECED2920EB64D90005CA8E /* Sources */,
+				29ECED2A20EB64D90005CA8E /* Frameworks */,
+				29ECED2B20EB64D90005CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29ECED2F20EB64D90005CA8E /* PBXTargetDependency */,
+			);
+			name = HZThreePartyUITests;
+			productName = HZThreePartyUITests;
+			productReference = 29ECED2D20EB64D90005CA8E /* HZThreePartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29ECED0620EB64D60005CA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BQ;
+				TargetAttributes = {
+					29ECED0D20EB64D60005CA8E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					29ECED2120EB64D80005CA8E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 29ECED0D20EB64D60005CA8E;
+					};
+					29ECED2C20EB64D90005CA8E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 29ECED0D20EB64D60005CA8E;
+					};
+				};
+			};
+			buildConfigurationList = 29ECED0920EB64D60005CA8E /* Build configuration list for PBXProject "HZThreeParty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29ECED0520EB64D60005CA8E;
+			productRefGroup = 29ECED0F20EB64D60005CA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29ECED0D20EB64D60005CA8E /* HZThreeParty */,
+				29ECED2120EB64D80005CA8E /* HZThreePartyTests */,
+				29ECED2C20EB64D90005CA8E /* HZThreePartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29ECED0C20EB64D60005CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ECED1C20EB64D80005CA8E /* LaunchScreen.storyboard in Resources */,
+				29ECED1920EB64D80005CA8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED2020EB64D80005CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED2B20EB64D90005CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FAD9E14F2F04F9421682B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F07A39930CC71EAADB8EAD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB30BF380C3073BDDEDDC4AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZThreeParty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29ECED0A20EB64D60005CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E8B9B9210EA15100D630D9 /* HZBaseViewController.swift in Sources */,
+				29ECED1420EB64D60005CA8E /* ViewController.swift in Sources */,
+				29E8B9B4210E975500D630D9 /* HZListViewController.swift in Sources */,
+				0F03A09F217967D1001DC698 /* HZAlamofireViewController.swift in Sources */,
+				29ECED1220EB64D60005CA8E /* AppDelegate.swift in Sources */,
+				0F03A0A321796CD5001DC698 /* MyNetWorkReachabilityManager.swift in Sources */,
+				0F03A0A121796881001DC698 /* HZAlamofireReachabilityViewController.swift in Sources */,
+				29E8B9B7210E9B9E00D630D9 /* AlamofireViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED1E20EB64D80005CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ECED2720EB64D80005CA8E /* HZThreePartyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECED2920EB64D90005CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ECED3220EB64D90005CA8E /* HZThreePartyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29ECED2420EB64D80005CA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29ECED0D20EB64D60005CA8E /* HZThreeParty */;
+			targetProxy = 29ECED2320EB64D80005CA8E /* PBXContainerItemProxy */;
+		};
+		29ECED2F20EB64D90005CA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29ECED0D20EB64D60005CA8E /* HZThreeParty */;
+			targetProxy = 29ECED2E20EB64D90005CA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29ECED1A20EB64D80005CA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29ECED1B20EB64D80005CA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29ECED3420EB64D90005CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29ECED3520EB64D90005CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29ECED3720EB64D90005CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785BF427A4312984B9858787 /* Pods-HZThreeParty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreeParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreeParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29ECED3820EB64D90005CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922A822718B688D6CC9E5CC6 /* Pods-HZThreeParty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreeParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreeParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29ECED3A20EB64D90005CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreePartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreePartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZThreeParty.app/HZThreeParty";
+			};
+			name = Debug;
+		};
+		29ECED3B20EB64D90005CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreePartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreePartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZThreeParty.app/HZThreeParty";
+			};
+			name = Release;
+		};
+		29ECED3D20EB64D90005CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreePartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreePartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZThreeParty;
+			};
+			name = Debug;
+		};
+		29ECED3E20EB64D90005CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZThreePartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZThreePartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZThreeParty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29ECED0920EB64D60005CA8E /* Build configuration list for PBXProject "HZThreeParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ECED3420EB64D90005CA8E /* Debug */,
+				29ECED3520EB64D90005CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29ECED3620EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreeParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ECED3720EB64D90005CA8E /* Debug */,
+				29ECED3820EB64D90005CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29ECED3920EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreePartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ECED3A20EB64D90005CA8E /* Debug */,
+				29ECED3B20EB64D90005CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29ECED3C20EB64D90005CA8E /* Build configuration list for PBXNativeTarget "HZThreePartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ECED3D20EB64D90005CA8E /* Debug */,
+				29ECED3E20EB64D90005CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29ECED0620EB64D60005CA8E /* Project object */;
+}

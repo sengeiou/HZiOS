@@ -12,6 +12,8 @@ class Closures: NSObject {
     
     var handler: (([String])->Void)?
     
+    var callBack:(([String:String])->Void)?
+    
     func requestUserDataWithCompleteHandler(handler:(([String])->Void)?)->Void{
         handler!(["1","2"])
     }
@@ -94,7 +96,7 @@ class Closures: NSObject {
         let reversed3 = names.sorted(by: { $0 > $1 })
         print(reversed3)
         
-        // 运算符函数 (> 是String 实现的一个函，函数类型是 （String,String）->Bool )
+        // 运算符函数 (> 是String 实现的一个函数类型是 （String,String）->Bool )
         let reversed4 = names.sorted(by: >)
         print(reversed4)
         

@@ -43,3 +43,10 @@ class VideoMode {
     var frameRate = 0.0
     var name:String?
 }
+
+/*
+   什么情况下选择结构体
+  
+ */
+
+//Swift 中 String/ Array / Dictionary 等的赋值都是值拷贝
