@@ -46,6 +46,7 @@
 		0FB5AC582182E749008AD06D /* HZGitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC572182E749008AD06D /* HZGitViewController.swift */; };
 		0FB5AC5A21840285008AD06D /* HZCocoapodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC5921840284008AD06D /* HZCocoapodsViewController.swift */; };
 		0FD77DE2218D88B300DB2666 /* HZUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD77DE1218D88B300DB2666 /* HZUINavigationViewController.swift */; };
+		0FDD1B2121E7855F00E60DC7 /* HZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */; };
 		0FDF8BD6216ADE3600935163 /* HZUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BD5216ADE3600935163 /* HZUIViewViewController.swift */; };
 		0FDF8BD8216B033200935163 /* HZRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BD7216B033200935163 /* HZRoundView.swift */; };
 		0FDF8BDA216C35A300935163 /* HZCALayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BD9216C35A300935163 /* HZCALayerViewController.swift */; };
@@ -135,6 +136,7 @@
 		0FB5AC572182E749008AD06D /* HZGitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZGitViewController.swift; sourceTree = "<group>"; };
 		0FB5AC5921840284008AD06D /* HZCocoapodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCocoapodsViewController.swift; sourceTree = "<group>"; };
 		0FD77DE1218D88B300DB2666 /* HZUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUINavigationViewController.swift; sourceTree = "<group>"; };
+		0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZLabel.swift; sourceTree = "<group>"; };
 		0FDF8BD5216ADE3600935163 /* HZUIViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUIViewViewController.swift; sourceTree = "<group>"; };
 		0FDF8BD7216B033200935163 /* HZRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZRoundView.swift; sourceTree = "<group>"; };
 		0FDF8BD9216C35A300935163 /* HZCALayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCALayerViewController.swift; sourceTree = "<group>"; };
@@ -443,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				18C1971C1E289F8700084761 /* HZLableViewController.swift */,
+				0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */,
 			);
 			path = UILable;
 			sourceTree = "<group>";
@@ -732,6 +735,7 @@
 				0FB5AC432181BEFB008AD06D /* HZLeaksViewController.swift in Sources */,
 				18C1971D1E289F8700084761 /* HZLableViewController.swift in Sources */,
 				2982CEFF20E478490050CA96 /* HZLoginViewController.swift in Sources */,
+				0FDD1B2121E7855F00E60DC7 /* HZLabel.swift in Sources */,
 				0FB5AC402181B4E8008AD06D /* HZAllocationsViewController.swift in Sources */,
 				0F03A0A82179B741001DC698 /* HZSampleWebViewViewController.swift in Sources */,
 				0F03A0AB2179BAC5001DC698 /* HZDataPersistenceViewController.swift in Sources */,
