@@ -1,0 +1,111 @@
+
+<!doctype html>
+<html><head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <style type='text/css'>
+		html { font-family:Helvetica; color:#222; }
+		h1 { color:steelblue; font-size:24px; margin-top:24px; }
+		button { margin:0 3px 10px; font-size:12px; }
+		.logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+	</style>
+</head><body>
+<h1>WebViewJavascriptBridge Demo</h1>
+
+
+
+<div id='buttons'></div>
+<div>
+    <button onclick="sendHttpRequest()">sendHttpRequest</button>
+</div>
+<div id='log'></div>
+</body></html>
+
+
+<script>
+    // 获取URL中的参数判断页面在app打开还是手机web中打开
+    function getQueryVariable(variable)
+    {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    }
+
+    var platform = getQueryVariable('bq_platform');
+    var BQJSBridge;
+    if(!platform){
+        // 手机app内打开
+        var u = navigator.userAgent;
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+        if(isiOS){
+           // iOS 初始化
+           function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'https://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        };
+           setupWebViewJavascriptBridge(function(BQJSBridge) {});
+           BQJSBridge = window.WebViewJavascriptBridge;
+        }else{
+            // android初始化（安卓初始化对象较晚）
+            alert('android');
+            document.addEventListener(
+            'WebViewJavascriptBridgeReady',function(){
+               BQJSBridge = window.WebViewJavascriptBridge;
+            });
+        }
+    }else{
+        // 手机web初始化
+        BQJSBridge = {
+            callHandler: callHandler,
+        };
+        function callHandler(handlerName, data, responseCallback) {
+            // 根据data中的FUNCTIONNAME来处理业务数据
+            if(data.FUNCTIONNAME=='BQPopCurrentPageService'){
+                //
+            }else if(data.FUNCTIONNAME =='BQPopCurrentPageService'){
+
+            }
+        }
+    }
+
+    /*
+       BQNetWorkService: 网络请求
+       BQPopCurrentPageService： 返回上一级页面
+    */
+    // H5与客户端或手机web通讯的API
+    function bqJSBridgeService(funcName,funcParams,callbackFuc){
+        var lastParams = {'FUNCTIONNAME':funcName,'FUNCTIONPARAMS':funcParams};
+        BQJSBridge.callHandler('BQJSBridgeService',lastParams, function(response) {
+                               callbackFuc(response);
+                               })
+    }
+
+    /*
+     客户端： 初始化webview时注册BQNetWorkService;收到JS报文时解析data根据FUNCTIONNAME去映射具体的业务方法
+     手机Web：手机端同客户端实现方案
+     */
+
+    // //---- 模拟测试网络请求 ----
+    function sendHttpRequest(){
+        // var functionParams = {
+        //     'APP_CODE': '6080005',
+        //     'qustionnaireid': 1000
+        // };
+        // bqJSBridgeService('BQNetWorkService',functionParams,function(response){
+        //                   alert('JS got BQJSBridgeService response'+response.DATA);
+        //                   });
+        //
+
+        bqJSBridgeService('BQPopCurrentPageService');
+    }
+
+	</script>

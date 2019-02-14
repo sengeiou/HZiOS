@@ -161,6 +161,25 @@ class HZUIViewViewController: UIViewController {
         //view.transform = transform.scaledBy(x: 1.5, y: 1.5) 缩放视图
         view.transform = transform.rotated(by: 3.14/4)  // 视图的旋转
         // self.view.transform = CGAffineTransform(rotationAngle: <#T##CGFloat#>)
+        
+        // 通过tag获取制定的view
+        let redView = self.view.viewWithTag(100);
+        print(redView as Any)
+    }
+    
+    // 伪代码
+    func viewWithTag(tag:NSInteger) -> UIView? {
+        if tag == self.view.tag {
+            return self.view
+        }else{
+            // 会递归调用子控件的子视图
+            for subView in self.view.subviews{
+                if subView.tag == tag{
+                    return subView
+                }
+            }
+        }
+        return nil
     }
     
     // 自定义视图

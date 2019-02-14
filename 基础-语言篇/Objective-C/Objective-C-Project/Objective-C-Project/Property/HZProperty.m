@@ -107,4 +107,13 @@
     HZProperty * pro = [[HZProperty allocWithZone:zone] initWithName:self.name address:self.address houseArray:self.houseArray];
     return pro;
 }
+
+
+-(instancetype)initWithDictionary:(NSDictionary*)dictionary{
+    self = [super init];
+    if (self) {
+       [self setValuesForKeysWithDictionary:dictionary];
+    }
+    return self;
+}
 @end

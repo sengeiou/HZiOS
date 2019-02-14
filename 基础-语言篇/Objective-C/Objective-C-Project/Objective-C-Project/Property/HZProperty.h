@@ -14,7 +14,7 @@
 
 @property(nonatomic,copy)NSString * skill;
 
-@property(nonatomic,strong)NSArray* houseArray;
+@property(nonatomic,strong)NSArray* houseArray; //为什么不能声明为strong
 
 -(void)test;
 @end

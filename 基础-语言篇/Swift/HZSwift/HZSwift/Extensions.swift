@@ -40,3 +40,21 @@ extension Int {
     }
 }
 
+/*
+ swift3以后
+ private: 真正意义的私有，仅仅是当前类中可以使用
+ fileprivate: 访问权限为当前文件中可用
+ 
+ open public internal fileprivate private
+ */
+
+class HZUser{
+    fileprivate var name = "private"
+}
+
+extension HZUser{
+    var accessPrivate:String{
+        return name
+    }
+}
+

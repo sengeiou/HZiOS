@@ -9,12 +9,21 @@
 import UIKit
 
 class HZViewController: UIViewController {
+    
+    //loadView中可以替换UIViewcController中默认生成的view
+    override func loadView() {
+        let view = UIView(frame: UIScreen.main.bounds)
+        view.backgroundColor = UIColor.orange
+        self.view = view
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.edgesForExtendedLayout = []
         self.title = "HZViewController"
+        
+        
         
         let pageControlBtn = UIButton(frame: CGRect(x: 20, y: 20, width: 100, height: 25))
         pageControlBtn.setTitle("page Control", for: UIControlState.normal)
@@ -26,6 +35,10 @@ class HZViewController: UIViewController {
     @objc func gotoPageControl(){
         let pageControlVC = PageControlViewController()
         self.navigationController?.pushViewController(pageControlVC, animated: true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
     }
 
     override func didReceiveMemoryWarning() {

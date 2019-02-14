@@ -11,7 +11,8 @@
 
 import UIKit
 
-class HZLabel: UILabel {
+public class HZLabel: UILabel {
+    
     public enum HZTextAlignment : Int {
         case top
         case middle
@@ -23,7 +24,7 @@ class HZLabel: UILabel {
         super.init(frame: frame)
     }
     
-    override func textRect(forBounds bounds: CGRect, limitedToNumberOfLines numberOfLines: Int) -> CGRect {
+    override public func textRect(forBounds bounds: CGRect, limitedToNumberOfLines numberOfLines: Int) -> CGRect {
        var textRect =  super.textRect(forBounds: bounds, limitedToNumberOfLines: numberOfLines)
         switch (self.hzTextAlignment) {
         case .top:
@@ -38,7 +39,7 @@ class HZLabel: UILabel {
         return textRect
     }
     
-    override func drawText(in rect: CGRect) {
+    override public func drawText(in rect: CGRect) {
        let actualRect =   textRect(forBounds: rect, limitedToNumberOfLines: self.numberOfLines)
         super.drawText(in: actualRect)
     }

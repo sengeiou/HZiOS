@@ -15,6 +15,14 @@ class HZLableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testLabelFirst()
+        
+        // 
+        let pushSwitchLabelColorVCBtn = UIButton(type: UIButtonType.system)
+        pushSwitchLabelColorVCBtn.frame = CGRect(x: 20, y: 200, width: 200, height: 50)
+        pushSwitchLabelColorVCBtn.setTitle("pushSwitchLabelColorVC", for: UIControlState.normal)
+        pushSwitchLabelColorVCBtn.addTarget(self, action: #selector(gotoSwitchLabelColorVC), for: UIControlEvents.touchUpInside)
+        self.view.addSubview(pushSwitchLabelColorVCBtn)
+        
     }
     
     func testLabelFirst()  {
@@ -27,6 +35,10 @@ class HZLableViewController: UIViewController {
         
         nameLable.backgroundColor = UIColor.orange
         self.view.addSubview(nameLable)
+    }
+    
+    @objc func gotoSwitchLabelColorVC(){
+        self.navigationController?.pushViewController(HZSwitchLabelColorViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

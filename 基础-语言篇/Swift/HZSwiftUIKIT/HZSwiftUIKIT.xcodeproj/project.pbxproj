@@ -45,6 +45,9 @@
 		0FB5AC562182E728008AD06D /* HZToolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC552182E728008AD06D /* HZToolListViewController.swift */; };
 		0FB5AC582182E749008AD06D /* HZGitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC572182E749008AD06D /* HZGitViewController.swift */; };
 		0FB5AC5A21840285008AD06D /* HZCocoapodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC5921840284008AD06D /* HZCocoapodsViewController.swift */; };
+		0FBAB61421F6E81500F379FB /* HZScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAB61321F6E81500F379FB /* HZScrollViewController.swift */; };
+		0FD21D5F2210432E00F2B7F2 /* HZSwitchLabelColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21D5E2210432E00F2B7F2 /* HZSwitchLabelColorViewController.swift */; };
+		0FD21D8F2211B63700F2B7F2 /* HZImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21D8E2211B63700F2B7F2 /* HZImageViewViewController.swift */; };
 		0FD77DE2218D88B300DB2666 /* HZUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD77DE1218D88B300DB2666 /* HZUINavigationViewController.swift */; };
 		0FDD1B2121E7855F00E60DC7 /* HZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */; };
 		0FDF8BD6216ADE3600935163 /* HZUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8BD5216ADE3600935163 /* HZUIViewViewController.swift */; };
@@ -135,6 +138,9 @@
 		0FB5AC552182E728008AD06D /* HZToolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZToolListViewController.swift; sourceTree = "<group>"; };
 		0FB5AC572182E749008AD06D /* HZGitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZGitViewController.swift; sourceTree = "<group>"; };
 		0FB5AC5921840284008AD06D /* HZCocoapodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCocoapodsViewController.swift; sourceTree = "<group>"; };
+		0FBAB61321F6E81500F379FB /* HZScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZScrollViewController.swift; sourceTree = "<group>"; };
+		0FD21D5E2210432E00F2B7F2 /* HZSwitchLabelColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZSwitchLabelColorViewController.swift; sourceTree = "<group>"; };
+		0FD21D8E2211B63700F2B7F2 /* HZImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZImageViewViewController.swift; sourceTree = "<group>"; };
 		0FD77DE1218D88B300DB2666 /* HZUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUINavigationViewController.swift; sourceTree = "<group>"; };
 		0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZLabel.swift; sourceTree = "<group>"; };
 		0FDF8BD5216ADE3600935163 /* HZUIViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUIViewViewController.swift; sourceTree = "<group>"; };
@@ -375,6 +381,22 @@
 			path = "工具使用篇";
 			sourceTree = "<group>";
 		};
+		0FBAB61221F6E7EC00F379FB /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAB61321F6E81500F379FB /* HZScrollViewController.swift */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		0FD21D8D2211B61600F2B7F2 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0FD21D8E2211B63700F2B7F2 /* HZImageViewViewController.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
 		0FD77DE0218D888C00DB2666 /* UINavgationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,6 +468,7 @@
 			children = (
 				18C1971C1E289F8700084761 /* HZLableViewController.swift */,
 				0FDD1B2021E7855F00E60DC7 /* HZLabel.swift */,
+				0FD21D5E2210432E00F2B7F2 /* HZSwitchLabelColorViewController.swift */,
 			);
 			path = UILable;
 			sourceTree = "<group>";
@@ -479,6 +502,7 @@
 				18C1971B1E289EEC00084761 /* UILable */,
 				0FDF8C78216F1A2300935163 /* UIControl */,
 				2982CEFD20E4782F0050CA96 /* UIButton&UITextFiled */,
+				0FD21D8D2211B61600F2B7F2 /* UIImageView */,
 				188014871DC74AB900D775C5 /* UITableView */,
 				0F03A08B21771798001DC698 /* UICollectionView */,
 				29480CD9210975350084CAAE /* UIView */,
@@ -487,6 +511,7 @@
 				0F03A0922178159A001DC698 /* UIGestureRecognizer */,
 				0F1480861E8A2C6200457C4F /* CoreAnimation */,
 				0F03A09521787364001DC698 /* 音频&视频&图像和视频处理 */,
+				0FBAB61221F6E7EC00F379FB /* UIScrollView */,
 				0F03A0A42179B70D001DC698 /* UIWebView */,
 				0F03A0A92179BAA4001DC698 /* 数据持久化 */,
 				0F03A0AC2179C4C7001DC698 /* 多线程技术 */,
@@ -736,17 +761,20 @@
 				18C1971D1E289F8700084761 /* HZLableViewController.swift in Sources */,
 				2982CEFF20E478490050CA96 /* HZLoginViewController.swift in Sources */,
 				0FDD1B2121E7855F00E60DC7 /* HZLabel.swift in Sources */,
+				0FBAB61421F6E81500F379FB /* HZScrollViewController.swift in Sources */,
 				0FB5AC402181B4E8008AD06D /* HZAllocationsViewController.swift in Sources */,
 				0F03A0A82179B741001DC698 /* HZSampleWebViewViewController.swift in Sources */,
 				0F03A0AB2179BAC5001DC698 /* HZDataPersistenceViewController.swift in Sources */,
 				0FB5AC502181DB9B008AD06D /* HZOptimizeAppViewController.swift in Sources */,
 				0FB5AC3E2181B351008AD06D /* Pet.swift in Sources */,
 				0FB5AC562182E728008AD06D /* HZToolListViewController.swift in Sources */,
+				0FD21D8F2211B63700F2B7F2 /* HZImageViewViewController.swift in Sources */,
 				29E5A7C521057D0500B298D1 /* HZContactsViewController.swift in Sources */,
 				18EC1B661DC731EA006F72A9 /* ViewController.swift in Sources */,
 				29E5A7CD2105B96200B298D1 /* Weibo.swift in Sources */,
 				18EC1B641DC7313E006F72A9 /* HZListTableViewController.swift in Sources */,
 				0FB5AC462181C35F008AD06D /* HZTimerProfilerViewController.swift in Sources */,
+				0FD21D5F2210432E00F2B7F2 /* HZSwitchLabelColorViewController.swift in Sources */,
 				18EC1B361DC72DE5006F72A9 /* AppDelegate.swift in Sources */,
 				0F03A09B21787E78001DC698 /* HZMovieViewController.swift in Sources */,
 				0FDF8C7F216F42B400935163 /* SimpleTableViewController.swift in Sources */,

@@ -10,5 +10,6 @@
 #import "HZProperty.h"
 
 @interface HZSubProperty : HZProperty
+
 @end
 
