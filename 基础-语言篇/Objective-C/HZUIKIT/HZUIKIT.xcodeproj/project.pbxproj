@@ -16,6 +16,8 @@
 		0F7683A51F36D9F200A6C9DF /* HZFirstiOSAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7683A31F36D9F200A6C9DF /* HZFirstiOSAppViewController.m */; };
 		0F7683A61F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */; };
 		0FC887521E8BB0830091A123 /* HZHorizontalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */; };
+		0FD21E17221C34CE00F2B7F2 /* HZCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */; };
+		0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */; };
 		0FD6844E215B0EF40075DC41 /* HZIphoneXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6844D215B0EF40075DC41 /* HZIphoneXViewController.m */; };
 		0FD68452215B19590075DC41 /* HZiOS12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD68451215B19590075DC41 /* HZiOS12ViewController.m */; };
 		0FDF8C8821742B7D00935163 /* HZEstimateRowHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF8C8721742B7D00935163 /* HZEstimateRowHeightViewController.m */; };
@@ -195,6 +197,10 @@
 		0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZFirstiOSAppViewController.xib; sourceTree = "<group>"; };
 		0FC887501E8BB0830091A123 /* HZHorizontalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHorizontalCollectionViewCell.h; sourceTree = "<group>"; };
 		0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHorizontalCollectionViewCell.m; sourceTree = "<group>"; };
+		0FD21E15221C34CE00F2B7F2 /* HZCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCornerRadiusViewController.h; sourceTree = "<group>"; };
+		0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCornerRadiusViewController.m; sourceTree = "<group>"; };
+		0FD21E18221C451A00F2B7F2 /* UIView+UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
 		0FD6844C215B0EF40075DC41 /* HZIphoneXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZIphoneXViewController.h; sourceTree = "<group>"; };
 		0FD6844D215B0EF40075DC41 /* HZIphoneXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZIphoneXViewController.m; sourceTree = "<group>"; };
 		0FD68450215B19590075DC41 /* HZiOS12ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZiOS12ViewController.h; sourceTree = "<group>"; };
@@ -548,6 +554,15 @@
 			path = HZFirstiOSApp;
 			sourceTree = "<group>";
 		};
+		0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD21E15221C34CE00F2B7F2 /* HZCornerRadiusViewController.h */,
+				0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */,
+			);
+			path = "设置视图圆角的方法";
+			sourceTree = "<group>";
+		};
 		0FD6844B215B0ECF0075DC41 /* IphoneX */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,6 +748,7 @@
 		188A6A001D83D82B001C3A62 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */,
 				0FDF8C8521742B4400935163 /* estimateRowHeight */,
 				0F0F99E62125ADC500AB6F00 /* 新浪微博首页实现① */,
 				188A6A011D83D84C001C3A62 /* HZTableViewController.h */,
@@ -1016,6 +1032,8 @@
 				296AB6B41FC3C78F00D43B4C /* HZImageViewViewController.m */,
 				0FF4D4E720EF05B4002396DA /* HZImageViewBannerViewController.h */,
 				0FF4D4E820EF05B4002396DA /* HZImageViewBannerViewController.m */,
+				0FD21E18221C451A00F2B7F2 /* UIView+UIImage.h */,
+				0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -1364,12 +1382,14 @@
 				188C354B1D8E2678009A437B /* HZEntertainmentPageViewController.m in Sources */,
 				1B6DDCC41D56F5BC00E66A6F /* HZVerticalAlignmentLabel.m in Sources */,
 				1B6DDC901D56D7E300E66A6F /* ViewController.m in Sources */,
+				0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */,
 				29ED1AF821264C37006FD6E9 /* HZSecondNavViewController.m in Sources */,
 				0F6BEBFB1E88ECC3000CAB8E /* HZNeteaseMainViewController.m in Sources */,
 				29ED1AD22122A9F3006FD6E9 /* AsyncDrawView.m in Sources */,
 				298AD7E520C38A1200782C55 /* HZUIViewController.m in Sources */,
 				29E5A7EB2106D66300B298D1 /* HZSearchBar.m in Sources */,
 				0F08A9DA212953AD006A37A9 /* DFNumberKeyBoard.m in Sources */,
+				0FD21E17221C34CE00F2B7F2 /* HZCornerRadiusViewController.m in Sources */,
 				1B87CDFA1D5C120400AEF20A /* UIScrollViewViewController.m in Sources */,
 				0FF4D4E920EF05B4002396DA /* HZImageViewBannerViewController.m in Sources */,
 				0FDF8C8821742B7D00935163 /* HZEstimateRowHeightViewController.m in Sources */,

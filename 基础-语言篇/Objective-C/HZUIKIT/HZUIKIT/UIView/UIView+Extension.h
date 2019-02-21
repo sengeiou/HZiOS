@@ -31,4 +31,6 @@
 -(void)setOrigin:(CGPoint)origin;
 
 -(CGPoint)origin;
+
+- (void)hz_addRounderCornerWithRadius:(CGFloat)radius size:(CGSize)size backgroundColor:(UIColor*)backgroundColor;
 @end

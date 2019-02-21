@@ -4,7 +4,9 @@
 //
 //  Created by dafy on 16/8/18.
 //  Copyright © 2016年 HZ. All rights reserved.
-//
+/*
+   https://bestswifter.com/efficient-rounded-corner/#
+ */
 
 #import "UIButton+HZ.h"
 
@@ -33,4 +35,7 @@
 //-(BOOL)isDelayClick{
 //    return objc_getAssociatedObject(self, @selector(isDelayClick));
 //}
+
+
+
 @end
