@@ -15,6 +15,8 @@
 		0F6BEC111E89127E000CAB8E /* HZHorizontalFlowCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC101E89127E000CAB8E /* HZHorizontalFlowCollectionViewController.m */; };
 		0F7683A51F36D9F200A6C9DF /* HZFirstiOSAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7683A31F36D9F200A6C9DF /* HZFirstiOSAppViewController.m */; };
 		0F7683A61F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */; };
+		0FB6719D2224202C003E5EBE /* HZReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */; };
+		0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719F22242063003E5EBE /* ViewReusePool.m */; };
 		0FC887521E8BB0830091A123 /* HZHorizontalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */; };
 		0FD21E17221C34CE00F2B7F2 /* HZCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */; };
 		0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */; };
@@ -195,6 +197,10 @@
 		0F7683A21F36D9F200A6C9DF /* HZFirstiOSAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZFirstiOSAppViewController.h; sourceTree = "<group>"; };
 		0F7683A31F36D9F200A6C9DF /* HZFirstiOSAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZFirstiOSAppViewController.m; sourceTree = "<group>"; };
 		0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZFirstiOSAppViewController.xib; sourceTree = "<group>"; };
+		0FB6719B2224202C003E5EBE /* HZReuseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZReuseTableViewController.h; sourceTree = "<group>"; };
+		0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZReuseTableViewController.m; sourceTree = "<group>"; };
+		0FB6719E22242063003E5EBE /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
+		0FB6719F22242063003E5EBE /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
 		0FC887501E8BB0830091A123 /* HZHorizontalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHorizontalCollectionViewCell.h; sourceTree = "<group>"; };
 		0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHorizontalCollectionViewCell.m; sourceTree = "<group>"; };
 		0FD21E15221C34CE00F2B7F2 /* HZCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCornerRadiusViewController.h; sourceTree = "<group>"; };
@@ -554,6 +560,17 @@
 			path = HZFirstiOSApp;
 			sourceTree = "<group>";
 		};
+		0FB6719A2224200E003E5EBE /* UITableView的重用机制 */ = {
+			isa = PBXGroup;
+			children = (
+				0FB6719B2224202C003E5EBE /* HZReuseTableViewController.h */,
+				0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */,
+				0FB6719E22242063003E5EBE /* ViewReusePool.h */,
+				0FB6719F22242063003E5EBE /* ViewReusePool.m */,
+			);
+			path = "UITableView的重用机制";
+			sourceTree = "<group>";
+		};
 		0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -748,6 +765,7 @@
 		188A6A001D83D82B001C3A62 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				0FB6719A2224200E003E5EBE /* UITableView的重用机制 */,
 				0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */,
 				0FDF8C8521742B4400935163 /* estimateRowHeight */,
 				0F0F99E62125ADC500AB6F00 /* 新浪微博首页实现① */,
@@ -1429,6 +1447,7 @@
 				186EF77F1E766E2200EF9922 /* HZSwiftDrawViewController.swift in Sources */,
 				29F8D8C62118370400A61292 /* HZNetWorkDesign.m in Sources */,
 				29ED1AE321241E4E006FD6E9 /* HZCommonSuperFind.m in Sources */,
+				0FB6719D2224202C003E5EBE /* HZReuseTableViewController.m in Sources */,
 				298AD7E820C38AD600782C55 /* HZCircleViewController.m in Sources */,
 				29E5A7E12106C5A900B298D1 /* HZCustomerTabbarViewController.m in Sources */,
 				29E5A7DA2106BF6400B298D1 /* UIBarButtonItem+Extension.m in Sources */,
@@ -1444,6 +1463,7 @@
 				181FB60A1DFE7345002198FA /* HZWaterfallViewController.m in Sources */,
 				29E5A7D02106BCE400B298D1 /* UIView+Extension.m in Sources */,
 				0F6BEC051E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m in Sources */,
+				0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */,
 				188A6A071D83D897001C3A62 /* HZLightViewController.m in Sources */,
 				188A6A0D1D83E1A5001C3A62 /* HZLightTableViewCell.m in Sources */,
 				188A6A0A1D83D992001C3A62 /* HZLightArrayDateSource.m in Sources */,
