@@ -17,6 +17,8 @@
 		0F7683A61F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */; };
 		0FB6719D2224202C003E5EBE /* HZReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */; };
 		0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719F22242063003E5EBE /* ViewReusePool.m */; };
+		0FB6FB15222F5A0F00AAD734 /* IndexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6FB14222F5A0F00AAD734 /* IndexedTableView.m */; };
+		0FB6FB19222FEC8300AAD734 /* UITableView的重用机制.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FB6FB18222FEC8300AAD734 /* UITableView的重用机制.md */; };
 		0FC887521E8BB0830091A123 /* HZHorizontalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */; };
 		0FD21E17221C34CE00F2B7F2 /* HZCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */; };
 		0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */; };
@@ -201,6 +203,9 @@
 		0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZReuseTableViewController.m; sourceTree = "<group>"; };
 		0FB6719E22242063003E5EBE /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
 		0FB6719F22242063003E5EBE /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
+		0FB6FB13222F5A0F00AAD734 /* IndexedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexedTableView.h; sourceTree = "<group>"; };
+		0FB6FB14222F5A0F00AAD734 /* IndexedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexedTableView.m; sourceTree = "<group>"; };
+		0FB6FB18222FEC8300AAD734 /* UITableView的重用机制.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "UITableView的重用机制.md"; sourceTree = "<group>"; };
 		0FC887501E8BB0830091A123 /* HZHorizontalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHorizontalCollectionViewCell.h; sourceTree = "<group>"; };
 		0FC887511E8BB0830091A123 /* HZHorizontalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHorizontalCollectionViewCell.m; sourceTree = "<group>"; };
 		0FD21E15221C34CE00F2B7F2 /* HZCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCornerRadiusViewController.h; sourceTree = "<group>"; };
@@ -563,10 +568,13 @@
 		0FB6719A2224200E003E5EBE /* UITableView的重用机制 */ = {
 			isa = PBXGroup;
 			children = (
+				0FB6FB18222FEC8300AAD734 /* UITableView的重用机制.md */,
 				0FB6719B2224202C003E5EBE /* HZReuseTableViewController.h */,
 				0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */,
 				0FB6719E22242063003E5EBE /* ViewReusePool.h */,
 				0FB6719F22242063003E5EBE /* ViewReusePool.m */,
+				0FB6FB13222F5A0F00AAD734 /* IndexedTableView.h */,
+				0FB6FB14222F5A0F00AAD734 /* IndexedTableView.m */,
 			);
 			path = "UITableView的重用机制";
 			sourceTree = "<group>";
@@ -1343,6 +1351,7 @@
 				181FB6461DFEA8FD002198FA /* dropdown_anim__00016@2x.png in Resources */,
 				181FB6421DFEA8FD002198FA /* dropdown_anim__00012@2x.png in Resources */,
 				181FB6591DFEA8FD002198FA /* dropdown_anim__00035@2x.png in Resources */,
+				0FB6FB19222FEC8300AAD734 /* UITableView的重用机制.md in Resources */,
 				181FB6571DFEA8FD002198FA /* dropdown_anim__00033@2x.png in Resources */,
 				181FB63C1DFEA8FD002198FA /* dropdown_anim__0006@2x.png in Resources */,
 				181FB64E1DFEA8FD002198FA /* dropdown_anim__00024@2x.png in Resources */,
@@ -1489,6 +1498,7 @@
 				29480CDF2109AC960084CAAE /* HZSearchViewController.m in Sources */,
 				29E5A7D42106BEBF00B298D1 /* HZNavigationViewController.m in Sources */,
 				188A6A131D83E2B3001C3A62 /* HZLightPersonModel.m in Sources */,
+				0FB6FB15222F5A0F00AAD734 /* IndexedTableView.m in Sources */,
 				182E99451D77C916005617A2 /* UIScrollViewAutoLayoutViewController.m in Sources */,
 				1B6DDCBE1D56DCCD00E66A6F /* UILabelViewController.m in Sources */,
 				182E99381D76AC30005617A2 /* Logging.m in Sources */,

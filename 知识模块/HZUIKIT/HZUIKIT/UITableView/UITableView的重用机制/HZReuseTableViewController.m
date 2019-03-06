@@ -7,11 +7,13 @@
 //
 
 #import "HZReuseTableViewController.h"
+#import "IndexedTableView.h"
 
-@interface HZReuseTableViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface HZReuseTableViewController ()<UITableViewDelegate,UITableViewDataSource,IndexedTableViewDataSource>
 
-@property(nonatomic,strong)UITableView* tableView;
-@property(nonatomic,copy)NSArray* dataSource;
+@property(nonatomic,strong)NSMutableArray *titleDataSource;
+@property(nonatomic,strong)IndexedTableView* indexTableView;
+@property(nonatomic,strong)UIButton *button;
 
 @end
 
@@ -20,11 +22,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view addSubview:self.tableView];
+    
+    _indexTableView = [[IndexedTableView alloc] initWithFrame:CGRectMake(0, 60, self.view.frame.size.width, self.view.frame.size.height-60) style:UITableViewStylePlain];
+    _indexTableView.delegate = self;
+    _indexTableView.dataSource = self;
+    _indexTableView.indexedDataSource = self;
+    
+    [self.view addSubview:_indexTableView];
+    
+    _button = [[UIButton alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 40)];
+    _button.backgroundColor = UIColor.redColor;
+    [_button setTitle:@"reloadTable" forState:UIControlStateNormal];
+    [_button addTarget:self action:@selector(doAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button];
+    
+    _titleDataSource = [NSMutableArray array];
+    for (int i = 0;  i < 100 ; i++) {
+        [_titleDataSource addObject:@(i+1)];
+    }
+    
+    
+}
+
+-(NSArray<NSString *> *)indexTitlesForIndexTableView:(UITableView *)tableView{
+    static BOOL change = NO;
+    if (change) {
+        change = NO;
+        return @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M"];
+    }else{
+        change = YES;
+        return @[@"A",@"B",@"C",@"D",@"E",@"F"];
+    }
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return  self.dataSource.count;
+    return  _titleDataSource.count;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -32,30 +64,17 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifer];
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifer];
+        NSLog(@"%p,新创建cell",__func__);
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"%@",self.dataSource[indexPath.row]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@",_titleDataSource[indexPath.row]];
     return  cell;
 }
 
--(NSArray*)dataSource{
-    if (_dataSource == nil) {
-        NSMutableArray *tempArray = [NSMutableArray array];
-        for (NSInteger i = 0; i < 100; i++) {
-            [tempArray addObject:@(i)];
-        }
-        _dataSource = [tempArray copy];
-    }
-    return _dataSource;
+-(void)doAction{
+    NSLog(@"reloadData");
+    [_indexTableView reloadData];
 }
 
--(UITableView*)tableView{
-    if(_tableView == nil){
-        _tableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
-    }
-    return _tableView;
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
