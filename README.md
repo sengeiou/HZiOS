@@ -18,8 +18,11 @@
  
   + UITableView  
   
-    -[UITableView的重用机制](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UITableView的重用机制/UITableView的重用机制.md)    
-  + UI视图事件传递和响应
+    - [UITableView的重用机制](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UITableView的重用机制/UITableView的重用机制.md)    
+  + UI视图事件传递和响应   
+  
+    - [视图事件传递和响应](https://raw.githubusercontent.com/huaTJ0210/HZiOS/master/知识模块/8-UI视图/视图事件传递和响应.jpeg) 
+    
   + UI图像显示原理
   + UI视图卡顿和掉帧原因
   + UI绘制原理和异步绘制
