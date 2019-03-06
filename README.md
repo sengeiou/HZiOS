@@ -17,6 +17,7 @@
  ## UI视图基础 
  
   + UITableView
+    -(UITableView的重用机制)[https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UITableView的重用机制/UITableView的重用机制.md]
   + UI视图事件传递和响应
   + UI图像显示原理
   + UI视图卡顿和掉帧原因
