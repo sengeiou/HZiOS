@@ -69,6 +69,8 @@ UIWindow类定义了一个window对象来管理和协调显示在屏幕上的视
 +  最后将要显示在画面上的后帧缓存交给GPU去渲染，进行采集图片和形状，运行变换，应用纹理的混合，最终将bitMap数据显示在屏幕上
 +  CPU绘制后把内容放入到缓存里，GPU负责从缓存里读取数据然后渲染到屏幕上。
 
+![视图绘制和渲染图](https://raw.githubusercontent.com/huaTJ0210/HZiOS/master/知识模块/HZUIKIT/HZUIKIT/UIView/视图绘制和渲染图.jpeg)
+
 GPU的操作涉及多个View的拼接（Compositing），纹理（Texture）的渲染等最后显示到屏幕上。GPU将纹理渲染到屏幕主要涉及到一下几个问题：  
 
 + 合成（Compositing）: 将多个纹理拼到一起的过程，对应UIKIT，是指处理多个View合到一起的情况，如果View没有叠加GPU只需要做普通的渲染即可，如果多个View之间有叠加部分，GPU需要做混合操作
