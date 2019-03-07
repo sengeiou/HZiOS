@@ -1,8 +1,4 @@
-title: iOS篇-视图对象
-date: 2017-09-6  13:30
-categories: iOS 
-tags: [iOS]
----
+
 
 在web开发中经常使用标签`div`来进行页面的布局，而在iOS开发中界面可视化元素基本都是`UIView`或是其子类元素构成，本文主要介绍如下内容： 
   
