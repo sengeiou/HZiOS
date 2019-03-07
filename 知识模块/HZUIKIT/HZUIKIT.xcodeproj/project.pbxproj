@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0F08A9DA212953AD006A37A9 /* DFNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F08A9D9212953AD006A37A9 /* DFNumberKeyBoard.m */; };
+		0F2523EE2230A979000D2897 /* HZNewsFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E62230A978000D2897 /* HZNewsFrame.m */; };
+		0F2523EF2230A979000D2897 /* HZNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E72230A978000D2897 /* HZNewsViewController.m */; };
+		0F2523F02230A979000D2897 /* HZNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E82230A978000D2897 /* HZNewsCell.m */; };
+		0F2523F12230A979000D2897 /* HZNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E92230A978000D2897 /* HZNews.m */; };
+		0F2523F22230A979000D2897 /* HZNewsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523EC2230A978000D2897 /* HZNewsData.m */; };
+		0F2523F52230AAD4000D2897 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523F32230AAD4000D2897 /* YYFPSLabel.m */; };
 		0F6BEBFB1E88ECC3000CAB8E /* HZNeteaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEBFA1E88ECC3000CAB8E /* HZNeteaseMainViewController.m */; };
 		0F6BEC051E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC041E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m */; };
 		0F6BEC091E88F617000CAB8E /* HZNEMainPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC081E88F617000CAB8E /* HZNEMainPageContentViewController.m */; };
@@ -164,6 +170,7 @@
 		29F8D8C2211821C700A61292 /* HZStartApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8D8C1211821C700A61292 /* HZStartApp.m */; };
 		29F8D8C62118370400A61292 /* HZNetWorkDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8D8C52118370400A61292 /* HZNetWorkDesign.m */; };
 		29F8D8CA211938D900A61292 /* HZTopestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8D8C9211938D900A61292 /* HZTopestViewController.m */; };
+		530ACB607F59C22409BC29B5 /* libPods-HZUIKIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D27E3535F3BD76E87D0B56E /* libPods-HZUIKIT.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +193,18 @@
 /* Begin PBXFileReference section */
 		0F08A9D8212953AD006A37A9 /* DFNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFNumberKeyBoard.h; sourceTree = "<group>"; };
 		0F08A9D9212953AD006A37A9 /* DFNumberKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNumberKeyBoard.m; sourceTree = "<group>"; };
+		0F2523E42230A977000D2897 /* HZNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNewsViewController.h; sourceTree = "<group>"; };
+		0F2523E52230A978000D2897 /* HZNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNewsCell.h; sourceTree = "<group>"; };
+		0F2523E62230A978000D2897 /* HZNewsFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNewsFrame.m; sourceTree = "<group>"; };
+		0F2523E72230A978000D2897 /* HZNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNewsViewController.m; sourceTree = "<group>"; };
+		0F2523E82230A978000D2897 /* HZNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNewsCell.m; sourceTree = "<group>"; };
+		0F2523E92230A978000D2897 /* HZNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNews.m; sourceTree = "<group>"; };
+		0F2523EA2230A978000D2897 /* HZNewsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNewsData.h; sourceTree = "<group>"; };
+		0F2523EB2230A978000D2897 /* HZNewsFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNewsFrame.h; sourceTree = "<group>"; };
+		0F2523EC2230A978000D2897 /* HZNewsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNewsData.m; sourceTree = "<group>"; };
+		0F2523ED2230A979000D2897 /* HZNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNews.h; sourceTree = "<group>"; };
+		0F2523F32230AAD4000D2897 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		0F2523F42230AAD4000D2897 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		0F6BEBF91E88ECC3000CAB8E /* HZNeteaseMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNeteaseMainViewController.h; sourceTree = "<group>"; };
 		0F6BEBFA1E88ECC3000CAB8E /* HZNeteaseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNeteaseMainViewController.m; sourceTree = "<group>"; };
 		0F6BEC031E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNEMainPageHeaderViewController.h; sourceTree = "<group>"; };
@@ -460,6 +479,8 @@
 		29F8D8C52118370400A61292 /* HZNetWorkDesign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNetWorkDesign.m; sourceTree = "<group>"; };
 		29F8D8C8211938D900A61292 /* HZTopestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTopestViewController.h; sourceTree = "<group>"; };
 		29F8D8C9211938D900A61292 /* HZTopestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTopestViewController.m; sourceTree = "<group>"; };
+		8BD08B2A50914C1F74F2BDBB /* Pods-HZUIKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIKIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIKIT/Pods-HZUIKIT.release.xcconfig"; sourceTree = "<group>"; };
+		97F1EFCB415F33FFDFEED4CB /* Pods-HZUIKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIKIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIKIT/Pods-HZUIKIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530ACB607F59C22409BC29B5 /* libPods-HZUIKIT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +525,23 @@
 				0FDF8C8A2174330A00935163 /* HZWeiBoMainViewController.m */,
 			);
 			path = "新浪微博首页实现①";
+			sourceTree = "<group>";
+		};
+		0F2523E32230A967000D2897 /* UITableView的布局--简单内容展示 */ = {
+			isa = PBXGroup;
+			children = (
+				0F2523ED2230A979000D2897 /* HZNews.h */,
+				0F2523E92230A978000D2897 /* HZNews.m */,
+				0F2523E52230A978000D2897 /* HZNewsCell.h */,
+				0F2523E82230A978000D2897 /* HZNewsCell.m */,
+				0F2523EA2230A978000D2897 /* HZNewsData.h */,
+				0F2523EC2230A978000D2897 /* HZNewsData.m */,
+				0F2523EB2230A978000D2897 /* HZNewsFrame.h */,
+				0F2523E62230A978000D2897 /* HZNewsFrame.m */,
+				0F2523E42230A977000D2897 /* HZNewsViewController.h */,
+				0F2523E72230A978000D2897 /* HZNewsViewController.m */,
+			);
+			path = "UITableView的布局--简单内容展示";
 			sourceTree = "<group>";
 		};
 		0F6BEBF81E88EC7C000CAB8E /* HZNeteaseNewsMainPage */ = {
@@ -773,6 +812,7 @@
 		188A6A001D83D82B001C3A62 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				0F2523E32230A967000D2897 /* UITableView的布局--简单内容展示 */,
 				0FB6719A2224200E003E5EBE /* UITableView的重用机制 */,
 				0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */,
 				0FDF8C8521742B4400935163 /* estimateRowHeight */,
@@ -885,6 +925,7 @@
 				1B6DDCAC1D56D7E300E66A6F /* HZUIKITUITests */,
 				1B6DDC861D56D7E300E66A6F /* Products */,
 				B0CB2AB1D3ABBCA040D84C4C /* Frameworks */,
+				BA1F11254F0EC9E0719FE0F1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -978,6 +1019,8 @@
 				1B6DDCBD1D56DCCD00E66A6F /* UILabelViewController.m */,
 				29ED1AF921264D75006FD6E9 /* UILabel+HZ.h */,
 				29ED1AFA21264D75006FD6E9 /* UILabel+HZ.m */,
+				0F2523F42230AAD4000D2897 /* YYFPSLabel.h */,
+				0F2523F32230AAD4000D2897 /* YYFPSLabel.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -1228,6 +1271,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA1F11254F0EC9E0719FE0F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F1EFCB415F33FFDFEED4CB /* Pods-HZUIKIT.debug.xcconfig */,
+				8BD08B2A50914C1F74F2BDBB /* Pods-HZUIKIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1235,9 +1287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B6DDCB21D56D7E300E66A6F /* Build configuration list for PBXNativeTarget "HZUIKIT" */;
 			buildPhases = (
+				C3450692056A21D57EA3FBE5 /* [CP] Check Pods Manifest.lock */,
 				1B6DDC811D56D7E300E66A6F /* Sources */,
 				1B6DDC821D56D7E300E66A6F /* Frameworks */,
 				1B6DDC831D56D7E300E66A6F /* Resources */,
+				A0A2DDBA0F261FE7FC608375 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1400,6 +1454,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0A2DDBA0F261FE7FC608375 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HZUIKIT/Pods-HZUIKIT-resources.sh",
+				"${PODS_ROOT}/KMCGeigerCounter/KMCGeigerCounter/KMCGeigerCounterTick.aiff",
+				"${PODS_ROOT}/MJPhotoBrowser/MJPhotoBrowser/MJPhotoBrowser/MJPhotoBrowser.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KMCGeigerCounterTick.aiff",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZUIKIT/Pods-HZUIKIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3450692056A21D57EA3FBE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZUIKIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B6DDC811D56D7E300E66A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1412,6 +1519,7 @@
 				0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */,
 				29ED1AF821264C37006FD6E9 /* HZSecondNavViewController.m in Sources */,
 				0F6BEBFB1E88ECC3000CAB8E /* HZNeteaseMainViewController.m in Sources */,
+				0F2523F52230AAD4000D2897 /* YYFPSLabel.m in Sources */,
 				29ED1AD22122A9F3006FD6E9 /* AsyncDrawView.m in Sources */,
 				298AD7E520C38A1200782C55 /* HZUIViewController.m in Sources */,
 				29E5A7EB2106D66300B298D1 /* HZSearchBar.m in Sources */,
@@ -1474,6 +1582,7 @@
 				0F6BEC051E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m in Sources */,
 				0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */,
 				188A6A071D83D897001C3A62 /* HZLightViewController.m in Sources */,
+				0F2523F12230A979000D2897 /* HZNews.m in Sources */,
 				188A6A0D1D83E1A5001C3A62 /* HZLightTableViewCell.m in Sources */,
 				188A6A0A1D83D992001C3A62 /* HZLightArrayDateSource.m in Sources */,
 				18AEC77A1DF699A8001C52C7 /* CAGroupAnimation_VC.m in Sources */,
@@ -1489,6 +1598,8 @@
 				18AEC77C1DF699A8001C52C7 /* CATransition_VC.m in Sources */,
 				18AEC7701DF69938001C52C7 /* HZAnimationViewController.m in Sources */,
 				29E5A7DE2106C55D00B298D1 /* HZTabbarViewController.m in Sources */,
+				0F2523EF2230A979000D2897 /* HZNewsViewController.m in Sources */,
+				0F2523F22230A979000D2897 /* HZNewsData.m in Sources */,
 				181FB60E1DFE7491002198FA /* HZCollectionViewWaterFallLayout.m in Sources */,
 				29F8D8CA211938D900A61292 /* HZTopestViewController.m in Sources */,
 				0FDF8C8B2174330A00935163 /* HZWeiBoMainViewController.m in Sources */,
@@ -1497,6 +1608,8 @@
 				1B56AA0C1D5AFB1A001C6581 /* HZImageControl.m in Sources */,
 				29480CDF2109AC960084CAAE /* HZSearchViewController.m in Sources */,
 				29E5A7D42106BEBF00B298D1 /* HZNavigationViewController.m in Sources */,
+				0F2523EE2230A979000D2897 /* HZNewsFrame.m in Sources */,
+				0F2523F02230A979000D2897 /* HZNewsCell.m in Sources */,
 				188A6A131D83E2B3001C3A62 /* HZLightPersonModel.m in Sources */,
 				0FB6FB15222F5A0F00AAD734 /* IndexedTableView.m in Sources */,
 				182E99451D77C916005617A2 /* UIScrollViewAutoLayoutViewController.m in Sources */,
@@ -1650,6 +1763,7 @@
 		};
 		1B6DDCB31D56D7E300E66A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F1EFCB415F33FFDFEED4CB /* Pods-HZUIKIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1669,6 +1783,7 @@
 		};
 		1B6DDCB41D56D7E300E66A6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD08B2A50914C1F74F2BDBB /* Pods-HZUIKIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -39,7 +39,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"UITableView";
-    self.tableViewItems = @[@"HZReuseTableViewController",@"HZWeiBoMainViewController",@"HZEstimateRowHeightViewController",@"HZLightViewController",@"HZListLinkViewController",@"HZEnumTableViewController",@"HZCornerRadiusViewController"];
+    self.tableViewItems = @[@"HZNewsViewController",@"HZReuseTableViewController",@"HZWeiBoMainViewController",@"HZEstimateRowHeightViewController",@"HZLightViewController",@"HZListLinkViewController",@"HZEnumTableViewController",@"HZCornerRadiusViewController"];
 }
 
 - (void)didReceiveMemoryWarning {
