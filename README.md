@@ -26,6 +26,7 @@
     
   + UI视图事件传递和响应   
   
+    - [UIView&CALayer&UIWindow](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UIView/iOS篇-UIView&CALayer&UIWindow.md)
     - [视图事件传递和响应](https://raw.githubusercontent.com/huaTJ0210/HZiOS/master/知识模块/8-UI视图/视图事件传递和响应.jpeg) 
     
   + UI图像显示原理
