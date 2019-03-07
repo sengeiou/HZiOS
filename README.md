@@ -7,6 +7,9 @@
  + [了解Objective-C ](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/了解objective-C.md)
  + [属性篇](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/属性篇.md)
  + [方法篇](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/方法篇.md)
+ + 内存管理
+   
+   - [block中避免self的循环引用](https://github.com/huaTJ0210/HZiOS/blob/master/基础-语言篇/Objective-C/Effective-ObjectiveC/self避免引用循环.md)
  
  ### C
  
