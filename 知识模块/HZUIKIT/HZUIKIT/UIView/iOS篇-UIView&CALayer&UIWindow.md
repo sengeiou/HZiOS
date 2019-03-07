@@ -139,15 +139,15 @@ GPU的操作涉及多个View的拼接（Compositing），纹理（Texture）的�
 ##### Hit-Testing View的过程   
 Hit-Testing View实际是递归的使用`- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event;`和`- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event;`方法来找到*触摸点*所在的最上层视图然后返回；如下图所示： 
 
-<center>
+
 ![图片来自网络](http://zhoon.github.io/img/artical/ios_event/iosevent_4.png) 
-</center>  
+ 
  
 Hit-Testing View 的执行流程图   
 
-<center>
+
 ![图片来自网络](http://zhoon.github.io/img/artical/ios_event/iosevent_5.png) 
-</center> 
+
 
 
 当一个触摸事件产生后，事件传递链由UIApplication -> UIWindow -> UIView -> subViews -> lastView[hitTest-view];然后判断当前视图是否有处理事件的方法，如果没有则根据nextResponder指针将事件向上传递给父视图，如果一直没有找到则丢弃；
