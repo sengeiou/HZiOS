@@ -47,8 +47,6 @@
     
    
 
-    
-    
 }
 
 -(void)requestNewsData{
@@ -82,16 +80,25 @@
         @strongify(self);
         @strongify(cell);
         [self.tableView beginUpdates];
+        // iOS 关于indexPathForCell:返回nil的问题: 当cell为invisible（屏幕不可见）时，返回的indexpath为nil；
         NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
          [self.newsFrames removeObjectAtIndex:indexPath.row];
         [self.tableView deleteRowAtIndexPath:indexPath withRowAnimation:UITableViewRowAnimationFade];
         [self.tableView endUpdates];
     };
     return cell;
+    
+    /*
+       beginUpdates/endUpdates
+     + 必须成对出现
+     + 使用者两个方法执行 插入、删除等操作会使得动画更加流畅
+     + 在动态改变一些行（row）的高度时自带动画，并且不需要Reload row（不用调用cellForRow，仅仅需要调用heightForRow，这样效率最高）
+     */
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     HZNewsFrame *newFrame = self.newsFrames[indexPath.row];
+    
     return newFrame.cellHeight;
 }
 
