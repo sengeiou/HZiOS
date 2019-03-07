@@ -21,7 +21,9 @@
  
   + UITableView  
   
-    - [UITableView的重用机制](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UITableView的重用机制/UITableView的重用机制.md)    
+    - [UITableView的重用机制](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UITableView的重用机制/UITableView的重用机制.md)  
+    - [UI数据源同步问题](https://github.com/huaTJ0210/HZiOS/blob/master/知识模块/HZUIKIT/HZUIKIT/UITableView/UI数据源同步问题.md)
+    
   + UI视图事件传递和响应   
   
     - [视图事件传递和响应](https://raw.githubusercontent.com/huaTJ0210/HZiOS/master/知识模块/8-UI视图/视图事件传递和响应.jpeg) 
