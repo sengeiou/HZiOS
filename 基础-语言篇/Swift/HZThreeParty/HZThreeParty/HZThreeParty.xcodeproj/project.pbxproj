@@ -10,6 +10,8 @@
 		0F03A09F217967D1001DC698 /* HZAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A09E217967D1001DC698 /* HZAlamofireViewController.swift */; };
 		0F03A0A121796881001DC698 /* HZAlamofireReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0A021796881001DC698 /* HZAlamofireReachabilityViewController.swift */; };
 		0F03A0A321796CD5001DC698 /* MyNetWorkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0A221796CD5001DC698 /* MyNetWorkReachabilityManager.swift */; };
+		0FA54357223742E7007992CF /* HZMoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA54356223742E7007992CF /* HZMoyaViewController.swift */; };
+		0FFA3C652237A97800CC04D8 /* HZService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA3C642237A97800CC04D8 /* HZService.swift */; };
 		29E8B9B4210E975500D630D9 /* HZListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B3210E975500D630D9 /* HZListViewController.swift */; };
 		29E8B9B7210E9B9E00D630D9 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B6210E9B9E00D630D9 /* AlamofireViewController.swift */; };
 		29E8B9B9210EA15100D630D9 /* HZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8B9B8210EA15100D630D9 /* HZBaseViewController.swift */; };
@@ -43,6 +45,8 @@
 		0F03A09E217967D1001DC698 /* HZAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlamofireViewController.swift; sourceTree = "<group>"; };
 		0F03A0A021796881001DC698 /* HZAlamofireReachabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlamofireReachabilityViewController.swift; sourceTree = "<group>"; };
 		0F03A0A221796CD5001DC698 /* MyNetWorkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetWorkReachabilityManager.swift; sourceTree = "<group>"; };
+		0FA54356223742E7007992CF /* HZMoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZMoyaViewController.swift; sourceTree = "<group>"; };
+		0FFA3C642237A97800CC04D8 /* HZService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZService.swift; sourceTree = "<group>"; };
 		29E8B9B3210E975500D630D9 /* HZListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZListViewController.swift; sourceTree = "<group>"; };
 		29E8B9B6210E9B9E00D630D9 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		29E8B9B8210EA15100D630D9 /* HZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0FA54355223742BE007992CF /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				0FA54356223742E7007992CF /* HZMoyaViewController.swift */,
+				0FFA3C642237A97800CC04D8 /* HZService.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
 		29E8B9B5210E9B6500D630D9 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 				29ECED1A20EB64D80005CA8E /* LaunchScreen.storyboard */,
 				29ECED1D20EB64D80005CA8E /* Info.plist */,
 				29E8B9B5210E9B6500D630D9 /* Alamofire */,
+				0FA54355223742BE007992CF /* Moya */,
 			);
 			path = HZThreeParty;
 			sourceTree = "<group>";
@@ -184,7 +198,6 @@
 				29ECED0B20EB64D60005CA8E /* Frameworks */,
 				29ECED0C20EB64D60005CA8E /* Resources */,
 				5F07A39930CC71EAADB8EAD3 /* [CP] Embed Pods Frameworks */,
-				0FAD9E14F2F04F9421682B1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,21 +314,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FAD9E14F2F04F9421682B1C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5F07A39930CC71EAADB8EAD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,10 +322,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HZThreeParty/Pods-HZThreeParty-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,8 +367,10 @@
 				0F03A09F217967D1001DC698 /* HZAlamofireViewController.swift in Sources */,
 				29ECED1220EB64D60005CA8E /* AppDelegate.swift in Sources */,
 				0F03A0A321796CD5001DC698 /* MyNetWorkReachabilityManager.swift in Sources */,
+				0FA54357223742E7007992CF /* HZMoyaViewController.swift in Sources */,
 				0F03A0A121796881001DC698 /* HZAlamofireReachabilityViewController.swift in Sources */,
 				29E8B9B7210E9B9E00D630D9 /* AlamofireViewController.swift in Sources */,
+				0FFA3C652237A97800CC04D8 /* HZService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

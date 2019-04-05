@@ -17,14 +17,19 @@
 
 @implementation HZRunLoopViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
 //    [NSTimer scheduledTimerWithTimeInterval:2.0f target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
     
+
+    
     
 }
+
+
 
 
 

@@ -10,11 +10,15 @@ import UIKit
 import Alamofire
 
 class AlamofireViewController: HZBaseViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         requestWithAlamofireTwo()
+        
+
     }
     
     func requestWithAlamofireOne() {
@@ -44,11 +48,13 @@ class AlamofireViewController: HZBaseViewController {
         let params: [String: String] = ["ak":"mFdpmvtRaOvlVVU1rIXH4Xvh",
                                          "coor":"bd09ll",
                                           "mcode":"com.dafy.YundaiMobile"]
-        Alamofire.request("http://api.map.baidu.com/location/ip", method: .get, parameters: params, encoding: JSONEncoding.default)
+        // https://api.map.baidu.com/location/ip?ak=mFdpmvtRaOvlVVU1rIXH4Xvh&mcode=com.dafy.YundaiMobile&coor=bd09ll
+        Alamofire.request("https://facebook.github.io/react-native/movies.json", method: .get, parameters: params, encoding: JSONEncoding.default)
             .downloadProgress { (progress) in
-            
+             print(progress)
             }
             .validate { (request, response, data) -> Request.ValidationResult in
+                print(response)
                 return .success
             }
             .response { (response) in

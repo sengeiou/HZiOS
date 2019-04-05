@@ -1,0 +1,15 @@
+//
+//  NSTimerRecycle.h
+//  Effective-ObjC
+//
+//  Created by apple on 16/2/16.
+//  Copyright © 2016年 HTJ. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSTimerRecycle : NSObject
+
+-(void)startPolling;
+-(void)stopPolling;
+@end

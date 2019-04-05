@@ -18,9 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"UIView";
-    self.tableViewItems = @[@"HZCircleViewController"];
-    
-    
+    self.tableViewItems = @[@"HZCircleViewController",@"HZCoreGraphicsViewController"];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,7 +14,7 @@ class HZTableViewController: HZListTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-         self.dataSource = ["TableViewInCellViewController","SimpleTableViewController","HZContactsViewController","HZTableBaseViewController"]
+         self.dataSource = ["HZNewsListViewController","TableViewInCellViewController","SimpleTableViewController","HZContactsViewController","HZTableBaseViewController"]
     }
 
     override func didReceiveMemoryWarning() {

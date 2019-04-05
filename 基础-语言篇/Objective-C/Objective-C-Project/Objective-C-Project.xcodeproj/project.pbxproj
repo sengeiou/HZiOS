@@ -18,6 +18,8 @@
 		0F13F58C21C136A80087DE80 /* HZKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F13F58B21C136A80087DE80 /* HZKVOViewController.m */; };
 		0F13F58F21C13A770087DE80 /* HZKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F13F58E21C13A770087DE80 /* HZKVO.m */; };
 		0F13F59221C143470087DE80 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F13F59121C143470087DE80 /* NSObject+KVO.m */; };
+		0F2523FA223149A1000D2897 /* HZSetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523F9223149A1000D2897 /* HZSetsViewController.m */; };
+		0F2523FE22314A02000D2897 /* HZThreadSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523FD22314A02000D2897 /* HZThreadSafeMutableArray.m */; };
 		0F307BD521F488E700EA2047 /* HZKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F307BD421F488E700EA2047 /* HZKVCViewController.m */; };
 		0F307BD821F48A1000EA2047 /* HZKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F307BD721F48A1000EA2047 /* HZKVC.m */; };
 		0F42213521D0781E00E0CE1A /* HZPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F42213421D0781E00E0CE1A /* HZPropertyViewController.m */; };
@@ -76,6 +78,10 @@
 		0F13F58E21C13A770087DE80 /* HZKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZKVO.m; sourceTree = "<group>"; };
 		0F13F59021C143470087DE80 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
 		0F13F59121C143470087DE80 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		0F2523F8223149A1000D2897 /* HZSetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZSetsViewController.h; sourceTree = "<group>"; };
+		0F2523F9223149A1000D2897 /* HZSetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZSetsViewController.m; sourceTree = "<group>"; };
+		0F2523FC22314A02000D2897 /* HZThreadSafeMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		0F2523FD22314A02000D2897 /* HZThreadSafeMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZThreadSafeMutableArray.m; sourceTree = "<group>"; };
 		0F307BD321F488E700EA2047 /* HZKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZKVCViewController.h; sourceTree = "<group>"; };
 		0F307BD421F488E700EA2047 /* HZKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZKVCViewController.m; sourceTree = "<group>"; };
 		0F307BD621F48A1000EA2047 /* HZKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZKVC.h; sourceTree = "<group>"; };
@@ -167,6 +173,7 @@
 				0FDD1B2221EB2CA100E60DC7 /* Catagory */,
 				0F13F58921C136270087DE80 /* KVO */,
 				0F307BD221F488D000EA2047 /* KVC */,
+				0F2523F722314965000D2897 /* 集合 */,
 				0F13F55A21C132120087DE80 /* Assets.xcassets */,
 				0F13F55C21C132120087DE80 /* LaunchScreen.storyboard */,
 				0F13F55F21C132120087DE80 /* Info.plist */,
@@ -204,6 +211,25 @@
 				0F13F59121C143470087DE80 /* NSObject+KVO.m */,
 			);
 			path = KVO;
+			sourceTree = "<group>";
+		};
+		0F2523F722314965000D2897 /* 集合 */ = {
+			isa = PBXGroup;
+			children = (
+				0F2523FB223149D5000D2897 /* 线程安全的数组与字典 */,
+				0F2523F8223149A1000D2897 /* HZSetsViewController.h */,
+				0F2523F9223149A1000D2897 /* HZSetsViewController.m */,
+			);
+			path = "集合";
+			sourceTree = "<group>";
+		};
+		0F2523FB223149D5000D2897 /* 线程安全的数组与字典 */ = {
+			isa = PBXGroup;
+			children = (
+				0F2523FC22314A02000D2897 /* HZThreadSafeMutableArray.h */,
+				0F2523FD22314A02000D2897 /* HZThreadSafeMutableArray.m */,
+			);
+			path = "线程安全的数组与字典";
 			sourceTree = "<group>";
 		};
 		0F307BD221F488D000EA2047 /* KVC */ = {
@@ -410,11 +436,13 @@
 				0F13F58C21C136A80087DE80 /* HZKVOViewController.m in Sources */,
 				0F42215421D4B1C700E0CE1A /* UIButton+HZ.m in Sources */,
 				0F42214221D2266600E0CE1A /* HZMethodViewController.m in Sources */,
+				0F2523FA223149A1000D2897 /* HZSetsViewController.m in Sources */,
 				0FDD1B2521EB2CD000E60DC7 /* HZCatagoryViewController.m in Sources */,
 				0FDD1B2821EB2FC300E60DC7 /* UIView+HZ.m in Sources */,
 				0F42214821D2283D00E0CE1A /* HZMethodTarget.m in Sources */,
 				0F42213B21D081DA00E0CE1A /* HZSubProperty.m in Sources */,
 				0F42213E21D0BC1B00E0CE1A /* HZProperty+HZ.m in Sources */,
+				0F2523FE22314A02000D2897 /* HZThreadSafeMutableArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

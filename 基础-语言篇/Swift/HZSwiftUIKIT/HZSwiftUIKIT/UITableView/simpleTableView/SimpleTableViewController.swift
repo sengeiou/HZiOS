@@ -10,7 +10,7 @@ import UIKit
 
 class SimpleTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    let tableView = UITableView()
+    private let tableView = UITableView()
     var dataSource:[String] = []
 
     override func viewDidLoad() {
@@ -27,18 +27,7 @@ class SimpleTableViewController: UIViewController,UITableViewDelegate,UITableVie
     }
     
     func setUp() -> Void {
-        let statusHeight = UIApplication.shared.statusBarFrame.size.height // iPhone X series： 44
-        let navHeight = self.navigationController?.navigationBar.frame.size.height // 44
-        let statusAndNavHeight = statusHeight + navHeight!
-        // iphoneX系列的底部安全区域
-        var bottomAdjust:CGFloat = 0.0
-        if #available(iOS 11.0, *) {
-            let safeArea = UIApplication.shared.keyWindow?.safeAreaInsets
-            bottomAdjust = safeArea!.bottom
-        }
-        var frame = self.view.frame
-        frame.size.height = frame.size.height  - statusAndNavHeight - bottomAdjust
-        tableView.frame = frame
+        tableView.frame = UIView.adjustScrollViewFrame(self)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.setEditing(true, animated: true)

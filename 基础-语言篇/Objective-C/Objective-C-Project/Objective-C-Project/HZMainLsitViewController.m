@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.dataSource = @[@"HZPropertyViewController",@"HZMethodViewController",@"HZCatagoryViewController",@"HZKVOViewController",@"HZKVCViewController"];
+    self.dataSource = @[@"HZPropertyViewController",@"HZMethodViewController",@"HZCatagoryViewController",@"HZKVOViewController",@"HZKVCViewController",@"HZSetsViewController"];
 }
 
 

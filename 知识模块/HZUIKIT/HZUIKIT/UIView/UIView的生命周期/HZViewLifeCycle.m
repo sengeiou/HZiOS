@@ -105,6 +105,8 @@
 -(void)setNeedsDisplay{
     [super setNeedsDisplay];
     NSLog(@"setNeedsDisplay");
+    
+    
 }
 
 - (void)drawRect:(CGRect)rect{

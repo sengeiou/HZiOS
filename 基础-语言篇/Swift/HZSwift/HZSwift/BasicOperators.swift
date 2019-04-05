@@ -18,6 +18,7 @@ class BasicOperators: NSObject {
     var bool:Bool?// 布尔类型
     var string:String?
     var array:Array<String>?
+    var array1:[Int]?
     var set:Set<String>?
     var dictionary:Dictionary<String,String>?
     // 元组 tuple =>

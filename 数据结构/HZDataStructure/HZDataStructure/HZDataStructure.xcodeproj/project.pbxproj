@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F05B9F52236059C00C702CD /* HZLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F05B9F42236059C00C702CD /* HZLinkList.m */; };
 		0F0F99CD2123130000AB6F00 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99CA2123130000AB6F00 /* Sort.m */; };
 		0F0F99CE2123130000AB6F00 /* HZSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99CC2123130000AB6F00 /* HZSort.c */; };
 		0F0F99D12123137000AB6F00 /* SortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F99D02123137000AB6F00 /* SortTest.m */; };
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F05B9F32236059C00C702CD /* HZLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HZLinkList.h; path = "../../链表/HZLinkList.h"; sourceTree = "<group>"; };
+		0F05B9F42236059C00C702CD /* HZLinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZLinkList.m; sourceTree = "<group>"; };
 		0F0F99C92123130000AB6F00 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		0F0F99CA2123130000AB6F00 /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
 		0F0F99CB2123130000AB6F00 /* HZSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSort.h; sourceTree = "<group>"; };
@@ -86,16 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F05B9F622362C1000C702CD /* 求数组中第二大的数 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "求数组中第二大的数";
+			sourceTree = "<group>";
+		};
+		0F05B9F722362C8E00C702CD /* 重新排列数组中的正值和负值 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "重新排列数组中的正值和负值";
+			sourceTree = "<group>";
+		};
 		0F0F99D2212314B500AB6F00 /* 算法题目 */ = {
 			isa = PBXGroup;
 			children = (
-				29ED1AE421242702006FD6E9 /* 无序数组求中位数 */,
-				29ED1ADC21241038006FD6E9 /* 找到字符串中第一个出现一次的字符 */,
-				29ED1AD82124050C006FD6E9 /* 合并两个有序数组 */,
-				29ED1AD4212400A3006FD6E9 /* 单链表反转 */,
-				0F0F99DE21231CEF00AB6F00 /* 字符串反转 */,
-				0F0F99D72123154E00AB6F00 /* 求两个字符串的最大公共子串 */,
-				0F0F99D62123151100AB6F00 /* 交换两个数不使用中间变量 */,
+				0F795225223F8C4000D9BCC5 /* 其他 */,
+				0F795224223F8C1700D9BCC5 /* 字符串 */,
+				0F795223223F8C0300D9BCC5 /* 链表 */,
+				0F795222223F8BD800D9BCC5 /* 数组 */,
 			);
 			path = "算法题目";
 			sourceTree = "<group>";
@@ -125,6 +139,59 @@
 				0F0F99E021231D1C00AB6F00 /* HZReverseString.m */,
 			);
 			path = "字符串反转";
+			sourceTree = "<group>";
+		};
+		0F795221223F8BBE00D9BCC5 /* 删除数组中出现的指定元素 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "删除数组中出现的指定元素";
+			sourceTree = "<group>";
+		};
+		0F795222223F8BD800D9BCC5 /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				181FB67C1DFFCAA8002198FA /* HZListTable.h */,
+				181FB67B1DFFCAA8002198FA /* HZListTable.c */,
+				0F795221223F8BBE00D9BCC5 /* 删除数组中出现的指定元素 */,
+				0F05B9F722362C8E00C702CD /* 重新排列数组中的正值和负值 */,
+				0F05B9F622362C1000C702CD /* 求数组中第二大的数 */,
+				29ED1AD82124050C006FD6E9 /* 合并两个有序数组 */,
+				29ED1AE421242702006FD6E9 /* 无序数组求中位数 */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		0F795223223F8C0300D9BCC5 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				0F05B9F32236059C00C702CD /* HZLinkList.h */,
+				0F05B9F42236059C00C702CD /* HZLinkList.m */,
+				298AD7F120C4E25C00782C55 /* HZDLinkList.h */,
+				298AD7F220C4E25C00782C55 /* HZDLinkList.c */,
+				181FB67F1E00D93C002198FA /* HZLinkList.h */,
+				181FB67E1E00D93C002198FA /* HZLinkList.c */,
+				29ED1AD4212400A3006FD6E9 /* 单链表反转 */,
+				29ED1ADC21241038006FD6E9 /* 找到字符串中第一个出现一次的字符 */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		0F795224223F8C1700D9BCC5 /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99DE21231CEF00AB6F00 /* 字符串反转 */,
+				0F0F99D72123154E00AB6F00 /* 求两个字符串的最大公共子串 */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
+		0F795225223F8C4000D9BCC5 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F99D62123151100AB6F00 /* 交换两个数不使用中间变量 */,
+			);
+			path = "其他";
 			sourceTree = "<group>";
 		};
 		0F9834C41EEE198C00FE3524 /* 排序 */ = {
@@ -166,12 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				181FB6711DFF8A59002198FA /* main.m */,
-				181FB67C1DFFCAA8002198FA /* HZListTable.h */,
-				181FB67B1DFFCAA8002198FA /* HZListTable.c */,
-				181FB67F1E00D93C002198FA /* HZLinkList.h */,
-				181FB67E1E00D93C002198FA /* HZLinkList.c */,
-				298AD7F120C4E25C00782C55 /* HZDLinkList.h */,
-				298AD7F220C4E25C00782C55 /* HZDLinkList.c */,
 				0F9834C41EEE198C00FE3524 /* 排序 */,
 				0F0F99D2212314B500AB6F00 /* 算法题目 */,
 			);
@@ -276,6 +337,7 @@
 				0F0F99E121231D1C00AB6F00 /* HZReverseString.m in Sources */,
 				0F0F99DD212315A000AB6F00 /* HZString.m in Sources */,
 				181FB6721DFF8A59002198FA /* main.m in Sources */,
+				0F05B9F52236059C00C702CD /* HZLinkList.m in Sources */,
 				0F0F99CE2123130000AB6F00 /* HZSort.c in Sources */,
 				29ED1AD7212400A3006FD6E9 /* HZReverseLinkList.m in Sources */,
 				0F0F99DA2123156500AB6F00 /* HZExchangeTwoNumber.m in Sources */,

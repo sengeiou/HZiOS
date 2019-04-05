@@ -27,6 +27,13 @@
 		0F03A0BF217DBD3C001DC698 /* HZTextKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0BE217DBD3C001DC698 /* HZTextKitViewController.swift */; };
 		0F03A0C1217DFCA6001DC698 /* HZCoreImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03A0C0217DFCA6001DC698 /* HZCoreImageViewController.swift */; };
 		0F1480881E8A2C8900457C4F /* HZCoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1480871E8A2C8900457C4F /* HZCoreAnimationViewController.swift */; };
+		0F7951C522389B1300D9BCC5 /* HZNewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951C422389B1300D9BCC5 /* HZNewsListViewController.swift */; };
+		0F7951C722389C4D00D9BCC5 /* HZNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951C622389C4D00D9BCC5 /* HZNewsTableViewCell.swift */; };
+		0F7951C922389FF400D9BCC5 /* HZNewsFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951C822389FF400D9BCC5 /* HZNewsFrame.swift */; };
+		0F7951CB2238A03000D9BCC5 /* HZNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951CA2238A03000D9BCC5 /* HZNews.swift */; };
+		0F7951CD2238D62C00D9BCC5 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951CC2238D62C00D9BCC5 /* avatar.png */; };
+		0F7951CF2238D70500D9BCC5 /* content.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951CE2238D70500D9BCC5 /* content.png */; };
+		0F7951D622392ABE00D9BCC5 /* HZMVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951D522392ABE00D9BCC5 /* HZMVVMViewController.swift */; };
 		0FB5AC2921815E7E008AD06D /* Image+Extenssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC2821815E7E008AD06D /* Image+Extenssion.swift */; };
 		0FB5AC2C2181673A008AD06D /* HZUITestAndAutoTestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC2B2181673A008AD06D /* HZUITestAndAutoTestingViewController.swift */; };
 		0FB5AC2E21816D73008AD06D /* EmailUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5AC2D21816D73008AD06D /* EmailUtil.swift */; };
@@ -80,6 +87,7 @@
 		29E5A7C92105819D00B298D1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A7C82105819D00B298D1 /* Contact.swift */; };
 		29E5A7CB2105B68500B298D1 /* WeiboTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A7CA2105B68500B298D1 /* WeiboTableViewCell.swift */; };
 		29E5A7CD2105B96200B298D1 /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A7CC2105B96200B298D1 /* Weibo.swift */; };
+		E1A96347D2C2E68FFA54A82C /* Pods_HZSwiftUIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC45B7080DD0DB689951F540 /* Pods_HZSwiftUIKIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +128,13 @@
 		0F03A0BE217DBD3C001DC698 /* HZTextKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZTextKitViewController.swift; sourceTree = "<group>"; };
 		0F03A0C0217DFCA6001DC698 /* HZCoreImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCoreImageViewController.swift; sourceTree = "<group>"; };
 		0F1480871E8A2C8900457C4F /* HZCoreAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZCoreAnimationViewController.swift; sourceTree = "<group>"; };
+		0F7951C422389B1300D9BCC5 /* HZNewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNewsListViewController.swift; sourceTree = "<group>"; };
+		0F7951C622389C4D00D9BCC5 /* HZNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNewsTableViewCell.swift; sourceTree = "<group>"; };
+		0F7951C822389FF400D9BCC5 /* HZNewsFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNewsFrame.swift; sourceTree = "<group>"; };
+		0F7951CA2238A03000D9BCC5 /* HZNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNews.swift; sourceTree = "<group>"; };
+		0F7951CC2238D62C00D9BCC5 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		0F7951CE2238D70500D9BCC5 /* content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content.png; sourceTree = "<group>"; };
+		0F7951D522392ABE00D9BCC5 /* HZMVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZMVVMViewController.swift; sourceTree = "<group>"; };
 		0FB5AC2821815E7E008AD06D /* Image+Extenssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extenssion.swift"; sourceTree = "<group>"; };
 		0FB5AC2B2181673A008AD06D /* HZUITestAndAutoTestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUITestAndAutoTestingViewController.swift; sourceTree = "<group>"; };
 		0FB5AC2D21816D73008AD06D /* EmailUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUtil.swift; sourceTree = "<group>"; };
@@ -179,6 +194,9 @@
 		29E5A7C82105819D00B298D1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		29E5A7CA2105B68500B298D1 /* WeiboTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboTableViewCell.swift; sourceTree = "<group>"; };
 		29E5A7CC2105B96200B298D1 /* Weibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weibo.swift; sourceTree = "<group>"; };
+		44EA364C15D528AC34F1942D /* Pods-HZSwiftUIKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSwiftUIKIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZSwiftUIKIT/Pods-HZSwiftUIKIT.release.xcconfig"; sourceTree = "<group>"; };
+		6C25F29008095A57AECE5BAB /* Pods-HZSwiftUIKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSwiftUIKIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZSwiftUIKIT/Pods-HZSwiftUIKIT.debug.xcconfig"; sourceTree = "<group>"; };
+		CC45B7080DD0DB689951F540 /* Pods_HZSwiftUIKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZSwiftUIKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A96347D2C2E68FFA54A82C /* Pods_HZSwiftUIKIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +300,59 @@
 				0F1480871E8A2C8900457C4F /* HZCoreAnimationViewController.swift */,
 			);
 			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		0F7951C322389AF300D9BCC5 /* 自定义cell展示图文-cell不等高 */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951CE2238D70500D9BCC5 /* content.png */,
+				0F7951CC2238D62C00D9BCC5 /* avatar.png */,
+				0F7951C422389B1300D9BCC5 /* HZNewsListViewController.swift */,
+				0F7951C622389C4D00D9BCC5 /* HZNewsTableViewCell.swift */,
+				0F7951C822389FF400D9BCC5 /* HZNewsFrame.swift */,
+				0F7951CA2238A03000D9BCC5 /* HZNews.swift */,
+			);
+			path = "自定义cell展示图文-cell不等高";
+			sourceTree = "<group>";
+		};
+		0F7951D022392A5F00D9BCC5 /* MVC&MVP&MVVM&VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951D122392A9C00D9BCC5 /* MVC */,
+				0F7951D322392A9D00D9BCC5 /* MVP */,
+				0F7951D422392A9D00D9BCC5 /* MVVM */,
+				0F7951D222392A9D00D9BCC5 /* VIPER */,
+			);
+			path = "MVC&MVP&MVVM&VIPER";
+			sourceTree = "<group>";
+		};
+		0F7951D122392A9C00D9BCC5 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		0F7951D222392A9D00D9BCC5 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		0F7951D322392A9D00D9BCC5 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		0F7951D422392A9D00D9BCC5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951D522392ABE00D9BCC5 /* HZMVVMViewController.swift */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		0FB5AC2A21816717008AD06D /* 界面测试和自动化测试 */ = {
@@ -433,30 +505,22 @@
 			path = simpleTableView;
 			sourceTree = "<group>";
 		};
-		0FDF8C802172D72500935163 /* TableViewInCell */ = {
+		0FDF8C802172D72500935163 /* TableViewInCell-自定义 */ = {
 			isa = PBXGroup;
 			children = (
 				0FDF8C812172D73E00935163 /* TableViewInCellViewController.swift */,
 				0FDF8C832172D7D100935163 /* TableViewInCell.swift */,
 			);
-			path = TableViewInCell;
-			sourceTree = "<group>";
-		};
-		182B66381E727F5F004F3B25 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				182B663B1E727FA6004F3B25 /* HZPersonModel.swift */,
-			);
-			path = Model;
+			path = "TableViewInCell-自定义";
 			sourceTree = "<group>";
 		};
 		188014871DC74AB900D775C5 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				0F7951C322389AF300D9BCC5 /* 自定义cell展示图文-cell不等高 */,
 				0FDF8C7D216F42A400935163 /* simpleTableView */,
-				0FDF8C802172D72500935163 /* TableViewInCell */,
-				29E5A7C321057CE700B298D1 /* Contacts */,
-				182B66381E727F5F004F3B25 /* Model */,
+				0FDF8C802172D72500935163 /* TableViewInCell-自定义 */,
+				29E5A7C321057CE700B298D1 /* Contacts-通讯录索引 */,
 				188014881DC74B0D00D775C5 /* HZTableViewController.swift */,
 				1880148A1DC74B4E00D775C5 /* HZTableBaseViewController.swift */,
 			);
@@ -480,6 +544,8 @@
 				18EC1B491DC72DE6006F72A9 /* HZSwiftUIKITTests */,
 				18EC1B541DC72DE6006F72A9 /* HZSwiftUIKITUITests */,
 				18EC1B331DC72DE5006F72A9 /* Products */,
+				D81F987FCADD336DDF48227D /* Pods */,
+				F18CA72C2D5533571E84C5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -523,6 +589,7 @@
 				0FB5AC4E2181DB74008AD06D /* App优化 */,
 				0FB5AC512181DCC2008AD06D /* 问题列表总结 */,
 				0FB5AC542182E713008AD06D /* 工具使用篇 */,
+				0F7951D022392A5F00D9BCC5 /* MVC&MVP&MVVM&VIPER */,
 				18EC1B3C1DC72DE5006F72A9 /* Assets.xcassets */,
 				18EC1B3E1DC72DE5006F72A9 /* LaunchScreen.storyboard */,
 				18EC1B411DC72DE5006F72A9 /* Info.plist */,
@@ -568,16 +635,34 @@
 			path = "UIButton&UITextFiled";
 			sourceTree = "<group>";
 		};
-		29E5A7C321057CE700B298D1 /* Contacts */ = {
+		29E5A7C321057CE700B298D1 /* Contacts-通讯录索引 */ = {
 			isa = PBXGroup;
 			children = (
 				29E5A7C421057D0500B298D1 /* HZContactsViewController.swift */,
 				29E5A7C621057DAC00B298D1 /* ContactGroup.swift */,
+				182B663B1E727FA6004F3B25 /* HZPersonModel.swift */,
 				29E5A7C82105819D00B298D1 /* Contact.swift */,
 				29E5A7CA2105B68500B298D1 /* WeiboTableViewCell.swift */,
 				29E5A7CC2105B96200B298D1 /* Weibo.swift */,
 			);
-			path = Contacts;
+			path = "Contacts-通讯录索引";
+			sourceTree = "<group>";
+		};
+		D81F987FCADD336DDF48227D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C25F29008095A57AECE5BAB /* Pods-HZSwiftUIKIT.debug.xcconfig */,
+				44EA364C15D528AC34F1942D /* Pods-HZSwiftUIKIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F18CA72C2D5533571E84C5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC45B7080DD0DB689951F540 /* Pods_HZSwiftUIKIT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,9 +672,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18EC1B5A1DC72DE6006F72A9 /* Build configuration list for PBXNativeTarget "HZSwiftUIKIT" */;
 			buildPhases = (
+				0F0445B3662A17B81FEFBE1F /* [CP] Check Pods Manifest.lock */,
 				18EC1B2E1DC72DE5006F72A9 /* Sources */,
 				18EC1B2F1DC72DE5006F72A9 /* Frameworks */,
 				18EC1B301DC72DE5006F72A9 /* Resources */,
+				DAE7BE5D4DD73F3E426E763F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -691,8 +778,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7951CD2238D62C00D9BCC5 /* avatar.png in Resources */,
 				18EC1B401DC72DE5006F72A9 /* LaunchScreen.storyboard in Resources */,
 				0FB5AC362181956B008AD06D /* desktop.png in Resources */,
+				0F7951CF2238D70500D9BCC5 /* content.png in Resources */,
 				18EC1B3D1DC72DE5006F72A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +802,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0445B3662A17B81FEFBE1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZSwiftUIKIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE7BE5D4DD73F3E426E763F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HZSwiftUIKIT/Pods-HZSwiftUIKIT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/JXMarqueeView/JXMarqueeView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LTScrollView/LTScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXMarqueeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZSwiftUIKIT/Pods-HZSwiftUIKIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18EC1B2E1DC72DE5006F72A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -727,6 +893,7 @@
 				0FDF8C77216EE76700935163 /* SecondViewController.swift in Sources */,
 				0F03A0BF217DBD3C001DC698 /* HZTextKitViewController.swift in Sources */,
 				0FB5AC5A21840285008AD06D /* HZCocoapodsViewController.swift in Sources */,
+				0F7951CB2238A03000D9BCC5 /* HZNews.swift in Sources */,
 				0F03A0B9217DAD30001DC698 /* HZCoreTextViewController.swift in Sources */,
 				0FDF8C71216DA83C00935163 /* HZViewController.swift in Sources */,
 				0F03A0972178741C001DC698 /* HZSoundAndAudioViewController.swift in Sources */,
@@ -734,6 +901,7 @@
 				0F03A0BD217DB936001DC698 /* CTImageView.swift in Sources */,
 				29E5A7C92105819D00B298D1 /* Contact.swift in Sources */,
 				0FDF8C7C216F1A9300935163 /* UIControlVC.swift in Sources */,
+				0F7951C722389C4D00D9BCC5 /* HZNewsTableViewCell.swift in Sources */,
 				0F03A0C1217DFCA6001DC698 /* HZCoreImageViewController.swift in Sources */,
 				0F03A0B6217D674B001DC698 /* HZGCDViewController.swift in Sources */,
 				0FDF8C822172D73E00935163 /* TableViewInCellViewController.swift in Sources */,
@@ -745,6 +913,7 @@
 				0F03A0AE2179C552001DC698 /* HZMultiThreadViewController.swift in Sources */,
 				0FB5AC392181A8E0008AD06D /* HZInstrumentsViewController.swift in Sources */,
 				0F1480881E8A2C8900457C4F /* HZCoreAnimationViewController.swift in Sources */,
+				0F7951C522389B1300D9BCC5 /* HZNewsListViewController.swift in Sources */,
 				0FDF8C75216EE75B00935163 /* FirstViewController.swift in Sources */,
 				0FDF8C7A216F1A5B00935163 /* HZControlViewController.swift in Sources */,
 				0F03A0B2217D63E0001DC698 /* HZThreadLockViewController.swift in Sources */,
@@ -759,7 +928,9 @@
 				1880148B1DC74B4E00D775C5 /* HZTableBaseViewController.swift in Sources */,
 				0FB5AC432181BEFB008AD06D /* HZLeaksViewController.swift in Sources */,
 				18C1971D1E289F8700084761 /* HZLableViewController.swift in Sources */,
+				0F7951D622392ABE00D9BCC5 /* HZMVVMViewController.swift in Sources */,
 				2982CEFF20E478490050CA96 /* HZLoginViewController.swift in Sources */,
+				0F7951C922389FF400D9BCC5 /* HZNewsFrame.swift in Sources */,
 				0FDD1B2121E7855F00E60DC7 /* HZLabel.swift in Sources */,
 				0FBAB61421F6E81500F379FB /* HZScrollViewController.swift in Sources */,
 				0FB5AC402181B4E8008AD06D /* HZAllocationsViewController.swift in Sources */,
@@ -943,6 +1114,7 @@
 		};
 		18EC1B5B1DC72DE6006F72A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C25F29008095A57AECE5BAB /* Pods-HZSwiftUIKIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G6ZZ3RH97V;
@@ -957,6 +1129,7 @@
 		};
 		18EC1B5C1DC72DE6006F72A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EA364C15D528AC34F1942D /* Pods-HZSwiftUIKIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G6ZZ3RH97V;

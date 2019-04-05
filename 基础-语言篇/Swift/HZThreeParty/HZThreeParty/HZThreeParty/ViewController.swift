@@ -25,7 +25,7 @@ class ViewController: HZListViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dataSource = ["HZAlamofireViewController"]
+        dataSource = ["HZAlamofireViewController","HZMoyaViewController"]
     }
 
     override func didReceiveMemoryWarning() {

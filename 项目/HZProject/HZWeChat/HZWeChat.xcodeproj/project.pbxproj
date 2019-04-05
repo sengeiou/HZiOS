@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291B8B2C20DA36FA003507C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B2B20DA36FA003507C0 /* AppDelegate.m */; };
+		291B8B3420DA36FA003507C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B3320DA36FA003507C0 /* Assets.xcassets */; };
+		291B8B3720DA36FA003507C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B3520DA36FA003507C0 /* LaunchScreen.storyboard */; };
+		291B8B3A20DA36FA003507C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B3920DA36FA003507C0 /* main.m */; };
+		291B8B4420DA36FB003507C0 /* HZWeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B4320DA36FB003507C0 /* HZWeChatTests.m */; };
+		291B8B4F20DA36FB003507C0 /* HZWeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B4E20DA36FB003507C0 /* HZWeChatUITests.m */; };
+		291B8B7720DA3A84003507C0 /* HZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B7620DA3A84003507C0 /* HZTabBarViewController.m */; };
+		291B8B7A20DA3AB6003507C0 /* HZWeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B7920DA3AB6003507C0 /* HZWeChatViewController.m */; };
+		291B8B7D20DA3ACA003507C0 /* HZContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B7C20DA3ACA003507C0 /* HZContactViewController.m */; };
+		291B8B8020DA3AE2003507C0 /* HZDicoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B7F20DA3AE2003507C0 /* HZDicoverViewController.m */; };
+		291B8B8320DA3B02003507C0 /* HZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B8220DA3B02003507C0 /* HZMineViewController.m */; };
+		291B8B8520DA3D6A003507C0 /* WeChat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B8420DA3D6A003507C0 /* WeChat.xcassets */; };
+		291B8B8720DA3D7F003507C0 /* Contact.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B8620DA3D7F003507C0 /* Contact.xcassets */; };
+		291B8B8920DA3D96003507C0 /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B8820DA3D96003507C0 /* Discover.xcassets */; };
+		291B8B8B20DA3DA8003507C0 /* Mine.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B8A20DA3DA8003507C0 /* Mine.xcassets */; };
+		291B8B9020DA415B003507C0 /* UIColor+HZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B8F20DA415B003507C0 /* UIColor+HZ.m */; };
+		291B8B9720DA4751003507C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 291B8B9920DA4751003507C0 /* Localizable.strings */; };
+		291B8B9D20DA488C003507C0 /* HZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B9C20DA488C003507C0 /* HZNavigationController.m */; };
+		291B8BA020DA48B8003507C0 /* UIFont+HZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8B9F20DA48B8003507C0 /* UIFont+HZ.m */; };
+		291B8BA320DA4B40003507C0 /* WeChat开发日志.md in Resources */ = {isa = PBXBuildFile; fileRef = 291B8BA220DA4B3F003507C0 /* WeChat开发日志.md */; };
+		291B8BAC20DA4F47003507C0 /* HZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BAB20DA4F47003507C0 /* HZLoginViewController.m */; };
+		291B8BAF20DA4F5B003507C0 /* HZRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BAE20DA4F5B003507C0 /* HZRegisterViewController.m */; };
+		291B8BBB20DA5AC4003507C0 /* BQHTTPURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BB120DA5AC0003507C0 /* BQHTTPURLRequest.m */; };
+		291B8BBD20DA5AC4003507C0 /* BQHTTPRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BB520DA5AC1003507C0 /* BQHTTPRequestModel.m */; };
+		291B8BBE20DA5AC4003507C0 /* BQHTTPServerPathConfige.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BB620DA5AC2003507C0 /* BQHTTPServerPathConfige.m */; };
+		291B8BBF20DA5AC4003507C0 /* BQHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BBA20DA5AC3003507C0 /* BQHTTPManager.m */; };
+		291B8BC320DA600D003507C0 /* HZLoginAndRegisterLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B8BC220DA600D003507C0 /* HZLoginAndRegisterLogic.m */; };
+		35A51385AFABF94E42AE882C /* libPods-HZWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15339BB4D9A01F81E5E59329 /* libPods-HZWeChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		291B8B4020DA36FB003507C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291B8B1F20DA36FA003507C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291B8B2620DA36FA003507C0;
+			remoteInfo = HZWeChat;
+		};
+		291B8B4B20DA36FB003507C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291B8B1F20DA36FA003507C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291B8B2620DA36FA003507C0;
+			remoteInfo = HZWeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15339BB4D9A01F81E5E59329 /* libPods-HZWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B8B2720DA36FA003507C0 /* HZWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B8B2A20DA36FA003507C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		291B8B2B20DA36FA003507C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		291B8B3320DA36FA003507C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291B8B3620DA36FA003507C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		291B8B3820DA36FA003507C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B8B3920DA36FA003507C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		291B8B3F20DA36FB003507C0 /* HZWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZWeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B8B4320DA36FB003507C0 /* HZWeChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZWeChatTests.m; sourceTree = "<group>"; };
+		291B8B4520DA36FB003507C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B8B4A20DA36FB003507C0 /* HZWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B8B4E20DA36FB003507C0 /* HZWeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZWeChatUITests.m; sourceTree = "<group>"; };
+		291B8B5020DA36FB003507C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B8B7520DA3A84003507C0 /* HZTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTabBarViewController.h; sourceTree = "<group>"; };
+		291B8B7620DA3A84003507C0 /* HZTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabBarViewController.m; sourceTree = "<group>"; };
+		291B8B7820DA3AB6003507C0 /* HZWeChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZWeChatViewController.h; sourceTree = "<group>"; };
+		291B8B7920DA3AB6003507C0 /* HZWeChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZWeChatViewController.m; sourceTree = "<group>"; };
+		291B8B7B20DA3ACA003507C0 /* HZContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZContactViewController.h; sourceTree = "<group>"; };
+		291B8B7C20DA3ACA003507C0 /* HZContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZContactViewController.m; sourceTree = "<group>"; };
+		291B8B7E20DA3AE2003507C0 /* HZDicoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZDicoverViewController.h; sourceTree = "<group>"; };
+		291B8B7F20DA3AE2003507C0 /* HZDicoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZDicoverViewController.m; sourceTree = "<group>"; };
+		291B8B8120DA3B02003507C0 /* HZMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZMineViewController.h; sourceTree = "<group>"; };
+		291B8B8220DA3B02003507C0 /* HZMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZMineViewController.m; sourceTree = "<group>"; };
+		291B8B8420DA3D6A003507C0 /* WeChat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WeChat.xcassets; sourceTree = "<group>"; };
+		291B8B8620DA3D7F003507C0 /* Contact.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Contact.xcassets; sourceTree = "<group>"; };
+		291B8B8820DA3D96003507C0 /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		291B8B8A20DA3DA8003507C0 /* Mine.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Mine.xcassets; sourceTree = "<group>"; };
+		291B8B8E20DA415B003507C0 /* UIColor+HZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HZ.h"; sourceTree = "<group>"; };
+		291B8B8F20DA415B003507C0 /* UIColor+HZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HZ.m"; sourceTree = "<group>"; };
+		291B8B9220DA418A003507C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		291B8B9420DA4316003507C0 /* HZMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZMacros.h; sourceTree = "<group>"; };
+		291B8B9820DA4751003507C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		291B8B9A20DA4760003507C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		291B8B9B20DA488C003507C0 /* HZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZNavigationController.h; sourceTree = "<group>"; };
+		291B8B9C20DA488C003507C0 /* HZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNavigationController.m; sourceTree = "<group>"; };
+		291B8B9E20DA48B8003507C0 /* UIFont+HZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+HZ.h"; sourceTree = "<group>"; };
+		291B8B9F20DA48B8003507C0 /* UIFont+HZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HZ.m"; sourceTree = "<group>"; };
+		291B8BA120DA49BD003507C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		291B8BA220DA4B3F003507C0 /* WeChat开发日志.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "WeChat开发日志.md"; sourceTree = "<group>"; };
+		291B8BAA20DA4F47003507C0 /* HZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZLoginViewController.h; sourceTree = "<group>"; };
+		291B8BAB20DA4F47003507C0 /* HZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZLoginViewController.m; sourceTree = "<group>"; };
+		291B8BAD20DA4F5B003507C0 /* HZRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRegisterViewController.h; sourceTree = "<group>"; };
+		291B8BAE20DA4F5B003507C0 /* HZRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRegisterViewController.m; sourceTree = "<group>"; };
+		291B8BB120DA5AC0003507C0 /* BQHTTPURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQHTTPURLRequest.m; sourceTree = "<group>"; };
+		291B8BB420DA5AC1003507C0 /* BQHTTPRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQHTTPRequestModel.h; sourceTree = "<group>"; };
+		291B8BB520DA5AC1003507C0 /* BQHTTPRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQHTTPRequestModel.m; sourceTree = "<group>"; };
+		291B8BB620DA5AC2003507C0 /* BQHTTPServerPathConfige.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQHTTPServerPathConfige.m; sourceTree = "<group>"; };
+		291B8BB720DA5AC2003507C0 /* BQHTTPServerPathConfige.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQHTTPServerPathConfige.h; sourceTree = "<group>"; };
+		291B8BB820DA5AC3003507C0 /* BQHTTPURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQHTTPURLRequest.h; sourceTree = "<group>"; };
+		291B8BB920DA5AC3003507C0 /* BQHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQHTTPManager.h; sourceTree = "<group>"; };
+		291B8BBA20DA5AC3003507C0 /* BQHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQHTTPManager.m; sourceTree = "<group>"; };
+		291B8BC120DA600D003507C0 /* HZLoginAndRegisterLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZLoginAndRegisterLogic.h; sourceTree = "<group>"; };
+		291B8BC220DA600D003507C0 /* HZLoginAndRegisterLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZLoginAndRegisterLogic.m; sourceTree = "<group>"; };
+		291B8BC420DA616C003507C0 /* HZServerAPICode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZServerAPICode.h; sourceTree = "<group>"; };
+		51E634E15C74B213376E135A /* Pods-HZWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZWeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZWeChat/Pods-HZWeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA6EB29814CAE0A760EDA30 /* Pods-HZWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZWeChat/Pods-HZWeChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291B8B2420DA36FA003507C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A51385AFABF94E42AE882C /* libPods-HZWeChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B3C20DA36FB003507C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B4720DA36FB003507C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291B8B1E20DA36FA003507C0 = {
+			isa = PBXGroup;
+			children = (
+				291B8B2920DA36FA003507C0 /* HZWeChat */,
+				291B8B4220DA36FB003507C0 /* HZWeChatTests */,
+				291B8B4D20DA36FB003507C0 /* HZWeChatUITests */,
+				291B8B2820DA36FA003507C0 /* Products */,
+				769A0784CC3BA5D6515180BC /* Pods */,
+				A25245F4FEB4A7D009E85EED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		291B8B2820DA36FA003507C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B2720DA36FA003507C0 /* HZWeChat.app */,
+				291B8B3F20DA36FB003507C0 /* HZWeChatTests.xctest */,
+				291B8B4A20DA36FB003507C0 /* HZWeChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291B8B2920DA36FA003507C0 /* HZWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				291B8BA220DA4B3F003507C0 /* WeChat开发日志.md */,
+				291B8B2A20DA36FA003507C0 /* AppDelegate.h */,
+				291B8B2B20DA36FA003507C0 /* AppDelegate.m */,
+				291B8B7420DA3A56003507C0 /* BaseClass */,
+				291B8B6E20DA390F003507C0 /* WeChat--微信 */,
+				291B8B6220DA38F9003507C0 /* Contact--通讯录 */,
+				291B8B5C20DA38F9003507C0 /* Discover--发现 */,
+				291B8B6820DA3907003507C0 /* Mine--我的 */,
+				291B8BA420DA4F22003507C0 /* Login&Register--登录注册 */,
+				291B8B3320DA36FA003507C0 /* Assets.xcassets */,
+				291B8B3520DA36FA003507C0 /* LaunchScreen.storyboard */,
+				291B8B3820DA36FA003507C0 /* Info.plist */,
+				291B8B3920DA36FA003507C0 /* main.m */,
+				291B8B9220DA418A003507C0 /* PrefixHeader.pch */,
+				291B8B9920DA4751003507C0 /* Localizable.strings */,
+			);
+			path = HZWeChat;
+			sourceTree = "<group>";
+		};
+		291B8B4220DA36FB003507C0 /* HZWeChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B4320DA36FB003507C0 /* HZWeChatTests.m */,
+				291B8B4520DA36FB003507C0 /* Info.plist */,
+			);
+			path = HZWeChatTests;
+			sourceTree = "<group>";
+		};
+		291B8B4D20DA36FB003507C0 /* HZWeChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B4E20DA36FB003507C0 /* HZWeChatUITests.m */,
+				291B8B5020DA36FB003507C0 /* Info.plist */,
+			);
+			path = HZWeChatUITests;
+			sourceTree = "<group>";
+		};
+		291B8B5C20DA38F9003507C0 /* Discover--发现 */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B5D20DA38F9003507C0 /* VC */,
+				291B8B5E20DA38F9003507C0 /* SubModules */,
+				291B8B5F20DA38F9003507C0 /* Model */,
+				291B8B6020DA38F9003507C0 /* View */,
+				291B8B6120DA38F9003507C0 /* Resource */,
+			);
+			path = "Discover--发现";
+			sourceTree = "<group>";
+		};
+		291B8B5D20DA38F9003507C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B7E20DA3AE2003507C0 /* HZDicoverViewController.h */,
+				291B8B7F20DA3AE2003507C0 /* HZDicoverViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		291B8B5E20DA38F9003507C0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		291B8B5F20DA38F9003507C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291B8B6020DA38F9003507C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291B8B6120DA38F9003507C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8820DA3D96003507C0 /* Discover.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		291B8B6220DA38F9003507C0 /* Contact--通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B6320DA38F9003507C0 /* VC */,
+				291B8B6420DA38F9003507C0 /* SubModules */,
+				291B8B6520DA38F9003507C0 /* Model */,
+				291B8B6620DA38F9003507C0 /* View */,
+				291B8B6720DA38F9003507C0 /* Resource */,
+			);
+			path = "Contact--通讯录";
+			sourceTree = "<group>";
+		};
+		291B8B6320DA38F9003507C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B7B20DA3ACA003507C0 /* HZContactViewController.h */,
+				291B8B7C20DA3ACA003507C0 /* HZContactViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		291B8B6420DA38F9003507C0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		291B8B6520DA38F9003507C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291B8B6620DA38F9003507C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291B8B6720DA38F9003507C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8620DA3D7F003507C0 /* Contact.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		291B8B6820DA3907003507C0 /* Mine--我的 */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B6920DA3907003507C0 /* VC */,
+				291B8B6A20DA3907003507C0 /* SubModules */,
+				291B8B6B20DA3907003507C0 /* Model */,
+				291B8B6C20DA3907003507C0 /* View */,
+				291B8B6D20DA3907003507C0 /* Resource */,
+			);
+			path = "Mine--我的";
+			sourceTree = "<group>";
+		};
+		291B8B6920DA3907003507C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8120DA3B02003507C0 /* HZMineViewController.h */,
+				291B8B8220DA3B02003507C0 /* HZMineViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		291B8B6A20DA3907003507C0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		291B8B6B20DA3907003507C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291B8B6C20DA3907003507C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291B8B6D20DA3907003507C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8A20DA3DA8003507C0 /* Mine.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		291B8B6E20DA390F003507C0 /* WeChat--微信 */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B6F20DA390F003507C0 /* VC */,
+				291B8B7020DA390F003507C0 /* SubModules */,
+				291B8B7120DA390F003507C0 /* Model */,
+				291B8B7220DA390F003507C0 /* View */,
+				291B8B7320DA390F003507C0 /* Resource */,
+			);
+			path = "WeChat--微信";
+			sourceTree = "<group>";
+		};
+		291B8B6F20DA390F003507C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B7820DA3AB6003507C0 /* HZWeChatViewController.h */,
+				291B8B7920DA3AB6003507C0 /* HZWeChatViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		291B8B7020DA390F003507C0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		291B8B7120DA390F003507C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291B8B7220DA390F003507C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291B8B7320DA390F003507C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8420DA3D6A003507C0 /* WeChat.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		291B8B7420DA3A56003507C0 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B9320DA42CD003507C0 /* HZMacros */,
+				291B8B8D20DA4111003507C0 /* HZCatagory */,
+				291B8B8C20DA40F1003507C0 /* HZBaseViewController */,
+				291B8BB020DA5AA1003507C0 /* HZNetWorkManager */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		291B8B8C20DA40F1003507C0 /* HZBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B7520DA3A84003507C0 /* HZTabBarViewController.h */,
+				291B8B7620DA3A84003507C0 /* HZTabBarViewController.m */,
+				291B8B9B20DA488C003507C0 /* HZNavigationController.h */,
+				291B8B9C20DA488C003507C0 /* HZNavigationController.m */,
+			);
+			path = HZBaseViewController;
+			sourceTree = "<group>";
+		};
+		291B8B8D20DA4111003507C0 /* HZCatagory */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B8E20DA415B003507C0 /* UIColor+HZ.h */,
+				291B8B8F20DA415B003507C0 /* UIColor+HZ.m */,
+				291B8B9E20DA48B8003507C0 /* UIFont+HZ.h */,
+				291B8B9F20DA48B8003507C0 /* UIFont+HZ.m */,
+			);
+			name = HZCatagory;
+			path = HZWeChat/BaseClass/HZCatagory;
+			sourceTree = SOURCE_ROOT;
+		};
+		291B8B9320DA42CD003507C0 /* HZMacros */ = {
+			isa = PBXGroup;
+			children = (
+				291B8B9420DA4316003507C0 /* HZMacros.h */,
+				291B8BC420DA616C003507C0 /* HZServerAPICode.h */,
+			);
+			path = HZMacros;
+			sourceTree = "<group>";
+		};
+		291B8BA420DA4F22003507C0 /* Login&Register--登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				291B8BC020DA5FE0003507C0 /* Logic */,
+				291B8BA520DA4F23003507C0 /* VC */,
+				291B8BA620DA4F23003507C0 /* SubModules */,
+				291B8BA720DA4F23003507C0 /* Model */,
+				291B8BA820DA4F23003507C0 /* View */,
+				291B8BA920DA4F23003507C0 /* Resource */,
+			);
+			path = "Login&Register--登录注册";
+			sourceTree = "<group>";
+		};
+		291B8BA520DA4F23003507C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				291B8BAA20DA4F47003507C0 /* HZLoginViewController.h */,
+				291B8BAB20DA4F47003507C0 /* HZLoginViewController.m */,
+				291B8BAD20DA4F5B003507C0 /* HZRegisterViewController.h */,
+				291B8BAE20DA4F5B003507C0 /* HZRegisterViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		291B8BA620DA4F23003507C0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		291B8BA720DA4F23003507C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291B8BA820DA4F23003507C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291B8BA920DA4F23003507C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		291B8BB020DA5AA1003507C0 /* HZNetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				291B8BB920DA5AC3003507C0 /* BQHTTPManager.h */,
+				291B8BBA20DA5AC3003507C0 /* BQHTTPManager.m */,
+				291B8BB420DA5AC1003507C0 /* BQHTTPRequestModel.h */,
+				291B8BB520DA5AC1003507C0 /* BQHTTPRequestModel.m */,
+				291B8BB720DA5AC2003507C0 /* BQHTTPServerPathConfige.h */,
+				291B8BB620DA5AC2003507C0 /* BQHTTPServerPathConfige.m */,
+				291B8BB820DA5AC3003507C0 /* BQHTTPURLRequest.h */,
+				291B8BB120DA5AC0003507C0 /* BQHTTPURLRequest.m */,
+			);
+			path = HZNetWorkManager;
+			sourceTree = "<group>";
+		};
+		291B8BC020DA5FE0003507C0 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				291B8BC120DA600D003507C0 /* HZLoginAndRegisterLogic.h */,
+				291B8BC220DA600D003507C0 /* HZLoginAndRegisterLogic.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		769A0784CC3BA5D6515180BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51E634E15C74B213376E135A /* Pods-HZWeChat.debug.xcconfig */,
+				FCA6EB29814CAE0A760EDA30 /* Pods-HZWeChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A25245F4FEB4A7D009E85EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15339BB4D9A01F81E5E59329 /* libPods-HZWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291B8B2620DA36FA003507C0 /* HZWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B8B5320DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChat" */;
+			buildPhases = (
+				2DF3295E244F14E66BD0888A /* [CP] Check Pods Manifest.lock */,
+				291B8B2320DA36FA003507C0 /* Sources */,
+				291B8B2420DA36FA003507C0 /* Frameworks */,
+				291B8B2520DA36FA003507C0 /* Resources */,
+				2CD12F36155D183F228614E5 /* [CP] Embed Pods Frameworks */,
+				F078140E2E520F245ECA527A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZWeChat;
+			productName = HZWeChat;
+			productReference = 291B8B2720DA36FA003507C0 /* HZWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		291B8B3E20DA36FB003507C0 /* HZWeChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B8B5620DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChatTests" */;
+			buildPhases = (
+				291B8B3B20DA36FB003507C0 /* Sources */,
+				291B8B3C20DA36FB003507C0 /* Frameworks */,
+				291B8B3D20DA36FB003507C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291B8B4120DA36FB003507C0 /* PBXTargetDependency */,
+			);
+			name = HZWeChatTests;
+			productName = HZWeChatTests;
+			productReference = 291B8B3F20DA36FB003507C0 /* HZWeChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		291B8B4920DA36FB003507C0 /* HZWeChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B8B5920DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChatUITests" */;
+			buildPhases = (
+				291B8B4620DA36FB003507C0 /* Sources */,
+				291B8B4720DA36FB003507C0 /* Frameworks */,
+				291B8B4820DA36FB003507C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291B8B4C20DA36FB003507C0 /* PBXTargetDependency */,
+			);
+			name = HZWeChatUITests;
+			productName = HZWeChatUITests;
+			productReference = 291B8B4A20DA36FB003507C0 /* HZWeChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291B8B1F20DA36FA003507C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BQ;
+				TargetAttributes = {
+					291B8B2620DA36FA003507C0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					291B8B3E20DA36FB003507C0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 291B8B2620DA36FA003507C0;
+					};
+					291B8B4920DA36FB003507C0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 291B8B2620DA36FA003507C0;
+					};
+				};
+			};
+			buildConfigurationList = 291B8B2220DA36FA003507C0 /* Build configuration list for PBXProject "HZWeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 291B8B1E20DA36FA003507C0;
+			productRefGroup = 291B8B2820DA36FA003507C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291B8B2620DA36FA003507C0 /* HZWeChat */,
+				291B8B3E20DA36FB003507C0 /* HZWeChatTests */,
+				291B8B4920DA36FB003507C0 /* HZWeChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291B8B2520DA36FA003507C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B8B8720DA3D7F003507C0 /* Contact.xcassets in Resources */,
+				291B8B8920DA3D96003507C0 /* Discover.xcassets in Resources */,
+				291B8B8B20DA3DA8003507C0 /* Mine.xcassets in Resources */,
+				291B8B9720DA4751003507C0 /* Localizable.strings in Resources */,
+				291B8BA320DA4B40003507C0 /* WeChat开发日志.md in Resources */,
+				291B8B3720DA36FA003507C0 /* LaunchScreen.storyboard in Resources */,
+				291B8B8520DA3D6A003507C0 /* WeChat.xcassets in Resources */,
+				291B8B3420DA36FA003507C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B3D20DA36FB003507C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B4820DA36FB003507C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD12F36155D183F228614E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZWeChat/Pods-HZWeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF3295E244F14E66BD0888A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZWeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F078140E2E520F245ECA527A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HZWeChat/Pods-HZWeChat-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZWeChat/Pods-HZWeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291B8B2320DA36FA003507C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B8B8020DA3AE2003507C0 /* HZDicoverViewController.m in Sources */,
+				291B8B9D20DA488C003507C0 /* HZNavigationController.m in Sources */,
+				291B8B9020DA415B003507C0 /* UIColor+HZ.m in Sources */,
+				291B8BAF20DA4F5B003507C0 /* HZRegisterViewController.m in Sources */,
+				291B8B7720DA3A84003507C0 /* HZTabBarViewController.m in Sources */,
+				291B8BC320DA600D003507C0 /* HZLoginAndRegisterLogic.m in Sources */,
+				291B8BBE20DA5AC4003507C0 /* BQHTTPServerPathConfige.m in Sources */,
+				291B8BBB20DA5AC4003507C0 /* BQHTTPURLRequest.m in Sources */,
+				291B8BAC20DA4F47003507C0 /* HZLoginViewController.m in Sources */,
+				291B8BA020DA48B8003507C0 /* UIFont+HZ.m in Sources */,
+				291B8B8320DA3B02003507C0 /* HZMineViewController.m in Sources */,
+				291B8BBD20DA5AC4003507C0 /* BQHTTPRequestModel.m in Sources */,
+				291B8BBF20DA5AC4003507C0 /* BQHTTPManager.m in Sources */,
+				291B8B3A20DA36FA003507C0 /* main.m in Sources */,
+				291B8B7A20DA3AB6003507C0 /* HZWeChatViewController.m in Sources */,
+				291B8B2C20DA36FA003507C0 /* AppDelegate.m in Sources */,
+				291B8B7D20DA3ACA003507C0 /* HZContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B3B20DA36FB003507C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B8B4420DA36FB003507C0 /* HZWeChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B8B4620DA36FB003507C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B8B4F20DA36FB003507C0 /* HZWeChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291B8B4120DA36FB003507C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291B8B2620DA36FA003507C0 /* HZWeChat */;
+			targetProxy = 291B8B4020DA36FB003507C0 /* PBXContainerItemProxy */;
+		};
+		291B8B4C20DA36FB003507C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291B8B2620DA36FA003507C0 /* HZWeChat */;
+			targetProxy = 291B8B4B20DA36FB003507C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		291B8B3520DA36FA003507C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291B8B3620DA36FA003507C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		291B8B9920DA4751003507C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291B8B9820DA4751003507C0 /* en */,
+				291B8B9A20DA4760003507C0 /* Base */,
+				291B8BA120DA49BD003507C0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291B8B5120DA36FB003507C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		291B8B5220DA36FB003507C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291B8B5420DA36FB003507C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E634E15C74B213376E135A /* Pods-HZWeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HZWeChat/PrefixHeader.pch";
+				INFOPLIST_FILE = HZWeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291B8B5520DA36FB003507C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA6EB29814CAE0A760EDA30 /* Pods-HZWeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HZWeChat/PrefixHeader.pch";
+				INFOPLIST_FILE = HZWeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		291B8B5720DA36FB003507C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZWeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZWeChat.app/HZWeChat";
+			};
+			name = Debug;
+		};
+		291B8B5820DA36FB003507C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZWeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZWeChat.app/HZWeChat";
+			};
+			name = Release;
+		};
+		291B8B5A20DA36FB003507C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZWeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZWeChat;
+			};
+			name = Debug;
+		};
+		291B8B5B20DA36FB003507C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZZ3RH97V;
+				INFOPLIST_FILE = HZWeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BQ.HZWeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZWeChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291B8B2220DA36FA003507C0 /* Build configuration list for PBXProject "HZWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B8B5120DA36FB003507C0 /* Debug */,
+				291B8B5220DA36FB003507C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B8B5320DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B8B5420DA36FB003507C0 /* Debug */,
+				291B8B5520DA36FB003507C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B8B5620DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B8B5720DA36FB003507C0 /* Debug */,
+				291B8B5820DA36FB003507C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B8B5920DA36FB003507C0 /* Build configuration list for PBXNativeTarget "HZWeChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B8B5A20DA36FB003507C0 /* Debug */,
+				291B8B5B20DA36FB003507C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291B8B1F20DA36FA003507C0 /* Project object */;
+}

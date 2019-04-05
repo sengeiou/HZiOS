@@ -73,6 +73,9 @@ class HZLoginViewController: UIViewController{
         phoneNumTF.frame = CGRect.init(x: phoneLabel.frame.maxX, y: phoneLabel.frame.origin.y, width: CGFloat(200), height: CGFloat(40))
         phoneNumTF.placeholder = "请输入手机号"
         phoneNumTF.textColor = UIColor.lightGray
+        // 设置圆角
+        phoneNumTF.layer.cornerRadius = 20
+        phoneNumTF.clipsToBounds = true
         self.view.addSubview(phoneNumTF)
         
         
@@ -84,6 +87,12 @@ class HZLoginViewController: UIViewController{
         nextBtn.addTarget(self, action: #selector(HZLoginViewController.nextBtnAction), for: UIControlEvents.touchUpInside)
         nextBtn.backgroundColor = UIColor.lightGray
         self.view.addSubview(nextBtn)
+        
+        let hzView = UIView(frame: CGRect(x: 100, y: nextBtn.frame.maxY + 50, width: 100, height: 100))
+        hzView.backgroundColor = UIColor.orange
+        hzView.layer.cornerRadius = 50
+        hzView.clipsToBounds = true
+        self.view.addSubview(hzView)
         
     }
     

@@ -10,6 +10,8 @@
 
 #import "HZVerticalAlignmentLabel.h"
 
+#import "CustomerLabel.h"
+
 /*
   + 避免动态计算UILable需要渲染的宽度和高度，因为这些计算是在主线程中进行是耗时的计算
   + 尽量减少label的使用量（具体评估）
@@ -27,7 +29,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self setUpView];
+    [self testLabel];
+}
+
+-(void)testLabel{
+    
+    CustomerLabel *label = [[CustomerLabel alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    label.text = @"现在我们来测试一下这个自定义的按钮";
+   // label.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:label];
 }
 
 -(void)setUpView{

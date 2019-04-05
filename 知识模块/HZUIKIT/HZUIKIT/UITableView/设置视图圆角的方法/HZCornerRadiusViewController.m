@@ -24,7 +24,7 @@
 
 /*
    设置view的cornerRadius；
-   设置一些简单的按钮控件，图片控件可以直接使用
+ 设置一些简单的按钮控件，图片控件可以直接使用(离屏渲染)
  */
 
 -(void)methodWithCornerRadius{

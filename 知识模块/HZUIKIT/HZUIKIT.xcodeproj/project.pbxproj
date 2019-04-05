@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F05B9342234D4D600C702CD /* CustomerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F05B9332234D4D600C702CD /* CustomerLabel.m */; };
+		0F05B9362234D6D100C702CD /* 设置控件圆角产生离屏渲染.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F05B9352234D6D100C702CD /* 设置控件圆角产生离屏渲染.md */; };
+		0F05B9382234D6D900C702CD /* 屏幕显示图像原理.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F05B9372234D6D900C702CD /* 屏幕显示图像原理.md */; };
 		0F08A9DA212953AD006A37A9 /* DFNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F08A9D9212953AD006A37A9 /* DFNumberKeyBoard.m */; };
 		0F2523EE2230A979000D2897 /* HZNewsFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E62230A978000D2897 /* HZNewsFrame.m */; };
 		0F2523EF2230A979000D2897 /* HZNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E72230A978000D2897 /* HZNewsViewController.m */; };
@@ -14,6 +17,8 @@
 		0F2523F12230A979000D2897 /* HZNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523E92230A978000D2897 /* HZNews.m */; };
 		0F2523F22230A979000D2897 /* HZNewsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523EC2230A978000D2897 /* HZNewsData.m */; };
 		0F2523F52230AAD4000D2897 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2523F32230AAD4000D2897 /* YYFPSLabel.m */; };
+		0F252401223216D8000D2897 /* AsyncDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F252400223216D8000D2897 /* AsyncDrawingView.m */; };
+		0F252404223254F7000D2897 /* AsyncLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F252403223254F7000D2897 /* AsyncLabel.m */; };
 		0F6BEBFB1E88ECC3000CAB8E /* HZNeteaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEBFA1E88ECC3000CAB8E /* HZNeteaseMainViewController.m */; };
 		0F6BEC051E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC041E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m */; };
 		0F6BEC091E88F617000CAB8E /* HZNEMainPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC081E88F617000CAB8E /* HZNEMainPageContentViewController.m */; };
@@ -21,6 +26,7 @@
 		0F6BEC111E89127E000CAB8E /* HZHorizontalFlowCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BEC101E89127E000CAB8E /* HZHorizontalFlowCollectionViewController.m */; };
 		0F7683A51F36D9F200A6C9DF /* HZFirstiOSAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7683A31F36D9F200A6C9DF /* HZFirstiOSAppViewController.m */; };
 		0F7683A61F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */; };
+		0F7951D9223A029800D9BCC5 /* UIImage+HZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951D8223A029800D9BCC5 /* UIImage+HZ.m */; };
 		0FB6719D2224202C003E5EBE /* HZReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */; };
 		0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6719F22242063003E5EBE /* ViewReusePool.m */; };
 		0FB6FB15222F5A0F00AAD734 /* IndexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6FB14222F5A0F00AAD734 /* IndexedTableView.m */; };
@@ -191,6 +197,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F05B9322234D4D600C702CD /* CustomerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerLabel.h; sourceTree = "<group>"; };
+		0F05B9332234D4D600C702CD /* CustomerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerLabel.m; sourceTree = "<group>"; };
+		0F05B9352234D6D100C702CD /* 设置控件圆角产生离屏渲染.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "设置控件圆角产生离屏渲染.md"; sourceTree = "<group>"; };
+		0F05B9372234D6D900C702CD /* 屏幕显示图像原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "屏幕显示图像原理.md"; sourceTree = "<group>"; };
 		0F08A9D8212953AD006A37A9 /* DFNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFNumberKeyBoard.h; sourceTree = "<group>"; };
 		0F08A9D9212953AD006A37A9 /* DFNumberKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNumberKeyBoard.m; sourceTree = "<group>"; };
 		0F2523E42230A977000D2897 /* HZNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNewsViewController.h; sourceTree = "<group>"; };
@@ -205,6 +215,10 @@
 		0F2523ED2230A979000D2897 /* HZNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNews.h; sourceTree = "<group>"; };
 		0F2523F32230AAD4000D2897 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		0F2523F42230AAD4000D2897 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		0F2523FF223216D8000D2897 /* AsyncDrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncDrawingView.h; sourceTree = "<group>"; };
+		0F252400223216D8000D2897 /* AsyncDrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncDrawingView.m; sourceTree = "<group>"; };
+		0F252402223254F7000D2897 /* AsyncLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncLabel.h; sourceTree = "<group>"; };
+		0F252403223254F7000D2897 /* AsyncLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncLabel.m; sourceTree = "<group>"; };
 		0F6BEBF91E88ECC3000CAB8E /* HZNeteaseMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNeteaseMainViewController.h; sourceTree = "<group>"; };
 		0F6BEBFA1E88ECC3000CAB8E /* HZNeteaseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNeteaseMainViewController.m; sourceTree = "<group>"; };
 		0F6BEC031E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNEMainPageHeaderViewController.h; sourceTree = "<group>"; };
@@ -218,6 +232,8 @@
 		0F7683A21F36D9F200A6C9DF /* HZFirstiOSAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZFirstiOSAppViewController.h; sourceTree = "<group>"; };
 		0F7683A31F36D9F200A6C9DF /* HZFirstiOSAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZFirstiOSAppViewController.m; sourceTree = "<group>"; };
 		0F7683A41F36D9F200A6C9DF /* HZFirstiOSAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZFirstiOSAppViewController.xib; sourceTree = "<group>"; };
+		0F7951D7223A029800D9BCC5 /* UIImage+HZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HZ.h"; sourceTree = "<group>"; };
+		0F7951D8223A029800D9BCC5 /* UIImage+HZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HZ.m"; sourceTree = "<group>"; };
 		0FB6719B2224202C003E5EBE /* HZReuseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZReuseTableViewController.h; sourceTree = "<group>"; };
 		0FB6719C2224202C003E5EBE /* HZReuseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZReuseTableViewController.m; sourceTree = "<group>"; };
 		0FB6719E22242063003E5EBE /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
@@ -621,6 +637,7 @@
 		0FD21E14221C34A500F2B7F2 /* 设置视图圆角的方法 */ = {
 			isa = PBXGroup;
 			children = (
+				0F05B9352234D6D100C702CD /* 设置控件圆角产生离屏渲染.md */,
 				0FD21E15221C34CE00F2B7F2 /* HZCornerRadiusViewController.h */,
 				0FD21E16221C34CE00F2B7F2 /* HZCornerRadiusViewController.m */,
 			);
@@ -1021,6 +1038,8 @@
 				29ED1AFA21264D75006FD6E9 /* UILabel+HZ.m */,
 				0F2523F42230AAD4000D2897 /* YYFPSLabel.h */,
 				0F2523F32230AAD4000D2897 /* YYFPSLabel.m */,
+				0F05B9322234D4D600C702CD /* CustomerLabel.h */,
+				0F05B9332234D4D600C702CD /* CustomerLabel.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -1103,6 +1122,8 @@
 				0FF4D4E820EF05B4002396DA /* HZImageViewBannerViewController.m */,
 				0FD21E18221C451A00F2B7F2 /* UIView+UIImage.h */,
 				0FD21E19221C451A00F2B7F2 /* UIView+UIImage.m */,
+				0F7951D7223A029800D9BCC5 /* UIImage+HZ.h */,
+				0F7951D8223A029800D9BCC5 /* UIImage+HZ.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -1120,6 +1141,7 @@
 		298AD7E220C389F400782C55 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				0F05B9372234D6D900C702CD /* 屏幕显示图像原理.md */,
 				0F08A9D7212953A6006A37A9 /* 数字键盘 */,
 				29ED1AE021241D6C006FD6E9 /* 获取两个视图的共同父视图 */,
 				29F8D8C7211938B700A61292 /* 获取最顶层VC */,
@@ -1130,10 +1152,10 @@
 				298AD7E420C38A1200782C55 /* HZUIViewController.m */,
 				298AD7E620C38AD600782C55 /* HZCircleViewController.h */,
 				298AD7E720C38AD600782C55 /* HZCircleViewController.m */,
-				298AD7E920C38B0D00782C55 /* HZCircleView.h */,
-				298AD7EA20C38B0D00782C55 /* HZCircleView.m */,
 				298AD7EE20C3945000782C55 /* HZCoreGraphicsViewController.h */,
 				298AD7EF20C3945000782C55 /* HZCoreGraphicsViewController.m */,
+				298AD7E920C38B0D00782C55 /* HZCircleView.h */,
+				298AD7EA20C38B0D00782C55 /* HZCircleView.m */,
 				29E5A7CE2106BCE400B298D1 /* UIView+Extension.h */,
 				29E5A7CF2106BCE400B298D1 /* UIView+Extension.m */,
 				29E5A7EC2106F36100B298D1 /* HZFollowMoveBallView.h */,
@@ -1197,6 +1219,10 @@
 				29ED1ACE2122A9F3006FD6E9 /* AsyncDrawView.m */,
 				29ED1ACF2122A9F3006FD6E9 /* AsyncDrawLayer.h */,
 				29ED1AD12122A9F3006FD6E9 /* AsyncDrawLayer.m */,
+				0F2523FF223216D8000D2897 /* AsyncDrawingView.h */,
+				0F252400223216D8000D2897 /* AsyncDrawingView.m */,
+				0F252402223254F7000D2897 /* AsyncLabel.h */,
+				0F252403223254F7000D2897 /* AsyncLabel.m */,
 			);
 			path = AsyncDraw;
 			sourceTree = "<group>";
@@ -1401,6 +1427,7 @@
 				181FB6511DFEA8FD002198FA /* dropdown_anim__00027@2x.png in Resources */,
 				181FB63E1DFEA8FD002198FA /* dropdown_anim__0008@2x.png in Resources */,
 				1B6DDC951D56D7E300E66A6F /* Assets.xcassets in Resources */,
+				0F05B9382234D6D900C702CD /* 屏幕显示图像原理.md in Resources */,
 				181FB63B1DFEA8FD002198FA /* dropdown_anim__0005@2x.png in Resources */,
 				181FB6461DFEA8FD002198FA /* dropdown_anim__00016@2x.png in Resources */,
 				181FB6421DFEA8FD002198FA /* dropdown_anim__00012@2x.png in Resources */,
@@ -1426,6 +1453,7 @@
 				181FB64C1DFEA8FD002198FA /* dropdown_anim__00022@2x.png in Resources */,
 				181FB6431DFEA8FD002198FA /* dropdown_anim__00013@2x.png in Resources */,
 				181FB6541DFEA8FD002198FA /* dropdown_anim__00030@2x.png in Resources */,
+				0F05B9362234D6D100C702CD /* 设置控件圆角产生离屏渲染.md in Resources */,
 				181FB64D1DFEA8FD002198FA /* dropdown_anim__00023@2x.png in Resources */,
 				181FB6391DFEA8FD002198FA /* dropdown_anim__0003@2x.png in Resources */,
 				298AD7ED20C3931300782C55 /* circle.png in Resources */,
@@ -1516,6 +1544,7 @@
 				188C354B1D8E2678009A437B /* HZEntertainmentPageViewController.m in Sources */,
 				1B6DDCC41D56F5BC00E66A6F /* HZVerticalAlignmentLabel.m in Sources */,
 				1B6DDC901D56D7E300E66A6F /* ViewController.m in Sources */,
+				0F05B9342234D4D600C702CD /* CustomerLabel.m in Sources */,
 				0FD21E1A221C451A00F2B7F2 /* UIView+UIImage.m in Sources */,
 				29ED1AF821264C37006FD6E9 /* HZSecondNavViewController.m in Sources */,
 				0F6BEBFB1E88ECC3000CAB8E /* HZNeteaseMainViewController.m in Sources */,
@@ -1530,6 +1559,7 @@
 				0FDF8C8821742B7D00935163 /* HZEstimateRowHeightViewController.m in Sources */,
 				182E993E1D76B3F8005617A2 /* UIViewController+Logging.m in Sources */,
 				29ED1B0121265A49006FD6E9 /* CustomePopAnimation.m in Sources */,
+				0F252401223216D8000D2897 /* AsyncDrawingView.m in Sources */,
 				18886EA31DE6B10B0075CAF0 /* HZURLSessionViewController.m in Sources */,
 				298AD7EB20C38B0D00782C55 /* HZCircleView.m in Sources */,
 				181FB65E1DFEBF8C002198FA /* HZCardOverLayViewController.m in Sources */,
@@ -1578,6 +1608,7 @@
 				181398161DAB3AF600B92105 /* HZCollectionViewController.m in Sources */,
 				0F6BEC111E89127E000CAB8E /* HZHorizontalFlowCollectionViewController.m in Sources */,
 				181FB60A1DFE7345002198FA /* HZWaterfallViewController.m in Sources */,
+				0F252404223254F7000D2897 /* AsyncLabel.m in Sources */,
 				29E5A7D02106BCE400B298D1 /* UIView+Extension.m in Sources */,
 				0F6BEC051E88F5C7000CAB8E /* HZNEMainPageHeaderViewController.m in Sources */,
 				0FB671A022242063003E5EBE /* ViewReusePool.m in Sources */,
@@ -1588,6 +1619,7 @@
 				18AEC77A1DF699A8001C52C7 /* CAGroupAnimation_VC.m in Sources */,
 				188A6A031D83D84C001C3A62 /* HZTableViewController.m in Sources */,
 				182E99411D77C6DF005617A2 /* HZListViewController.m in Sources */,
+				0F7951D9223A029800D9BCC5 /* UIImage+HZ.m in Sources */,
 				188C35451D8E2618009A437B /* HZSportPageViewController.m in Sources */,
 				0F7683A51F36D9F200A6C9DF /* HZFirstiOSAppViewController.m in Sources */,
 				18F2DB301D72D11600578A37 /* HZDetailPageViewController.m in Sources */,

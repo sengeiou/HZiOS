@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  HZWeChat
+//
+//  Created by KB on 2018/6/20.
+//  Copyright © 2018年 BQ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "HZMacros.h"
+#import "HZServerAPICode.h"
+#import "UIColor+HZ.h"
+#import "UIFont+HZ.h"
+#import <Masonry.h>
+#import "BQHTTPManager.h"
+#import <MJExtension/MJExtension.h>
+
+#endif /* PrefixHeader_pch */
